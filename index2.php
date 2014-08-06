@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php") ?>
+<?php include 'includes/header.php' ?>
 <div id="intro">
 	<div class="container">
 		<div class="row">
