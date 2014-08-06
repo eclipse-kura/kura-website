@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php") ?>
+<?php include('includes/header.php') ?>
 <div class="container" style="min-height: 800px;">
   <a name="mailing_list"></a>
   <h2>Mailing List</h2>
@@ -29,4 +29,4 @@
     </ol>
   </p>
 </div>
-<?php include($_SERVER['DOCUMENT_ROOT']."/includes/footer.php") ?>
+<?php include('includes/footer.php') ?>

@@ -1,5 +1,5 @@
-<!--<?php header('Location: http://www.eclipse.org/projects/project.php?id=technology.kura'); ?>-->
-<?php include 'includes/header.php' ?>
+<?php header('Location: http://www.eclipse.org/projects/project.php?id=technology.kura'); ?>
+<?php include('includes/header.php') ?>
 <div id="intro">
 	<div class="container">
 		<div class="row">
@@ -89,4 +89,4 @@
 		</div>
 	</div>
 </div>
-<?php include($_SERVER['DOCUMENT_ROOT']."/includes/footer.php") ?>
+<?php include('includes/footer.php') ?>

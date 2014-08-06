@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php") ?>
+<?php include('includes/header.php') ?>
 <div class="container" style="min-height: 800px;">
   <a name="source_code"></a>
   <h2>Source Code</h2>
@@ -13,4 +13,4 @@
     dpkg -i &lt;deb_package_name&gt;.deb<br><br>
   </p>
 </div>
-<?php include($_SERVER['DOCUMENT_ROOT']."/includes/footer.php") ?>
+<?php include('includes/footer.php') ?>
