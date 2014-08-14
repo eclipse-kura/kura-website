@@ -7,7 +7,8 @@
                   <div class="col-md-6 col-md-offset-1">
                       <img src="images/kura_logo_400.png" >
                       <p class="lead">
-                          Kura offers a Java/OSGi-based container for IoT applications running in service gateways. Kura provides or, when available, aggregates open source implementations for the most common services needed by IoT applications.
+                          Kura offers a Java/OSGi-based container for IoT applications running in service gateways. Kura provides or, when available, aggregates open source
+                          implementations for the most common services needed by IoT applications.
                       </p>
                   </div>
                   <div class="col-md-4">
@@ -28,13 +29,16 @@
         <img src="images/rpi256.jpg" style="width: 356px;">
       </div>
       <div class="col-md-7">
-        <p class="feature-header">Turn Your Raspberry Pi Into an IoT Service Gateway.
-          Get the Latest Debian Package Here.</p>
+        <p class="feature-header">The Raspberry Pi Gateway</p>
+        <p class="feature-body">Let Kura turn your Raspberry Pi into an IoT gateway. The Kura source
+          code is complete with example projects to get you up and running quickly. Get the latest downloads
+          <a style="color: #e16036" href="downloads.php">here</a></p>
       </div>
     </div>
     <div class="row" style="margin-top: 50px; padding-top: 50px; border-top: 1px solid white;">
       <div class="col-md-7">
-        <p class="feature-header">Kura is Compatible With the BeagleBone Black Rev C.
+        <p class="feature-header">BeagleBone Black</p>
+        <p class="feature-body">Kura is Compatible With the BeagleBone Black Rev C.
           Get the Latest Debian Package Here.</p>
       </div>
       <div class="col-md-5 feature-box">

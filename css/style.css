@@ -178,7 +178,7 @@ a.navbar-toggle span {
 }
 .lead {
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 200;
 }
 .icon-list {
@@ -192,7 +192,7 @@ a.navbar-toggle span {
   text-decoration: none;
 }
 .icon-list-p {
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 400;
   color: #4f5c6d;
 }
@@ -205,6 +205,7 @@ a.navbar-toggle span {
 #features {
   padding: 40px 0 40px 0;
   background-color: #4b8fd0;
+  margin: 0px 75px;
 }
 .feature-box h2 {
   line-height: 40px;
@@ -235,8 +236,13 @@ a.navbar-toggle span {
 }
 .feature-header {
   font-size: 35px;
+  font-weight: bold;
   color: #eff4f7;
   text-align: left;
+}
+.feature-body {
+  font-size: 25px;
+  color: #eff4f7;
 }
 #articles {
   padding: 80px 0 80px 0;
@@ -252,7 +258,7 @@ a.navbar-toggle span {
 #articles .lead .rquote {
   float: right;
   margin-top: 50px;
-  margin-right: -60px;
+  margin-right: -67px;
 }
 #articles .row div {
   padding-left: 105px;
