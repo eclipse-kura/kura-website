@@ -26,7 +26,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 feature-box">
-        <img class="img-responsive" src="images/rpi256.jpg" style="width: 356px;">
+        <img class="img-responsive" src="images/rpi256.png">
       </div>
       <div class="col-md-6">
         <p class="feature-header">The Raspberry Pi Gateway</p>
@@ -38,20 +38,22 @@
     <div class="row" style="margin-top: 50px; padding-top: 50px; border-top: 1px solid white;">
       <div class="col-md-6">
         <p class="feature-header">BeagleBone Black</p>
-        <p class="feature-body">Kura is Compatible With the BeagleBone Black Rev C.
-          Get the Latest Debian Package Here.</p>
+        <p class="feature-body">Kura is compatible with the BeagleBone Black Rev C.
+          Get the latest Debian package <a style="color: #e16036" href="downloads.php">here</a>.</p>
       </div>
       <div class="col-md-5 feature-box">
-        <img class="img-responsive" src="images/bb.jpg" style="width: 356px;">
+        <img class="img-responsive" src="images/BBB_Alt_View_Small.png">
       </div>
     </div>
     <div class="row" style="margin-top: 50px; padding-top: 50px; border-top: 1px solid white;">
       <div class="col-md-5 feature-box">
-        <div><img class="img-responsive" src="images/eurotech.jpg" style="width: 356px;"></div>
+        <img class="img-responsive" src="images/eurotech.png">
       </div>
       <div class="col-md-6">
-        <p class="feature-header">Get a List of Industry Grade IoT Service Gateways
-          Here.</p>
+        <p class="feature-header">Industrial Gateways</p>
+        <p class="feature-body">Take a look at vendors who are using Kura in their commercial
+          gateways <a style="color: #e16036" href="vendors.php">here</a>.</p>
+      </div>
       </div>
     </div>
   </div>

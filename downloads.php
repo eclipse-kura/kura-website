@@ -6,12 +6,24 @@
     The source code for Eclipse Kura is available at Github <a href="https://github.com/eclipse/kura" target="_blank">here</a>
   </p>
   <a name="debian_packages"></a>
-  <h2>Debian Packages</h2>
+  <h2>Raspbian/Debian Packages</h2>
   <p>
-    A Debian package for the Raspbian operating system is avaialable from the Eclipse build system.<br>
+    A Debian package for the Raspbian operating system is avaialable from the Eclipse build system. Note: These packages <b>do not</b> contain the
+    web UI or CAN bus support. If you are interested in these options, please read below the list.<br>
     <ul>
-      <li style="color: #4f5c6d">The latest stable version can be found <a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/0.7.0/kura-raspberry-pi_0.7.0.deb" target="_blank">here</a></li>
-      <li style="color: #4f5c6d">The latest development version can be found <a href="http://www.eclipse.org/downloads/download.php?file=/kura/SNAPSHOT/kura-raspberry-pi_0.2.0-SNAPSHOT.deb" target="_blank">here</a></li>
+      <li style="color: #4f5c6d">The latest stable version for Raspbian can be found <a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/0.7.0/kura-raspberry-pi_0.7.0.deb" target="_blank">here</a></li>
+      <li style="color: #4f5c6d">The latest development version for Raspbian can be found <a href="http://www.eclipse.org/downloads/download.php?file=/kura/SNAPSHOT/kura-raspberry-pi_0.2.0-SNAPSHOT.deb" target="_blank">here</a></li>
+      <li style="color: #4f5c6d">The latest stable version for the BeagleBone Black rev C with Debian can be found <a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/0.7.0/kura-raspberry-pi_0.7.0.deb" target="_blank">here</a></li>
+      <li style="color: #4f5c6d">The latest development version for the BeagleBone Black rev C with Debian can be found <a href="http://www.eclipse.org/downloads/download.php?file=/kura/SNAPSHOT/kura-raspberry-pi_0.2.0-SNAPSHOT.deb" target="_blank">here</a></li>
+    </ul>
+    The web UI and CAN bundle are not part of the Eclipse build system due to conflicts with the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a> We are working
+    to resolve this and hope to have these options in the Eclipse build system in future releases. For now, these package can be downloaded at the below locations. Note: these packages
+    <b>are not</b> covered by EPL!
+    <ul>
+      <li style="color: #4f5c6d">The latest stable version for Raspbian can be found <a href="#" target="_blank">here</a></li>
+      <li style="color: #4f5c6d">The latest development version for Raspbian can be found <a href="https://s3.amazonaws.com/kura_downloads/raspbian/snapshot/kura-raspberry-pi_1.0.0-SNAPSHOT_armv6.deb" target="_blank">here</a></li>
+      <li style="color: #4f5c6d">The latest stable version for the BeagleBone Black rev C with Debian can be found <a href="#" target="_blank">here</a></li>
+      <li style="color: #4f5c6d">The latest development version for the BeagleBone Black rev C with Debian can be found <a href="https://s3.amazonaws.com/kura_downloads/debian/kura-beaglebone_debian_1.0.0-SNAPSHOT_armv7.deb" target="_blank">here</a></li>
     </ul>
     Install the package by issuing the command:<br>
     <PRE>dpkg -i &lt;deb_package_name&gt;.deb</PRE>
