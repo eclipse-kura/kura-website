@@ -88,7 +88,7 @@
           <span class="quote rquote">&rdquo;</span>
         </p>
         <p class="article-link">
-          <a href="https://www.youtube.com/watch?v=UELw9QrlDRI" target="_blank">Kura in action on YouTube.</a>
+          <a href="https://www.youtube.com/watch?v=PXlDJMK7yqg" target="_blank">Kura in action on YouTube.</a>
         </p>
       </div>
     </div>
