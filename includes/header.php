@@ -57,7 +57,7 @@
 	                    <ul class="dropdown-menu">
 	                      <li><a href="http://wiki.eclipse.org/Kura/Getting_Started" target="_blank">Getting Started</a></li>
 	                      <li><a href="http://wiki.eclipse.org/Kura" target="_blank">Project Wiki</a></li>
-												<li><a href="http://download.eclipse.org/kura/docs/api/0.7.0/" target="_blank">Javadocs</a></li>
+												<li><a href="http://download.eclipse.org/kura/releases/0.7.1/docs/apidocs/" target="_blank">Javadocs</a></li>
 	                    </ul>
 	                </li>
 	                <li class="dropdown">
