@@ -8,7 +8,7 @@
   <a name="debian_packages"></a>
   <h2>Raspbian/Debian Packages</h2>
   <p>
-    A Debian package for the Raspbian operating system is avaialable from the Eclipse build system. Note: These packages <b>do not</b> contain the
+    A Debian package for the Raspbian operating system is available from the Eclipse build system. Note: These packages <b>do not</b> contain the
     web UI or CAN bus support. If you are interested in these options, please read below the list.<br>
     <ul>
       <li style="color: #4f5c6d">The latest stable version for Raspbian can be found <a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.0.0/kura_1.0.0_raspberry-pi_armv6.deb" target="_blank">here</a></li>
@@ -28,8 +28,8 @@
   </p>
   <h2>Application Developer Workspace</h2>
   <p>
-    A workspace archive is availabe to help speed up the application development process. The archive contains all the necessary APIs and
-    jar files to develop applciattions without building Kura from scratch. Simply import the archive into an Eclipse workspace and start coding.
+    A workspace archive is available to help speed up the application development process. The archive contains all the necessary APIs and
+    jar files to develop applications without building Kura from scratch. Simply import the archive into an Eclipse workspace and start coding.
     <ul>
       <li style="color: #4f5c6d">The latest stable version *with* the web UI can be found <a href="https://s3.amazonaws.com/kura_downloads/user_workspace/1.0.0/user_workspace_archive_1.0.0.zip" target="_blank">here</a></li>
       <li style="color: #4f5c6d">The latest stable version *without* the web UI can be found <a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.0.0/user_workspace_archive_1.0.0.zip" target="_blank">here</a></li>
@@ -46,7 +46,7 @@
   <p>
     Other artifacts of the Eclipse build system include:
     <ul>
-        <li style="color: #4f5c6d">The Raspberry jars. If you want to manually instally Kura on your Raspberry, grab the archive of Kura
+        <li style="color: #4f5c6d">The Raspberry jars. If you want to manually install Kura on your Raspberry, grab the archive of Kura
            <a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.0.0/kura_1.0.0_raspberry-pi.zip" target="_blank">here</a></li>
     </ul>
   </p>
