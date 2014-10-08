@@ -12,7 +12,7 @@
                       </p>
                   </div>
                   <div class="col-md-4">
-                    <div class="icon-list"><a href="http://wiki.eclipse.org/Kura/Getting_Started" target="_blank"><span class="glyphicon glyphicon-record"></span><p class="icon-list-p">Get Started</p></a><br/></div>
+                    <div class="icon-list"><a href="http://eclipse.github.io/kura/doc/kura-setup.html" target="_blank"><span class="glyphicon glyphicon-record"></span><p class="icon-list-p">Get Started</p></a><br/></div>
                     <div class="icon-list"><a href="downloads.php"><span class="glyphicon glyphicon-download"></span><p class="icon-list-p">Downloads</p></a><br/></div>
                     <div class="icon-list"><a href="community.php"><span class="glyphicon glyphicon-thumbs-up"></span><p class="icon-list-p">Community</p></a><br/></div>
                     <div class="icon-list"><a href="http://wiki.eclipse.org/Kura" target="_blank"><span class="glyphicon glyphicon-globe"></span><p class="icon-list-p">Wiki</p></a><br/></div>
