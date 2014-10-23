@@ -5,7 +5,7 @@
     The below list of Eurotech devices utilize the Kura framework.
     <ul>
       <li style="color: #4f5c6d"><a href="http://www.eurotech.com/en/products/ReliaGATE%2015-10" target="_blank">Reliagate 15-10</a></li>
-      <li style="color: #4f5c6d"><a href="#" target="_blank">Reliagate 10-20</a></li>
+      <li style="color: #4f5c6d"><a href="http://www.eurotech.com/en/products/ReliaGATE%2010-20" target="_blank">Reliagate 10-20</a></li>
     </ul>
   </p>
   <h2>Others</h2>
