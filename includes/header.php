@@ -69,7 +69,7 @@
 												<li><a href="http://eclipse.github.io/kura" target="_blank">Kura Documenation</a></li>
 	                      <li><a href="http://wiki.eclipse.org/Kura/Getting_Started" target="_blank">Getting Started</a></li>
 	                      <li><a href="http://wiki.eclipse.org/Kura" target="_blank">Project Wiki</a></li>
-												<li><a href="http://download.eclipse.org/kura/releases/1.0.0/docs/apidocs/" target="_blank">Javadocs</a></li>
+												<li><a href="http://eclipse.github.io/kura/ref/api-ref.html" target="_blank">Javadocs</a></li>
 	                    </ul>
 	                </li>
 	                <li class="dropdown">
