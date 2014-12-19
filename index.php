@@ -41,24 +41,24 @@
 					<img class="img-responsive featuresimg" style="height:50%;padding-top:10px" src="images/rpi256.png">
 				  </div>
                   <div class="col-md-2"><br />
-					<p class="feature-body"><a style="color:white;" href="downloads.php">Shoot-a-Pi Tutorial</a></p>                             
+					<p class="feature-body"><a style="color:white;" href="downloads.php">Shoot-a-Pi Tutorial</a></p>
                   </div>
-                  
+
                   <div class="col-md-2 feature-box">
-     				<img class="img-responsive featuresimg" style="height:120px!important;width:125px!important; " src="images/ETH-GreenHouse_ws.png">
+     				<img class="img-responsive featuresimg" style="height:120px!important;width:125px!important; " src="images/ETH-Greenhouse_ws.png">
 				  </div>
                   <div class="col-md-2"><br />
-					<p class="feature-body"><a style="color:white;" href="http://iot.eclipse.org/java/tutorial/">Greenhouse Tutorial</a></p>                             
+					<p class="feature-body"><a style="color:white;" href="http://iot.eclipse.org/java/tutorial/">Greenhouse Tutorial</a></p>
                   </div>
-                  
+
               </div>
-		  </div>				             
+		  </div>
     </div>
-     
-  </div>  
+
+  </div>
   <br />
-  <div class="container features"> 
-	<p class="feature-header">M2M Gateways</p>   
+  <div class="container features">
+	<p class="feature-header">M2M Gateways</p>
     <div class="row" style="margin: 25px 40px 0px 0px; padding: 25px 10px 0px 0px; border-top: 1px solid white;">
       <div class="col-md-4 feature-box">
         <img class="img-responsive" src="images/rpi256.png">
@@ -66,15 +66,15 @@
       <div class="col-md-7">
         <p class="feature-header">The Raspberry Pi Gateway</p>
         <p class="feature-body">Let Kura turn your Raspberry Pi into an IoT gateway. The Kura source
-          code is complete with example projects to get you up and running quickly. 
+          code is complete with example projects to get you up and running quickly.
           <a style="color: navy" href="downloads.php">Get the latest downloads</a>.</p>
       </div>
     </div>
-    
+
     <div class="row" style="margin: 25px 40px 0px 0px; padding: 25px 10px 0px 0px; border-top: 1px solid white;">
       <div class="col-md-4 feature-box">
         <img class="img-responsive" src="images/BBB_Alt_View_Small.png">
-      </div>		
+      </div>
       <div class="col-md-7">
         <p class="feature-header">BeagleBone Black</p>
         <p class="feature-body">Kura is compatible with the BeagleBone Black Rev C.
@@ -82,20 +82,20 @@
       </div>
 
     </div>
-    
-    
+
+
     <div class="row" style="margin: 25px 40px 0px 0px; padding: 25px 10px 0px 0px; border-top: 1px solid white;">
       <div class="col-md-4 feature-box">
         <img class="img-responsive" src="images/eurotech.png">
       </div>
       <div class="col-md-6">
         <p class="feature-header">Industral Gateways</p>
-        <p class="feature-body">Take a look at vendors who are using Kura in their 
+        <p class="feature-body">Take a look at vendors who are using Kura in their
           <a style="color: navy" href="vendors.php">commercial gateways</a>.</p>
       </div>
       </div>
     </div>
-      
+
 
     </div>
   </div>
@@ -106,7 +106,7 @@
     <h2>Latest News</h2>
     <div class="row">
       <div class="col-md-3 col-md-offset1 box">
- 
+
         <p class="article-link">
           <a href="http://www.youtube.com/watch?v=PXlDJMK7yqg" target="_blank">Live Demo at EclipseCon 2014</a><br /><br />
         </p>
