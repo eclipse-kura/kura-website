@@ -49,9 +49,6 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-
-
-
 figure {
   margin: 0;
 }
@@ -345,13 +342,3 @@ a.navbar-toggle span {
 .footer-links a {
   color: #eff4f7;
 }
-
-a.kurawo:link {
-  color: white;
-  text-decoration: none;
-}
-a.kurawo:hover, a.kurawo:focus {
-  color: #e16036;
-  text-decoration: underline;
-}
-
