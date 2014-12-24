@@ -2,7 +2,8 @@
 <div class="container" style="min-height: 800px;">
   <div class="row">
       <div class="col-md-6">
-          <h2>Kura Downloads</h2>
+          <h2>Kura 1.1.0 Downloads</h2>
+          <h4>Released on Dec 22nd, 2014 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
           <p>The below downloads are distributed through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>.
             Entries below the downloads section give more explanation on each type of download.</p>
           <ul>
@@ -19,9 +20,10 @@
           </ul>
       </div>
       <div class="col-md-6">
-          <h2>Kura Extended Downloads</h2>
-          <p>The below downloads contain the web UI and CAN bundles. These features <b>do not</b> adhere to the requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>
-            and <b>are not</b> covered by EPL.
+          <h2>Kura 1.1.0 Extended Downloads</h2>
+          <h4>Released on Dec 22nd, 2014 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
+          <p>The below downloads contain the Kura Web UI, the Open JDK Device I/O library to access GPIO, I2C, SPI and PWM, and the bundles to interface with the CAN bus. These features, while released under
+            <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>, depend on third party libraries that cannot be distributed directly by Eclipse.
           </p>
           <ul>
               <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.1.0/kura_1.1.0_raspberry-pi_armv6.deb" target="_blank">Raspbian (with Web UI) - Stable</a></li>
