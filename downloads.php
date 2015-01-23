@@ -1,4 +1,7 @@
-<?php include('includes/header.php') ?>
+<?php
+    include('includes/header.php');
+    define(KURA_VERSION, "1.1.0", true);
+?>
 <div class="container" style="min-height: 800px;">
   <div class="row">
       <div class="col-md-6">
@@ -26,14 +29,13 @@
             <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>, depend on third party libraries that cannot be distributed directly by Eclipse.
           </p>
           <ul>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.1.0/kura_1.1.0_raspberry-pi_armv6.deb" target="_blank">Raspbian (with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.1.0/kura_1.1.0_raspberry-pi-nn_armv6.deb" target="_blank">Raspbian (No, Net, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.1.0/kura_1.1.0_raspberry-pi-bplus_armv6.deb" target="_blank">Raspbian (Model B+, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.1.0/kura_1.1.0_raspberry-pi-bplus-nn_armv6.deb" target="_blank">Raspbian (Model B+, No Net, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/debian/release/1.1.0/kura_1.1.0_beaglebone_debian_armv7.deb" target="_blank">BeagleBone (with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/debian/release/1.1.0/kura_1.1.0_beaglebone-nn_debian_armv7.deb" target="_blank">BeagleBone (No net, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/user_workspace/1.1.0/user_workspace_archive_1.1.0.zip" target="_blank">Developer's Workspace (with Web UI)</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/snapshot/kura_1.1.0-SNAPSHOT_raspberry-pi_armv6.deb" target="_blank">Raspbian Snapshot Release</a></li>
+              <li style="color: #4f5c6d"><a href="download.php?version=<?php echo KURA_VERSION ?>&release=true&platform=raspbian&target=kura_<?php echo KURA_VERSION ?>_raspberry-pi_armv6.deb">Raspbian (with Web UI) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="download.php?version=<?php echo KURA_VERSION ?>&release=true&platform=raspbian&target=kura_<?php echo KURA_VERSION ?>_raspberry-pi-nn_armv6.deb">Raspbian (No, Net, with Web UI) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="download.php?version=<?php echo KURA_VERSION ?>&release=true&platform=raspbian&target=kura_<?php echo KURA_VERSION ?>_raspberry-pi-bplus_armv6.deb">Raspbian (Model B+, with Web UI) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="download.php?version=<?php echo KURA_VERSION ?>&release=true&platform=raspbian&target=kura_<?php echo KURA_VERSION ?>_raspberry-pi-bplus-nn_armv6.deb">Raspbian (Model B+, No Net, with Web UI) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="download.php?version=<?php echo KURA_VERSION ?>&release=true&platform=debian&target=kura_<?php echo KURA_VERSION ?>_beaglebone_debian_armv7.deb">BeagleBone (with Web UI) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="download.php?version=<?php echo KURA_VERSION ?>&release=true&platform=debian&target=kura_<?php echo KURA_VERSION ?>_beaglebone-nn_debian_armv7.deb">BeagleBone (No net, with Web UI) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="download.php?version=<?php echo KURA_VERSION ?>&release=true&platform=user_workspace&target=user_workspace_archive_<?php echo KURA_VERSION ?>.zip">Developer's Workspace (with Web UI)</a></li>
           </ul>
       </div>
   </div>
