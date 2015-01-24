@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<title>Kura - Open Source framework for IoT </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="iot, m2m, kura, gateway, java, osgi, embedded"
 	<meta name="description"
 		content="The website of Eclipse Kura, an open-source framework for development of IoT applications">
-	<meta name="author" content="David Woodard">
+	<meta name="author" content="Eurotech">
 	<!--  styles -->
 	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>

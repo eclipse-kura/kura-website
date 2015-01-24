@@ -182,7 +182,7 @@ a.navbar-toggle span {
 }
 .lead {
   padding-top: 10px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
 }
 .icon-list {
@@ -231,8 +231,8 @@ a.navbar-toggle span {
 }
 
 .featuresimg {
-  background-color: #4b8fd0!important; 
-  border: solid 1px #4b8fd0!important; 
+  background-color: #4b8fd0!important;
+  border: solid 1px #4b8fd0!important;
   border-radius: 10%!important;
 }
 
@@ -265,19 +265,19 @@ a.navbar-toggle span {
   color: #eff4f7;
 }
 .feature-header {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
   color: #eff4f7;
   text-align: left;
 }
 .feature-body {
-  font-size: 23px;
+  font-size: 20px;
   color: #eff4f7;
 }
 
 #sidebar {
   padding: 40px 30px 40px 30px;
-   
+
 }
 #sidebar .container {
   padding-right: 40px;
@@ -285,12 +285,12 @@ a.navbar-toggle span {
  /* background: #d7d7d7;  */
 }
 
-#sidebar .box 
+#sidebar .box
 {
-  padding: 20px;  
+  padding: 20px;
   margin: 20px;
-  font-size: 1.8rem; 
-  background: #e7e7e7; 
+  font-size: 1.8rem;
+  background: #e7e7e7;
   background: #eff4f7;
   border-radius: 25px;
 }
@@ -302,7 +302,7 @@ a.navbar-toggle span {
 #articles .container {
   padding-right: 100px;
   /* margin: 0; */
-  font-size: .8em;  
+  font-size: .8em;
 }
 
 
@@ -354,4 +354,3 @@ a.kurawo:hover, a.kurawo:focus {
   color: #e16036;
   text-decoration: underline;
 }
-
