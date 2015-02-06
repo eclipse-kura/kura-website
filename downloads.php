@@ -7,7 +7,7 @@
           <p>The below downloads are distributed through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>.
             Entries below the downloads section give more explanation on each type of download.</p>
           <ul>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.1.0/kura_1.1.1_raspberry-pi_armv6.deb" target="_blank">Raspbian - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.1.1/kura_1.1.1_raspberry-pi_armv6.deb" target="_blank">Raspbian - Stable</a></li>
               <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.1.1/kura_1.1.1_raspberry-pi-nn_armv6.deb" target="_blank">Raspbian (No Net)- Stable</a></li>
               <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/SNAPSHOT/kura_1.2.0-SNAPSHOT_raspberry-pi_armv6.deb" target="_blank">Raspbian - Development</a></li>
               <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.1.1/kura_1.1.1_raspberry-pi-bplus_armv6.deb" target="_blank">Raspbian (Model B+)- Stable</a></li>
