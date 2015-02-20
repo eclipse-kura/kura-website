@@ -109,6 +109,25 @@
       <div class="col-md-3 col-md-offset1 box">
 
         <p class="article-link">
+          <a href="https://tobiddev.wordpress.com/" target="_blank">Industrial Monitoring Project using Kura</a><br /><br />
+        </p>
+      </div>
+      <div class="col-md-3 col-md-offset3 box">
+        <p class="article-link">
+          <a href="http://diyapps.blogspot.com/" target="_blank">Vehicle Monitoring Project using Kura</a>
+        </p>
+      </div>
+        <div class="col-md-4 col-md-offset4 box">
+
+        <p class="article-link">
+          <a href="http://openiotchallenge.tumblr.com/" target="_blank">Eclipse IoT Challenge Tumblr</a>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-md-offset1 box">
+
+        <p class="article-link">
           <a href="http://www.youtube.com/watch?v=PXlDJMK7yqg" target="_blank">Live Demo at EclipseCon 2014</a><br /><br />
         </p>
       </div>

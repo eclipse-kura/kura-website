@@ -290,9 +290,13 @@ a.navbar-toggle span {
   padding: 20px;
   margin: 20px;
   font-size: 1.8rem;
-  background: #e7e7e7;
-  background: #eff4f7;
+  background: #e16036;
   border-radius: 25px;
+  min-height: 125px;
+}
+
+#sidebar .box a {
+  color: #eff4f7;
 }
 
 
