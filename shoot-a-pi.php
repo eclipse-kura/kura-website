@@ -1,7 +1,7 @@
 <?php include('includes/header.php') ?>
 <div class="container" style="min-height: 800px;">
   <div class="row">
-      <img style="width: 15%;" src="/images/eclipsecon2015.png" />
+      <img style="width: 15%;" src="images/eclipsecon2015.png" />
       <h1>Shoot-A-Pi Workshop</h1>
   </div>
   <div class="row">
