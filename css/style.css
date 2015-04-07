@@ -171,10 +171,10 @@ a.navbar-toggle span {
 #intro .col-md-6 {
   padding-top: 40px;
 }
-#intro .col-md-4 {
-  padding-top: 10px;
-  margin-left: 40px;
+#intro .col-md-8 {
+  padding: 10px;
   border-left: 2px solid #e16036;
+  border-right: 2px solid #e16036;
   border-radius: 20px;
 }
 #intro img {

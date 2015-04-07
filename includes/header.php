@@ -15,13 +15,17 @@
 	<![endif]-->
 
 	<!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'><!-- Styles -->
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'><!-- Styles -->
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon.png">
 
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script>
@@ -38,6 +42,20 @@
 	  ga('create', 'UA-56028459-1', 'auto');
 	  ga('send', 'pageview');
 
+	</script>
+	
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+			jQuery("#owl-example").owlCarousel({
+				navigation: true,
+				autoPlay: 5000,
+				stopOnHover: true,
+				navigationText: false,
+				singleItem: true
+			});
+
+		});
 	</script>
 
 </head>
