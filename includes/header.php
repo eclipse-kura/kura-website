@@ -43,14 +43,13 @@
 	  ga('send', 'pageview');
 
 	</script>
-	
+
 	<script src="js/owl.carousel.js"></script>
 	<script>
 		jQuery(document).ready(function() {
 			jQuery("#owl-example").owlCarousel({
 				navigation: true,
 				autoPlay: 5000,
-				stopOnHover: true,
 				navigationText: false,
 				singleItem: true
 			});

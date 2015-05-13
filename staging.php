@@ -6,26 +6,27 @@
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
                     <div class="item">
-                      <img class="img-responsive" src="images/kura_logo_400.png" >
+                      <img style="display: block; margin: auto;" class="img-responsive" src="images/kura_logo_400.png" >
                       <p class="lead">
                           Kura is a Java/OSGi-based framework for IoT gateways. Kura APIs offer access to the underlying hardware (serial ports, GPS, watchdog, GPIOs, I2C, etc.),
                           management of network configurations, communication with M2M/IoT Integration Platforms, and gateway management. Kura 1.1.0 was just released. Download it now!
                       </p>
                     </div>
                     <div class="item">
-                      <img style="width: 90%;" src="images/eclipse_iot_challenge.png" alt="Eclipse IoT Challenge">
+                      <img style="display: block; margin: auto;" class="img-responsive"  src="images/kura_camel.png" alt="Apache Software">
+                      <p class="lead">
+                        Apache Camel announces support for Kura in the upcoming 2.15 release! Read more information <a href="http://camel.apache.org/kura.html" target="_blank">here</a>.
+                        Watch a video introduction and tutorial <a href="https://www.youtube.com/watch?v=mli5c-oTN1U" target="_blank">here</a>.
+                      </p>
+                    </div>
+                    <div class="item">
+                      <img style="display: block; margin: auto;" src="images/eclipse_iot_challenge.png" alt="Eclipse IoT Challenge">
                       <p classs="lead">
                         <a href="eclipse-iot-challenge.php">See the latest Kura powered projects from the IoT community!.</a>
                       </p>
                     </div>
                     <div>
-                      <img src="images/apache_software.jpeg" alt="Apache Camel">
-                      <p class="lead">
-                        Apache Camel announces support for Kura in the upcoming 2.15 release! Read more information <a href="http://camel.apache.org/kura.html" target="_blank">here</a>.
-                      </p>
-                    </div>
-                    <div>
-                      <img src="images/logo-Solair.png" alt="Solair">
+                      <img style="display: block; margin: auto;" src="images/logo-Solair.png" alt="Solair">
                       <p class="lead">
                         Solair has joined the Eclipse foundation and has started a partnership with Kura! Read the conmplete press release <a href="https://www.solaircorporate.com/en/company/96-news/909-pr-9-mar-2015" target="_blank">here</a>.
                       </p>
