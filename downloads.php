@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-6">
           <h2>Kura 1.2.0 Extended Downloads</h2>
-          <h4>Released on Apr 10th, 2015 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
+          <h4>Released on June 7th, 2015 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
           <p>The below downloads contain the Kura Web UI, the Open JDK Device I/O library to access GPIO, I2C, SPI and PWM, and the bundles to interface with the CAN bus. These features, while released under
             <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>, depend on third party libraries that cannot be distributed directly by Eclipse.
           </p>
