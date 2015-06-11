@@ -40,7 +40,6 @@
               <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/debian/release/1.2.0/kura_1.2.0_beaglebone_debian_armv7.deb" target="_blank">BeagleBone (with Web UI) - Stable</a></li>
               <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/debian/release/1.2.0/kura_1.2.0_beaglebone-nn_debian_armv7.deb" target="_blank">BeagleBone (No net, with Web UI) - Stable</a></li>
               <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/user_workspace/release/1.2.0/user_workspace_archive_1.2.0.zip" target="_blank">Developer's Workspace (with Web UI)</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/snapshot/kura_1.2.0-SNAPSHOT_raspberry-pi_armv6.deb" target="_blank">Raspbian Snapshot Release</a></li>
           </ul>
       </div>
   </div>
