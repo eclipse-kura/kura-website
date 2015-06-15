@@ -16,7 +16,7 @@
                       <img style="display: block; margin: auto;" class="img-responsive" src="images/kura_logo_400.png" >
                       <p class="lead">
                           Kura is a Java/OSGi-based framework for IoT gateways. Kura APIs offer access to the underlying hardware (serial ports, GPS, watchdog, GPIOs, I2C, etc.),
-                          management of network configurations, communication with M2M/IoT Integration Platforms, and gateway management. Kura 1.1.0 was just released. Download it now!
+                          management of network configurations, communication with M2M/IoT Integration Platforms, and gateway management.
                       </p>
                     </div>
                     <div class="item">
