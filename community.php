@@ -28,5 +28,14 @@
         <li>Submit your contribution to the corresponding git repository</li>
     </ol>
   </p>
+  <a name="benefactors"></a>
+  <h2>Benefactors</h2>
+  <p>
+	YourKit is kindly supporting this open source project with its full-featured Java Profiler.
+	YourKit, LLC is the creator of innovative and intelligent tools for profiling
+	Java and .NET applications. Take a look at YourKit's leading software products:
+	<a href="http://www.yourkit.com/java/profiler/index.jsp" target="_blank">YourKit Java Profiler</a> and
+	<a href="http://www.yourkit.com/.net/profiler/index.jsp" target="_blank">YourKit .NET Profiler</a>.
+  </p>
 </div>
 <?php include('includes/footer.php') ?>

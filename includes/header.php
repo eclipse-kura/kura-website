@@ -95,8 +95,9 @@
 	                  <ul class="dropdown-menu">
 	                    <li><a href="community.php#mailing_list">Mailing List</a></li>
 	                    <li><a href="community.php#issue_tracker">Issue Tracker</a></li>
-											<li><a href="community.php#discussion_forum">Discussion Forum</a></li>
-											<li><a href="community.php#contributing">Contributing</a></li>
+						<li><a href="community.php#discussion_forum">Discussion Forum</a></li>
+						<li><a href="community.php#contributing">Contributing</a></li>
+						<li><a href="community.php#benefactors">Benefactors</a></li>
 	                  </ul>
 	                </li>
                 </ul>
