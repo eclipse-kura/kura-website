@@ -6,7 +6,7 @@
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
                       <div class="item">
-                        <img style="display: block; margin: auto;" src="images/kura_v1.2.0.png" alt="Kura v1.2.0">
+                        <img style="display: block; margin: auto;" src="images/kura_v1.2.1.png" alt="Kura v1.2.1">
                         <p classs="lead">
                           A new release of Kura is available now! The latest release includes support for Bluetooth LE and numerous security updates. The release also
                           contains support for the Intel Edison and the latest Raspberry Pi 2! Check the Downloads section for the latest installers.
