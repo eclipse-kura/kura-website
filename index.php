@@ -29,13 +29,7 @@
                     <div class="item">
                       <img style="display: block; margin: auto;" src="images/eclipse_iot_challenge.png" alt="Eclipse IoT Challenge">
                       <p classs="lead">
-                        <a href="eclipse-iot-challenge.php">See the latest Kura powered projects from the IoT community!.</a>
-                      </p>
-                    </div>
-                    <div>
-                      <img style="display: block; margin: auto;" src="images/logo-Solair.png" alt="Solair">
-                      <p class="lead">
-                        Solair has joined the Eclipse foundation and has started a partnership with Kura! Read the conmplete press release <a href="https://www.solaircorporate.com/en/company/96-news/909-pr-9-mar-2015" target="_blank">here</a>.
+                        The latest edition of the Eclipse IoT challenge is here! Click <a href="http://iot.eclipse.org/open-iot-challenge/" target="_blank">here</a> for more details.
                       </p>
                     </div>
                   </div>
@@ -86,7 +80,7 @@
   </div>
   <br />
   <div class="container features">
-	<p class="feature-header">M2M Gateways</p>
+	<p class="feature-header">IoT Gateways</p>
     <div class="row" style="margin: 25px 40px 0px 0px; padding: 25px 10px 0px 0px; border-top: 1px solid white;">
       <div class="col-md-4 feature-box">
         <img class="img-responsive" src="images/rpi256.png">
@@ -118,7 +112,7 @@
         <img class="img-responsive" src="images/eurotech.png">
       </div>
       <div class="col-md-6">
-        <p class="feature-header">Industral M2M Gateways</p>
+        <p class="feature-header">Industral IoT Gateways</p>
         <p class="feature-body">Take a look at vendors who are using Kura in their
           <a style="color: navy" href="vendors.php">commercial gateways</a>.</p>
       </div>
