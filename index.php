@@ -6,7 +6,7 @@
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
                       <div class="item">
-                        <img style="display: block; margin: auto;" src="images/kura_v1.3.0.png" alt="Kura v1.3.0">
+                        <img style="display: block; margin: auto;" src="images/kura_v1.4.0.png" alt="Kura v1.4.0">
                         <p classs="lead">
                           A new release of Kura is available now! The latest release includes support for Bluetooth LE and numerous security updates. The release also
                           contains support for the Intel Edison and the latest Raspberry Pi 2! Check the Downloads section for the latest installers.
@@ -50,28 +50,34 @@
           <div class="col-md-12" style="position: relative;">
 			  <p class="feature-header">Solution Showcases</p>
               <div class="row" style="padding-right:10px">
+				  <a style="color:white;" href="http://www.eurotech.com/en/products/software+services/everyware+cloud+m2m+platform" target="_blank">
 				  <div class="col-md-2">
 					<img class="img-responsive featuresimg" style="height:80%;padding-top:15px" src="images/ETH-Cloud.png">
 				  </div>
                   <div class="col-md-2">
-					<p class="feature-body"><a style="color:white;" href="http://www.eurotech.com/en/products/software+services/everyware+cloud+m2m+platform">
+					<p class="feature-body">
 					Cloud-based
-					Kura device management</a></p>
+					Kura device management</p>
                   </div>
+				  </a>
 
+				  <a style="color:white;" href="downloads.php" target="_blank">
 				  <div class="col-md-2 feature-box">
 					<img class="img-responsive featuresimg" style="height:50%;padding-top:10px" src="images/rpi256.png">
 				  </div>
                   <div class="col-md-2"><br />
-					<p class="feature-body"><a style="color:white;" href="downloads.php">Shoot-a-Pi Tutorial</a></p>
+					<p class="feature-body">Shoot-a-Pi Tutorial</p>
                   </div>
+				  </a>
 
-                  <div class="col-md-2 feature-box">
+                  <a style="color:white;" href="http://iot.eclipse.org/java/tutorial/" target="_blank">
+				  <div class="col-md-2 feature-box">
      				<img class="img-responsive featuresimg" style="height:120px!important;width:125px!important; " src="images/ETH-Greenhouse_ws.png">
 				  </div>
                   <div class="col-md-2"><br />
-					<p class="feature-body"><a style="color:white;" href="http://iot.eclipse.org/java/tutorial/">Greenhouse Tutorial</a></p>
+					<p class="feature-body">Greenhouse Tutorial</p>
                   </div>
+				  </a>
 
               </div>
 		  </div>
