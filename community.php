@@ -9,8 +9,8 @@
   <a name="issue_tracker"></a>
   <h2>Issue Tracker</h2>
   <p>
-    Issues and bugs related to Kura are tracked with the Eclipse Bugzilla tracking system. Please enter any issues you find
-    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?product=Kura&component=Core" target="_blank">there</a>.
+    Issues and bugs related to Kura are tracked with Github Issues. Please enter any issues you find
+    <a href="https://github.com/eclipse/kura/issues" target="_blank">there</a>.
   <a name="discussion_forum"></a>
   <h2>Discussion Forum</h2>
   <p>
