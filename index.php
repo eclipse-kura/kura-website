@@ -6,10 +6,10 @@
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
                       <div class="item">
-                        <img style="display: block; margin: auto;" src="images/kura_v1.4.0.png" alt="Kura v1.4.0">
+                        <img style="display: block; margin: auto;" src="images/kura_v2.0.0.png" alt="Kura v2.0.0">
                         <p classs="lead">
-                          A new release of Kura is available now! The latest release includes support for Bluetooth LE and numerous security updates. The release also
-                          contains support for the Intel Edison and the latest Raspberry Pi 2! Check the Downloads section for the latest installers.
+                          A new release of Kura is available now! The latest release includes a brand new web UI and support
+                          for Apache Camel! Check the Downloads section for the latest installers.
                         </p>
                       </div>
                     <div class="item">
@@ -26,13 +26,7 @@
                         Watch a video introduction and tutorial <a href="https://www.youtube.com/watch?v=mli5c-oTN1U" target="_blank">here</a>.
                       </p>
                     </div>
-                    <div class="item">
-                      <img style="display: block; margin: auto;" src="images/eclipse_iot_challenge.png" alt="Eclipse IoT Challenge">
-                      <p classs="lead">
-                        The latest edition of the Eclipse IoT challenge is here! Click <a href="http://iot.eclipse.org/open-iot-challenge/" target="_blank">here</a> for more details.
-                      </p>
-                    </div>
-                  </div>
+                </div>
                   <div class="col-md-3">
                     <div class="icon-list"><a href="http://eclipse.github.io/kura/doc/kura-setup.html" target="_blank"><span class="glyphicon glyphicon-record"></span><p class="icon-list-p">Get Started</p></a><br/></div>
                     <div class="icon-list"><a href="downloads.php"><span class="glyphicon glyphicon-download"></span><p class="icon-list-p">Downloads</p></a><br/></div>
