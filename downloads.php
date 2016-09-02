@@ -2,71 +2,27 @@
 <div class="container" style="min-height: 800px;">
   <div class="row">
       <div class="col-md-12">
-          <h2>Kura 2.0.0 Downloads</h2>
-          <h4>Released on July 25th, 2016 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
+          <h2>Kura 2.0.1 Downloads</h2>
+          <h4>Released on September 2nd, 2016 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
           <p>With the release of Kura 2.0.0, there is no longer a need for multiple downloads (with and without web UI) per platform. Each installer now contains the updated web UI which is
               EPL compatible. If you still need an installation that does not include the web UI, please make a request to the Kura mailing list. The below downloads are distributed
               through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>.
           </p>
           <ul>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_raspberry-pi-2_installer.deb" target="_blank">Raspbian (Model 2) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_raspberry-pi-2-nn_installer.deb" target="_blank">Raspbian (Model 2, No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_raspberry-pi-2_installer.deb" target="_blank">Raspbian (Model 2) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_raspberry-pi-2-nn_installer.deb" target="_blank">Raspbian (Model 2, No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net)- Stable</a></li>
 
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_raspberry-pi_installer.deb" target="_blank">Raspbian - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_raspberry-pi-nn_installer.deb" target="_blank">Raspbian (No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_raspberry-pi-bplus-nn_installer.deb" target="_blank">Raspbian (Model B+, No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_beaglebone_debian_installer.deb" target="_blank">BeagleBone - Stable</a></li></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/kura_2.0.0_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No Net) - Stable</a></li></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.0/user_workspace_archive_2.0.0.zip" target="_blank">Developer's Workspace</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_raspberry-pi_installer.deb" target="_blank">Raspbian - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_raspberry-pi-nn_installer.deb" target="_blank">Raspbian (No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_raspberry-pi-bplus-nn_installer.deb" target="_blank">Raspbian (Model B+, No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_beaglebone_debian_installer.deb" target="_blank">BeagleBone - Stable</a></li></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/kura_2.0.1_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No Net) - Stable</a></li></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.0.1/user_workspace_archive_2.0.1.zip" target="_blank">Developer's Workspace</a></li>
           </ul>
       </div>
-      <!--
-      <div class="col-md-6">
-          <h2>Kura 1.4.0 Downloads</h2>
-          <h4>Released on February 23rd, 2016 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
-          <p>The below downloads are distributed through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>.
-            Entries below the downloads section give more explanation on each type of download.</p>
-          <ul>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_raspberry-pi-2_installer.deb" target="_blank">Raspbian (Model 2) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_raspberry-pi-2-nn_installer.deb" target="_blank">Raspbian (Model 2, No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net)- Stable</a></li>
-
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_raspberry-pi_installer.deb" target="_blank">Raspbian - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_raspberry-pi-nn_installer.deb" target="_blank">Raspbian (No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/SNAPSHOT/kura_1.4.0-SNAPSHOT_raspberry-pi_installer.deb" target="_blank">Raspbian - Development</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_raspberry-pi-bplus-nn_installer.deb" target="_blank">Raspbian (Model B+, No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/SNAPSHOT/kura_1.4.0-SNAPSHOT_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+)- Development</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_beaglebone_debian_installer.deb" target="_blank">BeagleBone - Stable</a></li></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/kura_1.4.0_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No Net) - Stable</a></li></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/SNAPSHOT/kura_1.4.0-SNAPSHOT_beaglebone_debian_installer.deb" target="_blank">BeagleBone - Development</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/1.4.0/user_workspace_archive_1.4.0.zip" target="_blank">Developer's Workspace</a></li>
-          </ul>
-      </div>
-      <div class="col-md-6">
-          <h2>Kura 1.4.0 Extended Downloads</h2>
-          <h4>Released on February 23rd, 2016 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
-          <p>The below downloads contain the Kura Web UI, the Open JDK Device I/O library to access GPIO, I2C, SPI and PWM, and the bundles to interface with the CAN bus. These features, while released under
-            <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>, depend on third party libraries that cannot be distributed directly by Eclipse.
-          </p>
-          <ul>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.4.0/kura_1.4.0_raspberry-pi-2_installer.deb" target="_blank">Raspbian (Model 2, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.4.0/kura_1.4.0_raspberry-pi-2-nn_installer.deb" target="_blank">Raspbian (Model 2, No Net, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/intel/edison/release/1.4.0/kura_1.4.0_intel-edison_installer.sh" target="_blank">Intel Edison (With Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/intel/edison/release/1.4.0/kura_1.4.0_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.4.0/kura_1.4.0_raspberry-pi_installer.deb" target="_blank">Raspbian (with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.4.0/kura_1.4.0_raspberry-pi-nn_installer.deb" target="_blank">Raspbian (No, Net, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.4.0/kura_1.4.0_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/1.4.0/kura_1.4.0_raspberry-pi-bplus-nn_installer.deb" target="_blank">Raspbian (Model B+, No Net, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/debian/release/1.4.0/kura_1.4.0_beaglebone_debian_installer.deb" target="_blank">BeagleBone (with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/debian/release/1.4.0/kura_1.4.0_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No net, with Web UI) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="https://s3.amazonaws.com/kura_downloads/user_workspace/release/1.4.0/user_workspace_archive_1.4.0.zip" target="_blank">Developer's Workspace (with Web UI)</a></li>
-          </ul>
-      </div>
-  </div>
-  -->
+  </div>    
   <a name="source_code"></a>
   <h2>Source Code</h2>
   <p>
