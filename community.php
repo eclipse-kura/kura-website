@@ -28,6 +28,12 @@
         <li>Submit your contribution to the corresponding git repository</li>
     </ol>
   </p>
+  <a name="qa"></a>
+  <h2>Validation</h2>
+  <p>
+    Use <a href="http://www.eclipse.org/downloads/download.php?file=/kura/docs/qa/Kura_Test_Specification.xlsx" target="_blank">this spreadsheet</a> as a baseline for
+	performing validation on Eclipse Kura.
+  </p>
   <a name="benefactors"></a>
   <h2>Benefactors</h2>
   <p>
