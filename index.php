@@ -6,7 +6,7 @@
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
                       <div class="item">
-                        <img style="display: block; margin: auto;" src="images/kura_v2.0.2.png" alt="Kura v2.0.2">
+                        <img style="display: block; margin: auto;" src="images/kura_v2.1.0.png" alt="Kura v2.1.0">
                         <p classs="lead">
                           A new release of Kura is available now! The latest release includes a brand new web UI and support
                           for Apache Camel! Check the Downloads section for the latest installers.
