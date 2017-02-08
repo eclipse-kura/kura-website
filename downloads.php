@@ -12,6 +12,7 @@
               If you are looking for a previous version, check the <a href="archives.php">archives</a>.
           </p>
           <ul>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_fedorapi_installer.sh" target="_blank">Fedberry (Model 2 or 3) - Stable</a></li>
               <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_raspberry-pi-2-3_installer.deb" target="_blank">Raspbian (Model 2 or 3) - Stable</a></li>
               <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_raspberry-pi-2-3-nn_installer.deb" target="_blank">Raspbian (Model 2 or 3, No Net)- Stable</a></li>
               <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net)- Stable</a></li>
