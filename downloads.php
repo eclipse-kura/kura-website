@@ -2,9 +2,9 @@
 <div class="container" style="min-height: 800px;">
   <div class="row">
       <div class="col-md-12">
-          <h2>Kura 2.1.0 Downloads</h2>
+          <h2>Eclipse Kura&trade; 2.1.0 Downloads</h2>
           <h4>Released on December 23rd, 2016 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
-          <p>With the release of Kura 2.0.0, there is no longer a need for multiple downloads (with and without web UI) per platform. Each installer now contains the updated web UI which is
+          <p>With the release of Eclipse Kura&trade; 2.0.0, there is no longer a need for multiple downloads (with and without web UI) per platform. Each installer now contains the updated web UI which is
               EPL compatible. If you still need an installation that does not include the web UI, please make a request to the Kura mailing list. The below downloads are distributed
               through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>.
           </p>

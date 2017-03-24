@@ -117,6 +117,9 @@ body {
   text-align: justify;
   word-spacing: 2px;
 }
+
+.trademark { color: #FFFFFF; margin-left: -32px; font-size: 10px; }
+
 .navbar {
   background-color: #121320;
 }

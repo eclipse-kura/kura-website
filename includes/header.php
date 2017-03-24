@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Kura - Open Source framework for IoT </title>
+	<title>Eclipse Kura &trade; - Open Source framework for IoT </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="iot, m2m, kura, gateway, java, osgi, embedded"
 	<meta name="description"
-		content="The website of Eclipse Kura, an open-source framework for development of IoT applications">
+		content="The website of Eclipse Kura &trade;, an open-source framework for development of IoT applications">
 	<meta name="author" content="Eurotech">
 	<!--  styles -->
 	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -70,7 +70,7 @@
 	        		<span class="icon-bar"></span>
 	        		<span class="icon-bar"></span>
 	     		 </a>
-      			<a class="navbar-brand" href="index.php">eclipse.org/kura</a>
+      			<a class="navbar-brand" href="index.php">eclipse.org/kura</a><span style="color: #FFFFFF; margin-left: -32px; font-size: 10px;">&trade;</span>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
     		<div class="collapse navbar-collapse">
@@ -102,7 +102,7 @@
 	                </li>
                 </ul>
     			<ul class="nav navbar-nav navbar-right">
-    				<li style="font-size:0.8em;">Kura is an <a style="display: inline-block; padding-left: 0px; padding-right: 0px; color: #abc7ed" href="http://iot.eclipse.org">iot.eclipse.org</a> project&nbsp;&nbsp;</li>
+    				<li style="font-size:0.8em;"> Eclipse Kura <span style="margin-left: -5px;">&trade;</span> is an <a style="display: inline-block; padding-left: 0px; padding-right: 0px; color: #abc7ed" href="http://iot.eclipse.org">iot.eclipse.org</a> project&nbsp;&nbsp;</li>
                     <li>
  	                   <div class="googleplus">
     	                   <div class="g-plusone" data-href="http://www.eclipse.org/kura"></div>
