@@ -55,7 +55,7 @@
                   </div>
 				  </a>
 
-				  <a style="color:white;" href="https://www.eclipsecon.org/na2015/sites/default/files/slides/Shoot-A-Pi_v3.pdf" target="_blank">
+				  <a style="color:white;" href="https://www.slideshare.net/eclipsekura/eclipse-kura-shoot-api" target="_blank">
 				  <div class="col-md-2 feature-box">
 					<img class="img-responsive featuresimg" style="height:50%;padding-top:10px" src="images/rpi256.png">
 				  </div>
