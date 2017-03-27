@@ -28,6 +28,12 @@
         <li>Submit your contribution to the corresponding git repository</li>
     </ol>
   </p>
+  <a name="security"></a>
+  <h2>Security Issues</h2>
+  <p>
+      Vulnerabilities can be reported either via email to the Eclipse Security Team or directly with a project via the Eclipse Foundation's Bugzilla instance. For more
+      information, please visit <a href="https://www.eclipse.org/security/">here</a>.
+  </p>
   <a name="qa"></a>
   <h2>Validation</h2>
   <p>
