@@ -156,6 +156,9 @@ body {
   background-color: #121320;
   border: 1px solid rgba(0, 0, 0, .2);
 }
+
+nav ul a { font-size: 20px; }
+
 .nav > li > a:hover,
 .nav > li > a:focus {
   color: #e0f0ff;
@@ -361,3 +364,7 @@ a.kurawo:hover, a.kurawo:focus {
   color: #e16036;
   text-decoration: underline;
 }
+
+#kura-table { font-size: 15px; }
+#kura-downloads a { width: 27px; height: 27px; }
+.table-label { font-size: 15px; }

@@ -15,11 +15,15 @@
 	<![endif]-->
 
 	<!-- Custom Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'><!-- Styles -->
-  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'><!-- Styles -->
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<link rel="shortcut icon" href="images/favicon.png">
 
+	<!-- CSS -->
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 
@@ -27,7 +31,10 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/owl.theme.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+	<script src="js/materialize.js"></script>
 	<script>
 		$.noConflict();
 	</script>
@@ -70,7 +77,7 @@
 	        		<span class="icon-bar"></span>
 	        		<span class="icon-bar"></span>
 	     		 </a>
-      			<a class="navbar-brand" href="index.php">eclipse.org/kura</a><span style="color: #FFFFFF; margin-left: -32px; font-size: 10px;">&trade;</span>
+      			<a class="navbar-brand" href="index.php">eclipse.org/kura</a><span style="color: #FFFFFF; margin-left: -32px;">&trade;</span>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
     		<div class="collapse navbar-collapse">
