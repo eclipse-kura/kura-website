@@ -22,7 +22,7 @@
                     <div class="item">
                       <img style="display: block; margin: auto;" class="img-responsive"  src="images/kura_camel.png" alt="Apache Software">
                       <p class="lead">
-                        Apache Camel announces support for Kura in the upcoming 2.15 release! Read more information <a href="http://camel.apache.org/kura.html" target="_blank">here</a>.
+                        Apache Camel announces support for Kura in the upcoming 2.15 release! Read more information <a href="https://dentrassi.de/2016/11/24/providing-telemetry-data-with-opc-ua-on-eclipse-kura/" target="_blank">here</a>.
                         Watch a video introduction and tutorial <a href="https://www.youtube.com/watch?v=mli5c-oTN1U" target="_blank">here</a>.
                       </p>
                     </div>
