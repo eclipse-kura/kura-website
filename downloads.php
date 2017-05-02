@@ -2,8 +2,8 @@
 <div class="container" style="min-height: 800px;">
   <div class="row">
       <div class="col-md-12">
-          <h2>Eclipse Kura&trade; 2.1.0 Downloads</h2>
-          <h4>Released on December 23rd, 2016 - <a href="https://github.com/eclipse/kura/blob/develop/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
+          <h2>Eclipse Kura&trade; 3.0.0 Downloads</h2>
+          <h4>Released on May 5th, 2017 - <a href="https://github.com/eclipse/kura/blob/KURA_3.0.0_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
           <p>With the release of Eclipse Kura&trade; 2.0.0, there is no longer a need for multiple downloads (with and without web UI) per platform. Each installer now contains the updated web UI which is
               EPL compatible. If you still need an installation that does not include the web UI, please make a request to the Kura mailing list. The below downloads are distributed
               through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>.
@@ -12,18 +12,18 @@
               If you are looking for a previous version, check the <a href="archives.php">archives</a>.
           </p>
           <ul>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_fedorapi_installer.sh" target="_blank">Fedberry (Model 2 or 3) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_raspberry-pi-2-3_installer.deb" target="_blank">Raspbian (Model 2 or 3) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_raspberry-pi-2-3-nn_installer.deb" target="_blank">Raspbian (Model 2 or 3, No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_fedora25_installer.sh" target="_blank">Fedora 25 (Model 2 or 3) - Experimental</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_raspberry-pi-2-3_installer.deb" target="_blank">Raspbian (Model 2 or 3) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_raspberry-pi-2-3-nn_installer.deb" target="_blank">Raspbian (Model 2 or 3, No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net)- Stable</a></li>
 
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_raspberry-pi_installer.deb" target="_blank">Raspbian - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_raspberry-pi-nn_installer.deb" target="_blank">Raspbian (No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_raspberry-pi-bplus-nn_installer.deb" target="_blank">Raspbian (Model B+, No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_beaglebone_debian_installer.deb" target="_blank">BeagleBone - Stable</a></li></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/kura_2.1.0_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No Net) - Stable</a></li></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/2.1.0/user_workspace_archive_2.1.0.zip" target="_blank">Developer's Workspace</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_raspberry-pi_installer.deb" target="_blank">Raspbian - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_raspberry-pi-nn_installer.deb" target="_blank">Raspbian (No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_raspberry-pi-bplus-nn_installer.deb" target="_blank">Raspbian (Model B+, No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_beaglebone_debian_installer.deb" target="_blank">BeagleBone - Stable</a></li></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No Net) - Stable</a></li></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/user_workspace_archive_3.0.0.zip" target="_blank">Developer's Workspace</a></li>
           </ul>
       </div>
   </div>
@@ -34,6 +34,7 @@
               <div class="col-sm-3 col-md-3 col-lg-3">
                   <label class="table-label">Version</label>
                   <select id="version-select" class="browser-default">
+                      <option value="3.0.0">v3.0.0</option>
                       <option value="2.1.0">v2.1.0</option>
                       <option value="2.0.2">v2.0.2</option>
                       <option value="2.0.1">v2.0.1</option>

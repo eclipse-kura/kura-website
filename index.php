@@ -5,13 +5,17 @@
           <div class="col-md-12" style="position: relative">
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
-                      <div class="item">
-                        <img style="display: block; margin: auto;" src="images/kura_v2.1.0.png" alt="Kura v2.1.0">
-                        <p classs="lead">
-                          A new release of Kura is available now! The latest release includes a brand new web UI and support
-                          for Apache Camel! Check the Downloads section for the latest installers.
-                        </p>
-                      </div>
+                    <div class="item">
+                      <img style="display: block; margin: auto;" src="images/kura_v3.1.png" alt="Kura v3.0">
+                      <p classs="lead">
+                          Kura 3.0 is out! The key new feature of this release is Kura Wires, 
+                          a modular and visual data flow programming tool to define data collection
+                          and processing pipelines by simply selecting components from a palette and 
+                          wiring them together. Kura Wires support Industry 4.0 applications with drivers for
+                          OPC-UA and other industrial automation protocols available from the <a href="https://marketplace.eclipse.org/category/categories/eclipse-kura" target="_blank">Eclipse Kura Marketplace</a>.
+                          Read the full story <a href="https://www.eclipse.org/org/press-release/20170426_kura3.php" target="_blank">here</a>.
+                      </p>
+                    </div>
                     <div class="item">
                       <img style="display: block; margin: auto;" class="img-responsive" src="images/kura_logo_400.png" >
                       <p class="lead">
