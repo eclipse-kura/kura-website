@@ -38,29 +38,39 @@ var table_select = (function() {
         jQuery('select').material_select();
     } );
 
+    var select_version = function (versionTerm, platformTerm, uiTerm) {
+      var name;
+      switch (jQuery(this).attr('id')) {
+          case "version-select":
+              name = "version";
+              break;
+          case "platform-select":
+              name = "platform";
+              break;
+          case "ui-select":
+              name = "ui";
+              break;
+          default:
+              name = "";
+      }
+      dTable
+          .column('version:name').search(versionTerm)
+          .column('platform:name').search(platformTerm)
+          .column('ui:name').search(uiTerm)
+          .draw();
+    }
+
     jQuery('#version-select, #platform-select, #ui-select').change(function() {
-        var name;
         var versionTerm = jQuery("#version-select").val() != 'all' ? jQuery("#version-select").val() : '';
         var platformTerm = jQuery("#platform-select").val() != 'all' ? jQuery("#platform-select").val() : '';
         var uiTerm = jQuery("#ui-select").val() != 'all' ? jQuery("#ui-select").val() : '';
-        switch (jQuery(this).attr('id')) {
-            case "version-select":
-                name = "version";
-                break;
-            case "platform-select":
-                name = "platform";
-                break;
-            case "ui-select":
-                name = "ui";
-                break;
-            default:
-                name = "";
-        }
-        dTable
-            .column('version:name').search(versionTerm)
-            .column('platform:name').search(platformTerm)
-            .column('ui:name').search(uiTerm)
-            .draw();
+        select_version(versionTerm, platformTerm, uiTerm)
     })
 
+    return function (versionTerm, platformTerm, uiTerm) {
+      select_version(versionTerm, platformTerm, uiTerm)
+      jQuery('html, body').animate({
+        scrollTop: jQuery("#archives").offset().top - jQuery(".navbar").height()
+    }, 250);
+    }
 }());

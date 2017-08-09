@@ -138,6 +138,16 @@ body {
   margin-left: 1em;
   color: #eff4f7;
 }
+.owl-carousel ul li {
+  color: inherit;
+}
+.owl-carousel img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .navbar-nav > li > a {
   color: #eff4f7;
   text-shadow: 0 1px 0 #161726;

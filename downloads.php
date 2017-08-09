@@ -25,15 +25,21 @@
               <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No Net) - Stable</a></li></li>
               <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/user_workspace_archive_3.0.0.zip" target="_blank">Developer's Workspace</a></li>
           </ul>
+          <h2 id="3.1.0-M1-downloads">Eclipse Kura&trade; 3.1.0-M1 Downloads</h2>
+          <h4>Released on Aug 9th, 2017</h4>
+          <p>
+              Artifacts for the Kura v3.1.0-M1 Milestone Release are available from the <a onclick="table_select('3.1.0-M1', '', '')">table</a> below by selecting the corresponding version from the dropdown list.
+          </p>
       </div>
   </div>
-  <h2>Archives</h2>
+  <h2 id="archives">Archives</h2>
   <section id="kura-table">
       <div class="container">
           <div class="row">
               <div class="col-sm-3 col-md-3 col-lg-3">
                   <label class="table-label">Version</label>
                   <select id="version-select" class="browser-default">
+                      <option value="3.1.0-M1">v3.1.0-M1</option>
                       <option value="3.0.0">v3.0.0</option>
                       <option value="2.1.0">v2.1.0</option>
                       <option value="2.0.2">v2.0.2</option>

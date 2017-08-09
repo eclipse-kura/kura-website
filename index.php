@@ -6,25 +6,38 @@
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
                     <div class="item">
-                      <img style="display: block; margin: auto;" src="images/kura_v3.1.png" alt="Kura v3.0">
+                      <img src="images/kura_v3.1.0-M1.png" alt="Kura v3.1.0-M1">
                       <p classs="lead">
-                          Kura 3.0 is out! The key new feature of this release is Kura Wires, 
+                          Kura 3.1.0-M1 Milestone Release is out! This development preview release showcases some
+                          of the new features that will be available in Kura 3.1.0, including:
+                          <ul>
+                            <li>Improvements to the Wire Composer and a new Drivers and Assets Web UI section.</li>
+                            <li>Integration of the H2 database.</li>
+                            <li>The S7 PLC Driver and Javascript Filter Wire component will be soon available from the <a href="https://marketplace.eclipse.org/category/categories/eclipse-kura">Eclipse Marketplace</a>.</li>
+                          </ul>
+                          Download it now from <a href="downloads.php#3.1.0-M1-downloads">here</a>!
+                      </p>
+                    </div>
+                    <div class="item">
+                      <img src="images/kura_v3.1.png" alt="Kura v3.0">
+                      <p classs="lead">
+                          Kura 3.0 is out! The key new feature of this release is Kura Wires,
                           a modular and visual data flow programming tool to define data collection
-                          and processing pipelines by simply selecting components from a palette and 
+                          and processing pipelines by simply selecting components from a palette and
                           wiring them together. Kura Wires support Industry 4.0 applications with drivers for
                           OPC-UA and other industrial automation protocols available from the <a href="https://marketplace.eclipse.org/category/categories/eclipse-kura" target="_blank">Eclipse Kura Marketplace</a>.
                           Read the full story <a href="https://www.eclipse.org/org/press-release/20170426_kura3.php" target="_blank">here</a>.
                       </p>
                     </div>
                     <div class="item">
-                      <img style="display: block; margin: auto;" class="img-responsive" src="images/kura_logo_400.png" >
+                      <img class="img-responsive" src="images/kura_logo_400.png" >
                       <p class="lead">
                           Kura is a Java/OSGi-based framework for IoT gateways. Kura APIs offer access to the underlying hardware (serial ports, GPS, watchdog, GPIOs, I2C, etc.),
                           management of network configurations, communication with M2M/IoT Integration Platforms, and gateway management.
                       </p>
                     </div>
                     <div class="item">
-                      <img style="display: block; margin: auto;" class="img-responsive"  src="images/kura_camel.png" alt="Apache Software">
+                      <img class="img-responsive"  src="images/kura_camel.png" alt="Apache Software">
                       <p class="lead">
                         Apache Camel announces support for Kura in the upcoming 2.15 release! Read more information <a href="https://dentrassi.de/2016/11/24/providing-telemetry-data-with-opc-ua-on-eclipse-kura/" target="_blank">here</a>.
                         Watch a video introduction and tutorial <a href="https://www.youtube.com/watch?v=mli5c-oTN1U" target="_blank">here</a>.
