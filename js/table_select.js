@@ -38,7 +38,7 @@ var table_select = (function() {
         jQuery('select').material_select();
     } );
 
-    var select_version = function (versionTerm, platformTerm, uiTerm) {
+    var select_version = function (versionTerm, platformTerm, uiTerm, netTerm) {
       var name;
       switch (jQuery(this).attr('id')) {
           case "version-select":
@@ -50,6 +50,9 @@ var table_select = (function() {
           case "ui-select":
               name = "ui";
               break;
+          case "net-select":
+              name = "netAdmin";
+              break;
           default:
               name = "";
       }
@@ -57,18 +60,20 @@ var table_select = (function() {
           .column('version:name').search(versionTerm)
           .column('platform:name').search(platformTerm)
           .column('ui:name').search(uiTerm)
+          .column('netAdmin:name').search(netTerm)
           .draw();
     }
 
-    jQuery('#version-select, #platform-select, #ui-select').change(function() {
+    jQuery('#version-select, #platform-select, #ui-select, #net-select').change(function() {
         var versionTerm = jQuery("#version-select").val() != 'all' ? jQuery("#version-select").val() : '';
         var platformTerm = jQuery("#platform-select").val() != 'all' ? jQuery("#platform-select").val() : '';
         var uiTerm = jQuery("#ui-select").val() != 'all' ? jQuery("#ui-select").val() : '';
-        select_version(versionTerm, platformTerm, uiTerm)
+        var netTerm = jQuery("#net-select").val() != 'all' ? jQuery("#net-select").val() : '';
+        select_version(versionTerm, platformTerm, uiTerm, netTerm)
     })
 
-    return function (versionTerm, platformTerm, uiTerm) {
-      select_version(versionTerm, platformTerm, uiTerm)
+    return function (versionTerm, platformTerm, uiTerm, netTerm) {
+      select_version(versionTerm, platformTerm, uiTerm, netTerm)
       jQuery('html, body').animate({
         scrollTop: jQuery("#archives").offset().top - jQuery(".navbar").height()
     }, 250);

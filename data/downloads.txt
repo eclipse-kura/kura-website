@@ -1,5 +1,19 @@
 {
   "data" : [
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "3.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "3.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_raspberry-pi_installer.deb", "Raspberry Pi A+", "3.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_raspberry-pi-nn_installer.deb", "Raspberry Pi A+", "3.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_raspberry-pi-bplus_installer.deb", "Raspberry Pi B+", "3.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_raspberry-pi-bplus-nn_installer.deb", "Raspberry Pi B+", "3.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_beaglebone_debian_installer.deb", "Beaglebone Black", "3.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_beaglebone-nn_debian_installer.deb", "Beaglebone Black", "3.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura-fedora-3.1.0-1-armv7hl.rpm", "Raspberry Pi 3 (Fedora)", "3.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura-fedora-nn-3.1.0-1-armv7hl.rpm", "Raspberry Pi 3 (Fedora)", "3.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_intel-edison-nn_installer.sh", "Intel Edison", "3.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/kura_3.1.0_aarch64-nn_installer.sh", "AARCH 64", "3.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.0/user_workspace_archive_3.1.0.zip", "User Workspace", "3.1.0", "Yes", "No", "Yes"],
+
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_fedora25_installer.sh", "Raspberry Pi 3 (Fedora)", "3.0.0", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "3.0.0", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.0.0/kura_3.0.0_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "3.0.0", "Yes", "No", "Yes"],

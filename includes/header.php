@@ -82,10 +82,13 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
     		<div class="collapse navbar-collapse">
     			<ul class="nav navbar-nav">
+					<!--<li><a href="whatnew.php">What's new</a>
+	                </li> -->
 	                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
 	                    <ul class="dropdown-menu">
-	                    	<li><a href="downloads.php#source_code">Source Code</a></li>
-												<li><a href="downloads.php">Installers</a></li>
+							<li><a href="downloads.php">Latest Version</a></li>
+							<li><a href="archives.php">Archives</a></li>
+	                    	<li><a href="https://github.com/eclipse/kura" target="_blank">Source Code</a></li>
 	                    </ul>
 	                </li>
 	                <li class="dropdown">

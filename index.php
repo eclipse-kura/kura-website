@@ -1,4 +1,22 @@
 <?php include('includes/header.php') ?>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
 <div id="intro">
   <div class="container">
     <div class="row">
@@ -6,27 +24,16 @@
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
                     <div class="item">
-                      <img src="images/kura_v3.1.0-M1.png" alt="Kura v3.1.0-M1">
+                      <img src="images/kura_v3.1.0.png" alt="Kura v3.1.0">
                       <p classs="lead">
-                          Kura 3.1.0-M1 Milestone Release is out! This development preview release showcases some
-                          of the new features that will be available in Kura 3.1.0, including:
-                          <ul>
-                            <li>Improvements to the Wire Composer and a new Drivers and Assets Web UI section.</li>
-                            <li>Integration of the H2 database.</li>
-                            <li>The S7 PLC Driver and Javascript Filter Wire component will be soon available from the <a href="https://marketplace.eclipse.org/category/categories/eclipse-kura">Eclipse Marketplace</a>.</li>
+                          <b>Kura 3.1.0</b> is out! New Features:
+                          <ul style="padding-left:2px">
+                            <li style="list-style-type: disc">New <b>Drivers and Assets</b> Web UI section with Improvements to the Wire Composer.</li>
+                            <li style="list-style-type: disc"><b>H2 database</b> integration.</li>
+                            <li style="list-style-type: disc"><b>Embedded Artemis Broker</b> to extend messaging functionalities.</li>
+                            <li style="list-style-type: disc"><b>S7 PLC Driver</b>, <b>SensorTag Driver</b> and <b>Javascript Filter</b> Wire components downloadable from the <a href="https://marketplace.eclipse.org/category/categories/eclipse-kura">Eclipse Marketplace</a>.</li>
                           </ul>
-                          Download it now from <a href="downloads.php#3.1.0-M1-downloads">here</a>!
-                      </p>
-                    </div>
-                    <div class="item">
-                      <img src="images/kura_v3.1.png" alt="Kura v3.0">
-                      <p classs="lead">
-                          Kura 3.0 is out! The key new feature of this release is Kura Wires,
-                          a modular and visual data flow programming tool to define data collection
-                          and processing pipelines by simply selecting components from a palette and
-                          wiring them together. Kura Wires support Industry 4.0 applications with drivers for
-                          OPC-UA and other industrial automation protocols available from the <a href="https://marketplace.eclipse.org/category/categories/eclipse-kura" target="_blank">Eclipse Kura Marketplace</a>.
-                          Read the full story <a href="https://www.eclipse.org/org/press-release/20170426_kura3.php" target="_blank">here</a>.
+                          Download Eclipse&trade; Kura 3.1.0 now from <a href="downloads.php#3.1.0-downloads">here</a>!
                       </p>
                     </div>
                     <div class="item">
@@ -141,51 +148,93 @@
   </div>
 </div>
 
+
 <div id="sidebar">
-  <div class="container">
-    <h2>Latest News</h2>
-    <div class="row">
-      <div class="col-md-3 col-md-offset1 box">
-
-        <p class="article-link">
-          <a href="https://tobiddev.wordpress.com/" target="_blank">Industrial Monitoring Project using Kura</a><br /><br />
-        </p>
-      </div>
-      <div class="col-md-3 col-md-offset3 box">
-        <p class="article-link">
-          <a href="http://diyapps.blogspot.com/" target="_blank">Vehicle Monitoring Project using Kura</a>
-        </p>
-      </div>
-        <div class="col-md-4 col-md-offset4 box">
-
-        <p class="article-link">
-          <a href="http://openiotchallenge.tumblr.com/" target="_blank">Eclipse IoT Challenge Tumblr</a>
-        </p>
-      </div>
+    <div class="container">
+        <h2>Latest News</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td><table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="box">
+                                      <p class="article-link">
+                                        <a href="https://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires" target="_blank">Building IoT Mashups for Industry 4.0 with Eclipse Kura and Kura Wires - IoT Meetup</a><br /><br />
+                                      </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="box">
+                                      <p class="article-link">
+                                        <a href="https://www.eclipsecon.org/europe2016/session/industry-40-eclipse-kura" target="_blank">Industry 4.0 with Eclipse Kura - EclipseCON 2016</a>
+                                      </p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="box">
+                                      <p class="article-link">
+                                        <a href="https://tobiddev.wordpress.com/" target="_blank">Industrial Monitoring Project using Kura</a><br /><br />
+                                      </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="box">
+                                      <p class="article-link">
+                                        <a href="http://diyapps.blogspot.com/" target="_blank">Vehicle Monitoring Project using Kura</a>
+                                      </p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="box">
+                                      <p class="article-link">
+                                        <a href="http://openiotchallenge.tumblr.com/" target="_blank">Eclipse IoT Challenge Tumblr</a>
+                                      </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="box">
+                                      <p class="article-link">
+                                        <a href="http://www.youtube.com/watch?v=PXlDJMK7yqg" target="_blank">Live Demo at EclipseCon 2014</a><br /><br />
+                                      </p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="box">
+                                      <p class="article-link">
+                                        <a href="http://www.parleys.com/play/543f8e75e4b06e1184ae4115" target="_blank">Video about end-to-end IoT solutions</a>
+                                      </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="box">
+                                    <p class="article-link">
+                                      <a href="http://www.bitreactive.com/kura-config/" target="_blank">BitReactive: Configure IoT Gateway Applications with Kura</a>
+                                    </p>
+                                  </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                    <td>
+                        <div class="tweets box height:575px">
+                            <div class="twitter-feed"> <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=%40eclipsekura%20-RT%20OR%20%23eclipsekapua%20-RT" data-widget-id="786273082092630024">Tweets about @eclipsekura -RT OR #eclipsekapua -RT</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    <div class="row">
-      <div class="col-md-3 col-md-offset1 box">
-
-        <p class="article-link">
-          <a href="http://www.youtube.com/watch?v=PXlDJMK7yqg" target="_blank">Live Demo at EclipseCon 2014</a><br /><br />
-        </p>
-      </div>
-      <div class="col-md-3 col-md-offset3 box">
-        <p class="article-link">
-          <a href="http://www.parleys.com/play/543f8e75e4b06e1184ae4115" target="_blank">Video about end-to-end IoT solutions</a>
-        </p>
-      </div>
-        <div class="col-md-4 col-md-offset4 box">
-
-        <p class="article-link">
-          <a href="http://www.bitreactive.com/kura-config/" target="_blank">BitReactive: Configure IoT Gateway Applications with Kura</a>
-        </p>
-      </div>
-    </div>
-  </div>
-
 </div>
-
 
 <div id="articles">
   <div class="container">
