@@ -30,6 +30,12 @@
           </ul>
       </div>
   </div>
+
+  <h3>Troubles building Eclipse Kura&trade; 3.1.0 from source?</h3>
+  <p>
+      If you are having troubles building Eclipse Kura&trade; 3.1.0 from source, please refer to the following <a href="https://github.com/eclipse/kura/issues/1747" target="_blank">Issue</a>.
+  </p>
+
   <a name="debian_packages"></a>
   <h2>Raspbian/Debian Packages</h2>
   <p>
