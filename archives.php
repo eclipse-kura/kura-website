@@ -9,6 +9,7 @@
                       <div class="col-sm-3 col-md-3 col-lg-3">
                           <label class="table-label">Version</label>
                           <select id="version-select" class="browser-default">
+                          	  <option value="3.1.1">v3.1.1</option>
                               <option value="3.1.0">v3.1.0</option>
                               <option value="3.1.0-M1">v3.1.0-M1</option>
                               <option value="3.0.0">v3.0.0</option>
