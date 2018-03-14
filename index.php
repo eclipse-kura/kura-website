@@ -44,6 +44,20 @@
                       </p>
                     </div>
                     <div class="item">
+                      <img src="images/kura_v3.2.0-M1.png" alt="Kura v3.2.0-M1">
+                      <p classs="lead">
+                          <b>Kura 3.2.0-M1</b> milestone is out! New Features:
+                          <ul style="padding-left:2px">
+                            <li style="list-style-type: disc"><b>Wires Multiport components</b> with new APIs and example implementations.</li>
+                            <li style="list-style-type: disc"><b>Wire Graph export</b> functionality.</li>
+                            <li style="list-style-type: disc"><b>Event Driven Assets and Drivers</b> integration.</li>
+                            <li style="list-style-type: disc"><b>GPIO driver</b></li>
+                            <li style="list-style-type: disc"><b>SenseHAT driver</b></li>
+                          </ul>
+                          Download Eclipse&trade; Kura 3.2.0-M1 now from <a href="archives.php">here</a>!
+                      </p>
+                    </div>
+                    <div class="item">
                       <img class="img-responsive"  src="images/kura_camel.png" alt="Apache Software">
                       <p class="lead">
                         Apache Camel announces support for Kura in the upcoming 2.15 release! Read more information <a href="https://dentrassi.de/2016/11/24/providing-telemetry-data-with-opc-ua-on-eclipse-kura/" target="_blank">here</a>.

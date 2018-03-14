@@ -9,6 +9,7 @@
                       <div class="col-sm-3 col-md-3 col-lg-3">
                           <label class="table-label">Version</label>
                           <select id="version-select" class="browser-default">
+                          	  <option value="3.2.0-M1">v3.2.0-M1</option>
                           	  <option value="3.1.1">v3.1.1</option>
                               <option value="3.1.0">v3.1.0</option>
                               <option value="3.1.0-M1">v3.1.0-M1</option>
@@ -40,6 +41,7 @@
                               <option value="Raspberry Pi A+">Raspberry Pi A+</option>
                               <option value="Beaglebone Black">Beaglebone Black</option>
                               <option value="Intel Edison">Intel Edison</option>
+                              <option value="PC Engines APU">PC Engines APU</option>
                               <option value="all" selected>All</option>
                           </select>
                       </div>
