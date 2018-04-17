@@ -1,5 +1,21 @@
 {
   "data" : [
+  	  [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "3.2.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "3.2.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi_installer.deb", "Raspberry Pi A+", "3.2.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-nn_installer.deb", "Raspberry Pi A+", "3.2.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-bplus_installer.deb", "Raspberry Pi B+", "3.2.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-bplus-nn_installer.deb", "Raspberry Pi B+", "3.2.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_beaglebone_debian_installer.deb", "Beaglebone Black", "3.2.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_beaglebone-nn_debian_installer.deb", "Beaglebone Black", "3.2.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura-fedora-3.2.0-1-armv7hl.rpm", "Raspberry Pi 3 (Fedora)", "3.2.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura-fedora-nn-3.2.0-1-armv7hl.rpm", "Raspberry Pi 3 (Fedora)", "3.2.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_intel-edison-nn_installer.sh", "Intel Edison", "3.2.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_aarch64-nn_installer.sh", "AARCH 64", "3.2.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_pcengines_apu_debian_installer.deb", "PC Engines APU", "3.2.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_pcengines-apu-nn_debian_installer.deb", "PC Engines APU", "3.2.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/user_workspace_archive_3.2.0.zip", "User Workspace", "3.2.0", "Yes", "No", "Yes"],
+  	  
   	  [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/3.2.0/M1/kura-fedora-3.2.0-1-armv7hl.rpm", "Raspberry Pi 3 (Fedora)", "3.2.0-M1", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/3.2.0/M1/kura-fedora-nn-3.2.0-1-armv7hl.rpm", "Raspberry Pi 3 (Fedora)", "3.2.0-M1", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/3.2.0/M1/kura_3.2.0_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "3.2.0-M1", "Yes", "Yes", "Yes"],
@@ -16,7 +32,6 @@
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/3.2.0/M1/kura_3.2.0_pcengines-apu-nn_debian_installer.deb", "PC Engines APU", "3.2.0-M1", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/3.2.0/M1/user_workspace_archive_3.2.0.zip", "User Workspace", "3.2.0-M1", "Yes", "No", "Yes"],
 
-  
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "3.1.1", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "3.1.1", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi_installer.deb", "Raspberry Pi A+", "3.1.1", "Yes", "Yes", "Yes"],

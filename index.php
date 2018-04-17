@@ -24,29 +24,9 @@
               <div class="row">
                   <div id="owl-example" class="owl-carousel col-md-8 col-md-offset-1">
                     <div class="item">
-                      <img src="images/kura_v3.1.0.png" alt="Kura v3.1.0">
+                      <img src="images/kura_v3.2.0.png" alt="Kura v3.2.0">
                       <p classs="lead">
-                          <b>Kura 3.1.0</b> is out! New Features:
-                          <ul style="padding-left:2px">
-                            <li style="list-style-type: disc">New <b>Drivers and Assets</b> Web UI section with Improvements to the Wire Composer.</li>
-                            <li style="list-style-type: disc"><b>H2 database</b> integration.</li>
-                            <li style="list-style-type: disc"><b>Embedded Artemis Broker</b> to extend messaging functionalities.</li>
-                            <li style="list-style-type: disc"><b>S7 PLC Driver</b>, <b>SensorTag Driver</b> and <b>Javascript Filter</b> Wire components downloadable from the <a href="https://marketplace.eclipse.org/category/categories/eclipse-kura">Eclipse Marketplace</a>.</li>
-                          </ul>
-                          Download Eclipse&trade; Kura 3.1.0 now from <a href="downloads.php#3.1.0-downloads">here</a>!
-                      </p>
-                    </div>
-                    <div class="item">
-                      <img class="img-responsive" src="images/kura_logo_400.png" >
-                      <p class="lead">
-                          Kura is a Java/OSGi-based framework for IoT gateways. Kura APIs offer access to the underlying hardware (serial ports, GPS, watchdog, GPIOs, I2C, etc.),
-                          management of network configurations, communication with M2M/IoT Integration Platforms, and gateway management.
-                      </p>
-                    </div>
-                    <div class="item">
-                      <img src="images/kura_v3.2.0-M1.png" alt="Kura v3.2.0-M1">
-                      <p classs="lead">
-                          <b>Kura 3.2.0-M1</b> milestone is out! New Features:
+                          <b>Kura 3.2.0</b> is out! New Features:
                           <ul style="padding-left:2px">
                             <li style="list-style-type: disc"><b>Wires Multiport components</b> with new APIs and example implementations.</li>
                             <li style="list-style-type: disc"><b>Wire Graph export</b> functionality.</li>
@@ -54,7 +34,14 @@
                             <li style="list-style-type: disc"><b>GPIO driver</b></li>
                             <li style="list-style-type: disc"><b>SenseHAT driver</b></li>
                           </ul>
-                          Download Eclipse&trade; Kura 3.2.0-M1 now from <a href="archives.php">here</a>!
+                          Download Eclipse&trade; Kura 3.2.0 now from <a href="downloads.php#3.2.0-downloads">here</a>!
+                      </p>
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="images/kura_logo_400.png" >
+                      <p class="lead">
+                          Kura is a Java/OSGi-based framework for IoT gateways. Kura APIs offer access to the underlying hardware (serial ports, GPS, watchdog, GPIOs, I2C, etc.),
+                          management of network configurations, communication with M2M/IoT Integration Platforms, and gateway management.
                       </p>
                     </div>
                     <div class="item">

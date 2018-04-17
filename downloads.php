@@ -2,8 +2,8 @@
 <div class="container" style="min-height: 800px;">
   <div class="row">
       <div class="col-md-12">
-          <h2>Eclipse Kura&trade; 3.1.1 Downloads</h2>
-          <h4>Released on Jan 5th, 2018 - <a href="https://github.com/eclipse/kura/blob/KURA_3.1.1_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
+          <h2>Eclipse Kura&trade; 3.2.0 Downloads</h2>
+          <h4>Released on April 17th, 2018 - <a href="https://github.com/eclipse/kura/blob/KURA_3.2.0_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a></h4>
           <p>With the release of Eclipse Kura&trade; 2.0.0, there is no longer a need for multiple downloads (with and without web UI) per platform. Each installer now contains the updated web UI which is
               EPL compatible. If you still need an installation that does not include the web UI, please make a request to the Kura mailing list. The below downloads are distributed
               through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>.
@@ -12,21 +12,21 @@
               If you are looking for a previous version, check the <a href="archives.php">archives</a>.
           </p>
           <ul>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi-2-3_installer.deb" target="_blank">Raspbian (Model 2 or 3) - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi-2-3-nn_installer.deb" target="_blank">Raspbian (Model 2 or 3, No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-2-3_installer.deb" target="_blank">Raspbian (Model 2 or 3) - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-2-3-nn_installer.deb" target="_blank">Raspbian (Model 2 or 3, No Net)- Stable</a></li>
 
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi_installer.deb" target="_blank">Raspbian - Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi-nn_installer.deb" target="_blank">Raspbian (No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_raspberry-pi-bplus-nn_installer.deb" target="_blank">Raspbian (Model B+, No Net)- Stable</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_beaglebone_debian_installer.deb" target="_blank">BeagleBone - Stable</a></li></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No Net) - Stable</a></li></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi_installer.deb" target="_blank">Raspbian - Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-nn_installer.deb" target="_blank">Raspbian (No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-bplus_installer.deb" target="_blank">Raspbian (Model B+)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-bplus-nn_installer.deb" target="_blank">Raspbian (Model B+, No Net)- Stable</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_beaglebone_debian_installer.deb" target="_blank">BeagleBone - Stable</a></li></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_beaglebone-nn_debian_installer.deb" target="_blank">BeagleBone (No Net) - Stable</a></li></li>
 
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura-fedora-3.1.1-1-armv7hl.rpm" target="_blank">Fedora ARM (Raspberry Model 2 or 3) - Experimental</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net) - Experimental</a></li>
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/kura_3.1.1_aarch64-nn_installer.sh" target="_blank">Aarch 64 (No Net) - Experimental</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura-fedora-3.2.0-1-armv7hl.rpm" target="_blank">Fedora ARM (Raspberry Model 2 or 3) - Experimental</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_intel-edison-nn_installer.sh" target="_blank">Intel Edison (No Net) - Experimental</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_aarch64-nn_installer.sh" target="_blank">Aarch 64 (No Net) - Experimental</a></li>
 
-              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.1.1/user_workspace_archive_3.1.1.zip" target="_blank">Developer's Workspace</a></li>
+              <li style="color: #4f5c6d"><a href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/user_workspace_archive_3.2.0.zip" target="_blank">Developer's Workspace</a></li>
           </ul>
       </div>
   </div>
