@@ -68,6 +68,15 @@ padding-top: 10px;
   background-color: rgb(49, 49, 49) !important;
   border-style: solid !important;
 }
+.carousel-control {
+  color: black !important;
+  background-image: initial !important;
+  opacity: 0.8;
+  transition: opacity 0.25s;
+}
+.carousel-control:hover {
+  opacity: 0.6;
+}
 
 /* DOWNLOADS TABLE */
 
