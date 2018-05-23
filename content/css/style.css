@@ -65,8 +65,8 @@ padding-top: 10px;
   display: inline !important;
 }
 .carousel {
-  background-color: rgb(49, 49, 49) !important;
-  border-style: solid !important;
+  background-color: rgb(247,247,247) !important;
+  border: solid 1px rgb(203,203,203) !important;
 }
 .carousel-control {
   color: black !important;
