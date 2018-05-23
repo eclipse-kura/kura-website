@@ -1,0 +1,47 @@
+body { background-color: #4b8fd0; }
+html { font-family: "Material-Design-Icons", sans-serif; }
+
+/* Header */
+#header nav { background-color: #4b8fd0; padding-top: 10px; }
+
+/**************/
+/* Main page */
+/**************/
+section#main {background-color: #4b8fd0; color: white; padding-top: 50px; }
+section#main img { display: block; margin-right: auto; margin-left: auto; margin-bottom: 50px; }
+section#main .container { width: 90% !important; }
+#intro { background-color: white; padding: 50px 0px; color: #01324D; }
+#intro h5 { display: inline-block; padding-left: 10px; }
+
+/* Community */
+section#community i { width: 100%; text-align: center; font-size: 128px; color: #E16036; }
+.card-content { min-height: 255px; }
+.card-action a { color: white !important; }
+
+/* Gateways */
+section#gateways { background-color: white; color: #01324D; }
+section#gateways img { max-width: 40% !important; }
+
+/* News */
+section#news { background-color: white; color: #01324D; }
+
+/* Footer */
+#page-footer { background-color: #4b8fd0 !important; border-top: 10px solid white; }
+#page-footer h2 { font-size: 21px; color: white; border-bottom: 2px solid white; }
+#page-footer a { color: #F5F5F5; }
+.logo-eclipse-white { max-width: 161px; margin: 10px 15px 15px 0px; float: left; }
+#copyright-text { color: white; text-align: right; }
+#iot-wg-link { color: white; line-height: 10px; }
+#iot-wg-link a { color: #F44336; }
+
+/*******************/
+/* Downloads page */
+/******************/
+#kura-table { background-color: white; }
+#kura-downloads td { padding: 2px 5px; }
+#kura-downloads a { width: 27px; height: 27px; }
+#kura-downloads i { font-size: 1.4em; line-height: 27px; }
+#kura-downloads_filter { display: none; }
+#kura-downloads_length { display: inline-block; }
+#kura-downloads_paginate { display: inline-block; }
+#kura-downloads_info { display: inline-block; }

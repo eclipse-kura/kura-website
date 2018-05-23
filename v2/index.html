@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="images/favicon.png"></link>
+<title>Kura - Open Source framework for IoT</title>
+
+<!-- CSS -->
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<link href="css/highlight.github.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<link href="css/style.css" rel="stylesheet" />
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body class="landing">
+    <div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; right: 24px;">
+        <a class="btn-floating btn-large red">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul>
+          <li><a href="http://eclipse.github.io/kura/doc/kura-setup.html" target="_blank" class="btn-floating red"><i class="material-icons">power_settings_new</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">file_download</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">people</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">forum</i></a></li>
+        </ul>
+    </div>
+	<div id="header" class="navbar-fixed">
+		<nav role="navigation">
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="./index.html"><img id="logo" src="images/kura_logo_small.png" /></a>
+                    <p id="iot-wg-link">Eclipse Kura&trade; is an <a href="http://iot.eclipse.org">Eclipse IoT</a>project</p>
+					<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+					<ul id="nav-mobile" class="side-nav">
+                        <li><a href="./index.html">Home</a></li>
+						<li><a href="http://eclipse.github.io/kura/doc/kura-setup.html">Getting Started</a></li>
+                        <li><a href="./downloads.html">Downloads</a></li>
+                        <li><a href="#">Community</a></li>
+						<li><a href="#">Documentation</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+    <section id="main">
+        <div class="container center img-wrapper" >
+            <img src="./images/kura_logo_400.png" />
+        </div>
+        <div class="container center">
+            <a href="http://eclipse.github.io/kura/doc/kura-setup.html" target="_blank" class="waves-effect waves-light btn-large"><i class="material-icons left">power_settings_new</i>Getting Started</a>
+            <a href="./downloads.html" class="waves-effect waves-light btn-large"><i class="material-icons left">file_download</i>Downloads</a>
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">people</i>Community</a>
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">forum</i>Documentation</a>
+        </div>
+	</div>
+	</section>
+	<section id="intro">
+		<div class="container center">
+            <div class="row">
+                <div class="col s12 m6 l6">
+        			<h2>About Eclipse Kura&trade;</h2>
+        			<p class="caption">Eclipse Kura&trade; is a Java/OSGi-based framework for IoT gateways. Kura APIs offer access to the underlying hardware (serial ports, GPS, watchdog, GPIOs, I2C, etc.),
+                    management of network configurations, communication with M2M/IoT Integration Platforms, and gateway management.</p>
+                </div>
+                <div class="col s12 m6 l6">
+                    <img src="./images/kura_arch.jpg" class="scrollme animateme" data-when="enter"
+						data-from="0.5" data-to="0" data-crop="false" data-opacity="0"
+						data-translatex="-400" />
+                </div>
+            </div>
+			<div class="row">
+                <div class="col s12 m6 l6" style="padding-top: 50px;">
+                    <ul>
+                        <li><a class="btn-floating blue"><i class="material-icons">cloud</i></a><h5>Cloud Device Mgmt</h5></li>
+                        <li><a class="btn-floating yellow"><i class="material-icons">lightbulb_outline</i></a><h5>Shoot-A-Pi Tutorial</h5></li>
+                        <li><a class="btn-floating green"><i class="material-icons">home</i></a><h5>Greenhouse Demo</h5></li>
+                    </ul>
+				</div>
+				<div class="col s12 m6 l6">
+					<h2>Solutions Showcase</h2>
+					<p>Interested in some ideas on how to use Eclipse Kura? Try out one of the project
+                    links or click the Learn More button to see how IoT industry leaders are using
+                    Eclipse Kura!</p>
+                    <a class="waves-effect waves-light btn">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section id="gateways" style="padding-bottom: 30px;">
+        <div class="container center">
+            <div class="row">
+                <div class="col s12 m6 l6">
+					<h2>IoT Gateways</h2>
+					<p>Eclipse Kura is comptaible from open hardware such as the Raspberry
+                    Pi all the way through commercial systems. Get started with your proof
+                    of concept immediately without fear of losing work as your hardware
+                    needs change. Try the quick start links for the RPi and BBB to see how
+                    how quickly you can turn your open hardware into an IoT Gateway!</p>
+                    <a class="waves-effect waves-light btn">Learn More</a>
+                    <a class="waves-effect waves-light btn">RPi Quick Start</a>
+                    <a class="waves-effect waves-light btn">BBB Quick Start</a>
+				</div>
+                <div class="col s12 m6 l6" style="padding-top: 50px;">
+                    <img class="circle responsive-img" src="./images/rpi256.png">
+                    <img class="circle responsive-img" src="./images/BBB_Alt_View_Small.png">
+                    <img class="circle responsive-img" src="./images/eurotech.png">
+				</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="community">
+        <div class="row">
+            <div class="col s6 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="material-icons">people</i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4">Community</span>
+                        <p>Eclipe Kura needs your help! From minor bug fixes to complete
+                            feature implemenations, you can leave your mark on the Eclipse
+                            Kura project. Click the below button to find out ways you can
+                            help!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="waves-effect waves-light btn-large">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="material-icons">info</i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Latest News</span>
+                        <p>Stay up to date with the latest news about Eclipse Kura. Click the
+                            below button to see has happened and what is planned for Eclipse
+                            Kura.
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="waves-effect waves-light btn-large">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="material-icons">share</i>
+                    </div>
+                    <div class="card-content" style="max-height: 350px; ">
+                        <a class="twitter-timeline" href="https://twitter.com/search?q=eclipsekura" data-widget-id="734866656380362752">Tweets about eclipsekura</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="page-footer">
+		<div class="row">
+            <section class="col s1 xs11 m4" id="footer-eclipse-foundation">
+                <h2 class="section-title">Eclipse Foundation</h2>
+                <ul class="nav">
+                    <li><a href="http://www.eclipse.org/org/">About us</a></li>
+                    <li><a href="http://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li>
+                    <li><a href="http://www.eclipse.org/donate">Donate</a></li>
+                    <li><a href="http://www.eclipse.org/org/documents/">Governance</a></li>
+                    <li><a href="http://www.eclipse.org/artwork/">Logo and Artwork</a></li>
+                    <li><a href="http://www.eclipse.org/org/foundation/directors.php">Board of Directors</a></li>
+                </ul>
+            </section>
+            <section class="col s1 xs11 m4" id="footer-legal">
+                <h2 class="section-title">Legal</h2>
+                <ul class="nav">
+                    <li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+                    <li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+                    <li><a href="http://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+                    <li><a href="http://www.eclipse.org/org/documents/epl-v10.php">Eclipse Public License </a></li>
+                    <li><a href="http://www.eclipse.org/legal/">Legal Resources </a></li>
+                </ul>
+            </section>
+            <section class="col s1 xs11 m4" id="footer-useful-links">
+                <h2 class="section-title">Useful Links</h2>
+                <ul class="nav">
+                  <li><a href="https://github.com/eclipse/kura/issues" target="_blank">Report an Issue</a></li>
+                  <li><a href="http://eclipse.github.io/kura" target="_blank">Documentation</a></li>
+                  <li><a href="http://www.eclipse.org/contribute/" target="_blank">How to Contribute</a></li>
+                  <li><a href="https://dev.eclipse.org/mailman/listinfo/kura-dev" target="_blank">Mailing Lists</a></li>
+                  <li><a href="http://eclipse.org/forums/eclipse.kura" target="_blank">Forums</a></li>
+                  <li><a href="https://marketplace.eclipse.org/" target="_blank">Marketplace</a></li>
+                </ul>
+            </section>
+            <div id="copyright" class="col s14 m12">
+                <span class="hidden-print">
+                    <div class="wrapper-logo-eclipse-white">
+                        <a href="http://www.eclipse.org">
+                            <img class="logo-eclipse-white" alt="logo" src="http://eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-logo-bw-332x78.png"/>
+                        </a>
+                    </div>
+                </span>
+                <p id="copyright-text">Copyright &copy; 2016 The Eclipse Foundation. All Rights Reserved.</p>
+            </div>
+		</div>
+	</footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="./js/materialize.js"></script>
+    <!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-56028459-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
