@@ -1,14 +1,10 @@
 <?php
 /**
- * Copyright (c) 2014-2017, 2018 Eclipse Foundation.
+ * Copyright (c) 2018 Eurotech and/or its affiliates.
  *
  * This program and the accompanying materials are made
  * available under the terms of the Eclipse Public License 2.0
  * which is available at https://www.eclipse.org/legal/epl-2.0/
- *
- * Contributors:
- * Christopher Guindon (Eclipse Foundation) - Initial implementation
- * Eric Poirier (Eclipse Foundation)
  *
  * SPDX-License-Identifier: EPL-2.0
  */
@@ -122,18 +118,6 @@ $Theme->setHtml($html);
 
 $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css"
 href="content/css/style.css" media="screen" />');
-
-if ($Theme->hasCookieConsent()) {
-$App->AddExtraHtmlHeader("<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-56028459-1', 'auto');
-  ga('send', 'pageview');
-</script>");
-}
 
 // Insert script/html before closing </body> tag.
 // $App->AddExtraJSFooter('<script type="text/javascript"
