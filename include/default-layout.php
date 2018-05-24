@@ -25,7 +25,7 @@ require_once ('_projectCommon.php');
 
 $Theme->setPageKeywords('iot, m2m, kura, gateway, java, osgi, embedded');
 $Theme->setPageTitle("Eclipse Kura");
-$Theme->setBaseUrl('http://www.eclipse.org/kura/');
+$Theme->setBaseUrl('http://www.eclipse.org/');
 
 if (isset($Nav)) {
   $Theme->setNav($Nav);
@@ -112,6 +112,8 @@ ob_start();
 include ($path);
 echo('<script>
 document.querySelector(".eclipse-more .dropdown-toggle").innerHTML = "Community<b class=caret></b>"
+document.querySelector(".wrapper-logo-default a").setAttribute("href", "https://www.eclipse.org/kura/")
+document.querySelector(".wrapper-logo-mobile a").setAttribute("href",  "https://www.eclipse.org/kura/")
 </script>');
 $html = ob_get_clean();
 $Theme->setHtml($html);

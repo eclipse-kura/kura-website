@@ -29,14 +29,14 @@
       <div class="alert alert-info">
           Note: some old Kura versions do not provide an EPL compatible Web UI. EPL compatibility is reported in the dedicated column in the downloads table.
       </div>
-  </section>
 
-  <section>
-    <div id="downloads-filters" class="form-inline text-right"></div>
+      <div>
+        <div id="downloads-filters" class="form-inline text-right"></div>
 
-    <div style="max-height: 600px; overflow: scroll">
-      <table id="downloads-table" class="table"></table>
-    </div>
+        <div style="max-height: 600px; overflow: scroll">
+          <table id="downloads-table" class="table"></table>
+        </div>
+      </div>
   </section>
 
   <section>
@@ -50,7 +50,7 @@
 
   <script src="content/javascript/table.js"></script>
 
-  <script defer>
+  <script>
     var renderLink = function (url) {
       var link = document.createElement('a')
       link.className = "fa fa-download"
