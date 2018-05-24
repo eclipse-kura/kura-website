@@ -24,10 +24,10 @@ setTimeout(function () {
 
 <div class="block-box block-box-classic">
 
-  <div class="jumbotron black" style="background-color: transparent">
-  	<p class="text-center"><img src="content/images/kura_logo_400.png" alt="Eclipse Kura Logo" height="100"></p>
-  	<h3 class="text-center">The extensible open source Java/OSGi IoT Edge Framework</h3>
-  </div>
+<div class="jumbotron black" style="background-color: transparent">
+  <p class="text-center"><img src="content/images/kura_logo_400.png" alt="Eclipse Kura Logo" height="100"></p>
+  <h3 class="text-center">The extensible open source Java/OSGi IoT Edge Framework</h3>
+</div>
 
 <div id="main-carousel" class="carousel slide" data-ride="carousel">
 
@@ -58,9 +58,6 @@ setTimeout(function () {
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 
-  <style>
-
-  </style>
 </div>
 
 <div class="jumbotron black" style="background-color: transparent">
@@ -180,4 +177,6 @@ setTimeout(function () {
       </div>
     </div>
   </div>
+</div>
+
 </div>
