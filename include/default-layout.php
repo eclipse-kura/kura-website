@@ -110,7 +110,7 @@ $Theme->setDisplayToolbar(false);
 // Place your html content in a file called content/en_pagename.php
 ob_start();
 include ($path);
-echo('<script defer>
+echo('<script>
 document.querySelector(".eclipse-more .dropdown-toggle").innerHTML = "Community<b class=caret></b>"
 </script>');
 $html = ob_get_clean();

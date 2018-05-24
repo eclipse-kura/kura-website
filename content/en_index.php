@@ -25,7 +25,7 @@ setTimeout(function () {
 <div class="block-box block-box-classic">
 
   <div class="jumbotron black" style="background-color: transparent">
-  	<p class="text-center"><img src="content/images/kura_logo_400.png" alt="Eclipse Kura Logo" height="100px"></p>
+  	<p class="text-center"><img src="content/images/kura_logo_400.png" alt="Eclipse Kura Logo" height="100"></p>
   	<h3 class="text-center">The extensible open source Java/OSGi IoT Edge Framework</h3>
   </div>
 
@@ -72,7 +72,7 @@ setTimeout(function () {
     <div class="row">
       <div class="col-lg-10 col-lg-offset-2 col-md-12 news-list-col padding-bottom-50">
         <div class="news-list-icon text-center">
-          <i data-feather="activity" stroke-width="1"></i>
+          <i data-feather="activity"></i>
         </div>
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
@@ -95,7 +95,7 @@ setTimeout(function () {
       </div>
       <div class="col-lg-10 col-md-12 news-list-col padding-bottom-50">
         <div class="news-list-icon text-center">
-          <i data-feather="activity" stroke-width="1"></i>
+          <i data-feather="activity"></i>
         </div>
         <h2 class="text-center">Twitter Feed</h2>
         <ul class="news-list-media list-unstyled">
@@ -163,19 +163,19 @@ setTimeout(function () {
     </div>
     <div class="row step-by-step-timeline">
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md"><i data-feather="git-pull-request" stroke-width="1"></i></a>
+        <a class="step-icon" href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md"><i data-feather="git-pull-request"></i></a>
         <p><a href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md" class="btn btn-info">How to Contribute</a></p>
       </div>
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://github.com/eclipse/kura/labels/help%20wanted"><i data-feather="github" stroke-width="1"></i></a>
+        <a class="step-icon" href="https://github.com/eclipse/kura/labels/help%20wanted"><i data-feather="github"></i></a>
         <p><a href="https://github.com/eclipse/kura/labels/help%20wanted" class="btn btn-info">Help Wanted Issues</a></p>
       </div>
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://iot.eclipse.org/testbeds/"><i data-feather="book-open" stroke-width="1"></i></a>
+        <a class="step-icon" href="https://iot.eclipse.org/testbeds/"><i data-feather="book-open"></i></a>
         <p><a href="https://iot.eclipse.org/testbeds/" class="btn btn-info">Testbeds</a></p>
       </div>
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://accounts.eclipse.org/mailing-list/kura-dev"><i data-feather="activity" stroke-width="1"></i></a>
+        <a class="step-icon" href="https://accounts.eclipse.org/mailing-list/kura-dev"><i data-feather="activity"></i></a>
         <p><a href="https://accounts.eclipse.org/mailing-list/kura-dev" class="btn btn-info">Mailing List</a></p>
       </div>
     </div>
