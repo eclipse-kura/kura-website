@@ -55,25 +55,34 @@ padding-top: 10px;
 /* CAROUSEL */
 
 .carousel-inner .item {
-  height: 500px !important;
   text-align: center !important;
-  overflow: hidden !important;
+  height: 500px !important;
 }
+
 .carousel-inner img {
-  height: 100% !important;
-  width: auto !important;
+  max-height: 100% !important;
+  max-width: 100% !important;
   display: inline !important;
 }
+
+@media (max-aspect-ratio: 1/1) {
+  .carousel-inner .item {
+    height: 56vw !important;
+  }
+}
+
 .carousel {
   background-color: rgb(247,247,247) !important;
   border: solid 1px rgb(203,203,203) !important;
 }
+
 .carousel-control {
   color: black !important;
   background-image: initial !important;
   opacity: 0.8;
   transition: opacity 0.25s;
 }
+
 .carousel-control:hover {
   opacity: 0.6;
 }
