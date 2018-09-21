@@ -78,15 +78,15 @@ setTimeout(function () {
             <h4 class="media-heading">Kura 3.2.0 Release</h4>
             <p class="media-text">Eclipse Kura 3.2.0 is now available for download!</p></a>
           </li>
+          <li>
+            <a href="https://www.eclipse.org/kura/downloads.php" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 4.0.0 M1</h4>
+            <p class="media-text">Eclipse Kura 4.0.0 M1 is available for developers!</p></a>
+          </li>
            <li>
             <a href="https://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires" target="_blank" class="media media-link">
             <h4 class="media-heading">IoT Meetup</h4>
             <p class="media-text">Building IoT Mashups for Industry 4.0 with Eclipse Kura and Kura Wires</p></a>
-          </li>
-          <li>
-            <a href="https://iot.eclipse.org/open-iot-challenge/" target="_blank" class="media media-link">
-            <h4 class="media-heading">Open IoT Challenge 4.0</h4>
-            <p class="media-text">Latest news on the Eclipse Challenge</p></a>
           </li>
         </ul>
       </div>

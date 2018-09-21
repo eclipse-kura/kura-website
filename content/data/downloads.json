@@ -1,5 +1,13 @@
 {
   "data" : [
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/4.0.0/M1/kura_4.0.0-SNAPSHOT_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "4.0.0-M1", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/4.0.0/M1/kura_4.0.0-SNAPSHOT_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "4.0.0-M1", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/4.0.0/M1/kura_4.0.0-SNAPSHOT_intel-up2-centos-7_installer.sh", "Intel UP2 Centos 7", "4.0.0-M1", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/4.0.0/M1/kura_4.0.0-SNAPSHOT_intel-up2-centos-7-nn_installer.sh", "Intel UP2 Centos 7", "4.0.0-M1", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/4.0.0/M1/kura_4.0.0-SNAPSHOT_intel-up2-ubuntu-16_installer.sh", "Intel UP2 Ubuntu 16", "4.0.0-M1", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/4.0.0/M1/kura_4.0.0-SNAPSHOT_rock960-ubuntu-16-nn_installer.deb", "Rock960 Ubuntu 16", "4.0.0-M1", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/4.0.0/M1/user_workspace_archive_4.0.0-SNAPSHOT.zip", "User Workspace", "4.0.0-M1", "Yes", "No", "Yes"],
+  	  
   	  [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "3.2.0", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "3.2.0", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi_installer.deb", "Raspberry Pi A+", "3.2.0", "Yes", "Yes", "Yes"],
