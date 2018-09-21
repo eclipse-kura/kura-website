@@ -114,3 +114,8 @@ padding-top: 10px;
 .step .feather {
   stroke-width: 1;
 }
+
+.twitter-feed {
+   max-height: 600px;
+   overflow: scroll;
+}
