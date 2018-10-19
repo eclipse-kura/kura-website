@@ -74,9 +74,9 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
-            <a href="https://github.com/eclipse/kura/blob/KURA_3.2.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
-            <h4 class="media-heading">Kura 3.2.0 Release</h4>
-            <p class="media-text">Eclipse Kura 3.2.0 is now available for download!</p></a>
+            <a href="https://github.com/eclipse/kura/blob/KURA_4.0.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 4.0.0 Release</h4>
+            <p class="media-text">Eclipse Kura 4.0.0 is now available for download!</p></a>
           </li>
           <li>
             <a href="https://www.eclipse.org/kura/downloads.php" target="_blank" class="media media-link">
@@ -117,11 +117,10 @@ setTimeout(function () {
       <h1 class="fw-600">Install</h1>
       <p>Download Kura for your Raspberry Pi 2 or 3 from here:
       </p>
-      <p><a class="btn btn-warning" href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-2-3_installer.deb">Download</a></p>
+      <p><a class="btn btn-warning" href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.0.0/kura_4.0.0_raspberry-pi-2-3_installer.deb">Download</a></p>
       <p>To install, follow these instructions:
       </p>
       <p><a class="btn btn-info" href="http://eclipse.github.io/kura/intro/raspberry-pi-quick-start.html#eclipse-kuratrade-installation">Install Instructions</a></p>
-      <!-- /downloads/packages/eclipse-standard-432/keplersr2 -->
       <hr>
       <p>For other platforms, please refer to the Documentation Page.</p>
       <p><a class="btn btn-warning" href="http://eclipse.github.io/kura/">Documentation</a></p>
