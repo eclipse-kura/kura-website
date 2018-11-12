@@ -4,7 +4,7 @@
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.0.0/kura_4.0.0_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "4.0.0", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.0.0/kura-intel-up2-centos-7-4.0.0-1-x86_64.rpm", "Intel UP2 Centos 7", "4.0.0", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.0.0/kura-intel-up2-centos-7-nn-4.0.0-1-x86_64.rpm", "Intel UP2 Centos 7", "4.0.0", "Yes", "No", "Yes"],
-      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.0.0/kura_4.0.0_intel-up2-ubuntu-16_installer.sh", "Intel UP2 Ubuntu 16", "4.0.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.0.0/kura_4.0.0_intel-up2-ubuntu-16_installer.deb", "Intel UP2 Ubuntu 16", "4.0.0", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.0.0/kura_4.0.0_rock960-ubuntu-16-nn_installer.deb", "Rock960 Ubuntu 16", "4.0.0", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.0.0/user_workspace_archive_4.0.0.zip", "User Workspace", "4.0.0", "Yes", "No", "Yes"],
       
