@@ -38,6 +38,15 @@
         </div>
       </div>
   </section>
+  <section>
+      <h3>Docker</h3>
+      <p>
+          Eclipse Kura is available also in a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">containerized form</a>.
+      </p>
+      <div class="alert alert-info">
+          To run: <b>docker run -d -p 8080:8080 -t eclipse/kura:4.0.0</b>
+      </div>
+  </section>
 
   <section>
     <h3>Repositories</h3>
