@@ -44,7 +44,7 @@
           Eclipse Kura is available also in a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">containerized form</a>.
       </p>
       <div class="alert alert-info">
-          To run: <b>docker run -d -p 8080:8080 -t eclipse/kura:4.0.0</b>
+          To run: <b>docker run -d -p 8080:8080 -t eclipse/kura:latest</b>
       </div>
   </section>
 

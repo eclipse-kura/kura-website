@@ -74,14 +74,14 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
+            <a href="https://www.eclipse.org/kura/downloads.php" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 4.1.0 M1</h4>
+            <p class="media-text">Eclipse Kura 4.1.0 M1 is available for developers!</p></a>
+          </li>
+          <li>
             <a href="https://github.com/eclipse/kura/blob/KURA_4.0.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 4.0.0 Release</h4>
             <p class="media-text">Eclipse Kura 4.0.0 is now available for download!</p></a>
-          </li>
-          <li>
-            <a href="https://www.eclipse.org/kura/downloads.php" target="_blank" class="media media-link">
-            <h4 class="media-heading">Kura 4.0.0 M1</h4>
-            <p class="media-text">Eclipse Kura 4.0.0 M1 is available for developers!</p></a>
           </li>
            <li>
             <a href="https://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires" target="_blank" class="media media-link">
