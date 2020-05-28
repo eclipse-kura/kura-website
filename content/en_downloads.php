@@ -17,7 +17,7 @@
   </div>
 
   <p>
-    Latest version is <strong>Eclipse Kura&trade; 4.1.0</strong>, released on April 29th, 2019 - <a href="https://github.com/eclipse/kura/blob/KURA_4.1.0_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
+    Latest version is <strong>Eclipse Kura&trade; 4.1.1</strong>, released on May 28th, 2020 - <a href="https://github.com/eclipse/kura/blob/KURA_4.1.1_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
   </p>
 
   <section>
