@@ -88,7 +88,7 @@
       {
         name: "Version",
         filter: true,
-        default: '4.1.0'
+        default: '4.1.1'
       },
       {
         name: "Web Ui",
