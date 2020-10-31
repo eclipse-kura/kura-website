@@ -74,14 +74,14 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
+            <a href="https://github.com/eclipse/kura/blob/KURA_4.1.2_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 4.1.2 Release</h4>
+            <p class="media-text">Eclipse Kura 4.1.2 is now available for download!</p></a>
+          </li>
+          <li>
             <a href="https://github.com/eclipse/kura/blob/KURA_4.1.1_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 4.1.1 Release</h4>
             <p class="media-text">Eclipse Kura 4.1.1 is now available for download!</p></a>
-          </li>
-          <li>
-            <a href="https://github.com/eclipse/kura/blob/KURA_4.1.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
-            <h4 class="media-heading">Kura 4.1.0 Release</h4>
-            <p class="media-text">Eclipse Kura 4.1.0 is now available for download!</p></a>
           </li>
            <li>
             <a href="https://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires" target="_blank" class="media media-link">
@@ -117,7 +117,7 @@ setTimeout(function () {
       <h1 class="fw-600">Install</h1>
       <p>Download Kura for your Raspberry Pi 2 or 3 from here:
       </p>
-      <p><a class="btn btn-warning" href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.1/kura_4.1.1_raspberry-pi-2-3_installer.deb">Download</a></p>
+      <p><a class="btn btn-warning" href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.2/kura_4.1.2_raspberry-pi-2-3_installer.deb">Download</a></p>
       <p>To install, follow these instructions:
       </p>
       <p><a class="btn btn-info" href="http://eclipse.github.io/kura/intro/raspberry-pi-quick-start.html#eclipse-kuratrade-installation">Install Instructions</a></p>
