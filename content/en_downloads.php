@@ -17,14 +17,14 @@
   </div>
 
   <p>
-    Latest version is <strong>Eclipse Kura&trade; 4.1.2</strong>, released on October 30th, 2020 - <a href="https://github.com/eclipse/kura/blob/KURA_4.1.2_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
+    Latest version is <strong>Eclipse Kura&trade; 5.0.0</strong>, released on October 22th, 2021 - <a href="https://github.com/eclipse/kura/blob/KURA_5.0.0_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
   </p>
 
   <section>
       <h3>Installers</h3>
       <p>
           Eclipse Kura installers can be downloaded from the table below. If you need an installation that does not include the web UI, please make a request to the Kura mailing list. The below downloads are distributed
-          through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License</a>.
+          through the Eclipse Foundation and meet all requirements of the <a href="https://www.eclipse.org/legal/epl-v20.html" target="_blank">Eclipse Public License</a>.
       </p>
       <div class="alert alert-info">
           Note: some old Kura versions do not provide an EPL compatible Web UI. EPL compatibility is reported in the dedicated column in the downloads table.
@@ -44,7 +44,7 @@
           Eclipse Kura is available also in a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">containerized form</a>.
       </p>
       <div class="alert alert-info">
-          To run: <b>docker run -d -p 8080:8080 -t eclipse/kura:latest</b>
+          To run: <b>docker run -d -p 8443:443 -t eclipse/kura:latest</b>
       </div>
   </section>
 
@@ -88,7 +88,7 @@
       {
         name: "Version",
         filter: true,
-        default: '4.1.2'
+        default: '5.0.0'
       },
       {
         name: "Web Ui",

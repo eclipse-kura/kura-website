@@ -1,5 +1,13 @@
 {
   "data" : [
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.0/kura_5.0.0_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "5.0.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.0/kura_5.0.0_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "5.0.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.0/kura-intel-up2-centos-7-5.0.0-1-x86_64.rpm", "Intel UP2 Centos 7", "5.0.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.0/kura-intel-up2-centos-7-nn-5.0.0-1-x86_64.rpm", "Intel UP2 Centos 7", "5.0.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.0/kura_5.0.0_intel-up2-ubuntu-18_installer.deb", "Intel UP2 Ubuntu 18", "5.0.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.0/kura_5.0.0_rock960-ubuntu-16-nn_installer.deb", "Rock960 Ubuntu 16", "5.0.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.0/user_workspace_archive_5.0.0.zip", "User Workspace", "5.0.0", "Yes", "No", "Yes"],  
+
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.0.0/M1/kura_5.0.0-SNAPSHOT_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "5.0.0-M1", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.0.0/M1/kura_5.0.0-SNAPSHOT_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "5.0.0-M1", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.0.0/M1/kura-intel-up2-centos-7-5.0.0-0.202103151458-x86_64.rpm", "Intel UP2 Centos 7", "5.0.0-M1", "Yes", "Yes", "Yes"],
