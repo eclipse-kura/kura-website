@@ -17,7 +17,7 @@
   </div>
 
   <p>
-    Latest version is <strong>Eclipse Kura&trade; 5.0.0</strong>, released on October 22th, 2021 - <a href="https://github.com/eclipse/kura/blob/KURA_5.0.0_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
+    Latest version is <strong>Eclipse Kura&trade; 5.0.1</strong>, released on December 23th, 2021 - <a href="https://github.com/eclipse/kura/blob/KURA_5.0.1_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
   </p>
 
   <section>
@@ -28,6 +28,11 @@
       </p>
       <div class="alert alert-info">
           Note: some old Kura versions do not provide an EPL compatible Web UI. EPL compatibility is reported in the dedicated column in the downloads table.
+      </div>
+
+      <div class="alert alert-warning">
+          Note: Eclipse Kura versions from 4.0.0 to 4.1.2, Eclipse Kura 5.0.0 use Log4J 2.8.2 that is affected by CVE-2021-44228, CVE-2021-45046 and CVE-2021-45105. 
+          Please consider using Eclipse Kura 4.1.3+ and 5.0.1+ that leverage Log4J 2.17.0.
       </div>
 
       <div>
@@ -88,7 +93,7 @@
       {
         name: "Version",
         filter: true,
-        default: '5.0.0'
+        default: '5.0.1'
       },
       {
         name: "Web Ui",
