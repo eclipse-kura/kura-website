@@ -18,7 +18,7 @@
 
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.1.0/M1/kura_5.1.0-SNAPSHOT_raspberry-pi_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.1.0-M1", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.1.0/M1/kura_5.1.0-SNAPSHOT_raspberry-pi-nn_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.1.0-M1", "Yes", "No", "Yes"],
-      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.1.0/M1/kura_5.1.0-SNAPSHOT_raspberry-pi-ubuntu-20_installer.deb", "Raspberry Pi 2-3 Ubuntu 20", "5.1.0-M1", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.1.0/M1/kura_5.1.0-SNAPSHOT_raspberry-pi-ubuntu-20_installer.deb", "Raspberry Pi 3-4 Ubuntu 20", "5.1.0-M1", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.1.0/M1/kura_5.1.0-SNAPSHOT_intel-up2-ubuntu-20_installer.deb", "Intel UP2 Ubuntu 20", "5.1.0-M1", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.1.0/M1/kura_5.1.0-SNAPSHOT_intel-up2-ubuntu-20-nn_installer.deb", "Intel UP2 Ubuntu 20", "5.1.0-M1", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.1.0/M1/kura_5.1.0-SNAPSHOT_nvidia-jetson-nano_installer.deb", "NVIDIA Jetson Nano", "5.1.0-M1", "Yes", "Yes", "Yes"],
