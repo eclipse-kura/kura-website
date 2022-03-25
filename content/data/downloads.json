@@ -1,5 +1,15 @@
 {
   "data" : [
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/kura_5.1.0_raspberry-pi_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS 32bit", "5.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/kura_5.1.0_raspberry-pi-nn_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS 32bit", "5.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/kura_5.1.0_raspberry-pi-ubuntu-20_installer.deb", "Raspberry Pi 3-4 Ubuntu 20 64bit", "5.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/kura_5.1.0_raspberry-pi-ubuntu-20_installer-nn.deb", "Raspberry Pi 3-4 Ubuntu 20 64bit", "5.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/kura_5.1.0_intel-up2-ubuntu-20_installer.deb", "Intel UP2 Ubuntu 20 64bit", "5.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/kura_5.1.0_intel-up2-ubuntu-20-nn_installer.deb", "Intel UP2 Ubuntu 20 64bit", "5.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/kura_5.1.0_nvidia-jetson-nano_installer.deb", "NVIDIA Jetson Nano", "5.1.0", "Yes", "Yes", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/kura_5.1.0_nvidia-jetson-nano-nn_installer.deb", "NVIDIA Jetson Nano", "5.1.0", "Yes", "No", "Yes"],
+      [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.0/user_workspace_archive_5.1.0.zip", "User Workspace", "5.1.0", "Yes", "No", "Yes"],  
+
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.1/kura_5.0.1_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "5.0.1", "Yes", "Yes", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.1/kura_5.0.1_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "5.0.1", "Yes", "No", "Yes"],
       [ "http://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.1/kura-intel-up2-centos-7-5.0.1-1-x86_64.rpm", "Intel UP2 Centos 7", "5.0.1", "Yes", "Yes", "Yes"],
