@@ -49,7 +49,7 @@
           Eclipse Kura is available also in a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">containerized form</a>.
       </p>
       <div class="alert alert-warning">
-          Ubi8 based Docker image for Kura 5.2.0 is not available at the moment due to a <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1757000" target="_blank">temporary bug</a> with the image buidling process.
+          Ubi8 based Docker image for Kura 5.2.0 is not available at the moment due to a <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1757000" target="_blank">temporary bug</a> with the image building process.
       </div>
       <div class="alert alert-info">
           To run: <b>docker run -d -p 8443:443 -t eclipse/kura:latest</b>
