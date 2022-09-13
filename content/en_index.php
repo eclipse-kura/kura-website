@@ -74,9 +74,9 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
-            <a href="https://github.com/eclipse/kura/blob/KURA_5.1.2_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
-            <h4 class="media-heading">Kura 5.1.2 Release</h4>
-            <p class="media-text">Eclipse Kura 5.1.2 is now available for download!</p></a>
+            <a href="https://github.com/eclipse/kura/blob/KURA_5.2.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 5.2.0 Release</h4>
+            <p class="media-text">Eclipse Kura 5.2.0 is now available for download!</p></a>
           </li>
           <li>
             <a href="https://github.com/eclipse/kura/blob/KURA_4.1.3_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
@@ -117,13 +117,13 @@ setTimeout(function () {
       <h1 class="fw-600">Install</h1>
       <p>Download Kura for your Raspberry Pi 2/3/4 Raspberry Pi OS (32 bit) from here:
       </p>
-      <p><a class="btn btn-warning" href="https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.1.2/kura_5.1.2_raspberry-pi_installer.deb">Download</a></p>
+      <p><a class="btn btn-warning" href="https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.0/kura_5.2.0_raspberry-pi_installer.deb">Download</a></p>
       <p>To install, follow these instructions:
       </p>
       <p><a class="btn btn-info" href="http://eclipse.github.io/kura/intro/raspberry-pi-quick-start.html#eclipse-kuratrade-installation">Install Instructions</a></p>
       <hr>
       <p><b>Docker</b> run: <b>docker run -d -p 8443:443 -t eclipse/kura</b></p>
-      <p><a class="btn btn-warning" href="https://github.com/eclipse/kura/tree/develop/kura/container/kura">Documentation</a></p>
+      <p><a class="btn btn-warning" href="https://github.com/eclipse/kura/tree/develop/kura/container">Documentation</a></p>
       <hr>
       <p>For other platforms, please refer to the Documentation Page.</p>
       <p><a class="btn btn-warning" href="http://eclipse.github.io/kura/">Documentation</a></p>
