@@ -79,9 +79,9 @@ setTimeout(function () {
             <p class="media-text">Eclipse Kura 5.2.0 is now available for download!</p></a>
           </li>
           <li>
-            <a href="https://github.com/eclipse/kura/blob/KURA_4.1.3_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
-            <h4 class="media-heading">Kura 4.1.3 Release</h4>
-            <p class="media-text">Eclipse Kura 4.1.3 is now available for download!</p></a>
+            <a href="https://github.com/eclipse/kura/blob/KURA_4.1.4_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 4.1.4 Release</h4>
+            <p class="media-text">Eclipse Kura 4.1.4 is now available for download!</p></a>
           </li>
            <li>
             <a href="https://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires" target="_blank" class="media media-link">
