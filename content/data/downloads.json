@@ -57,6 +57,14 @@
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.1/kura_5.0.1_rock960-ubuntu-16-nn_installer.deb", "Rock960 Ubuntu 16", "5.0.1", "Yes", "No", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.0.1/user_workspace_archive_5.0.1.zip", "User Workspace", "5.0.1", "Yes", "No", "Yes"],  
 
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.4/kura_4.1.4_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "4.1.4", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.4/kura_4.1.4_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "4.1.4", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.4/kura-intel-up2-centos-7-4.1.4-1-x86_64.rpm", "Intel UP2 Centos 7", "4.1.4", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.4/kura-intel-up2-centos-7-nn-4.1.4-1-x86_64.rpm", "Intel UP2 Centos 7", "4.1.4", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.4/kura_4.1.4_intel-up2-ubuntu-18_installer.deb", "Intel UP2 Ubuntu 18", "4.1.4", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.4/kura_4.1.4_rock960-ubuntu-16-nn_installer.deb", "Rock960 Ubuntu 16", "4.1.4", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.4/user_workspace_archive_4.1.4.zip", "User Workspace", "4.1.4", "Yes", "No", "Yes"],
+
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.3/kura_4.1.3_raspberry-pi-2-3_installer.deb", "Raspberry Pi 2-3", "4.1.3", "Yes", "Yes", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.3/kura_4.1.3_raspberry-pi-2-3-nn_installer.deb", "Raspberry Pi 2-3", "4.1.3", "Yes", "No", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/4.1.3/kura-intel-up2-centos-7-4.1.3-1-x86_64.rpm", "Intel UP2 Centos 7", "4.1.3", "Yes", "Yes", "Yes"],
