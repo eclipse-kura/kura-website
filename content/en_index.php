@@ -133,15 +133,15 @@ setTimeout(function () {
       <h1 class="fw-600">Connect</h1>
       <p>Use <b>Wires</b> to visually connect your sensors and PLCs using a friendly web UI for data capture, processing and publishing.
       </p>
-      <p><a class="btn btn-info" href="https://eclipse.github.io/kura/docs-develop/kura-wires/introduction/">Learn More</a></p>
+      <p><a class="btn btn-info" href="https://eclipse.github.io/kura/docs-release-5.2/kura-wires/introduction/">Learn More</a></p>
     </div>
     <div class="col-md-8 three gs-item">
       <div class="circle">3</div>
       <h1 class="fw-600">Extend</h1>
       <p>Develop new Components and Application, Drag-and-Drop new modules from the Eclipse IoT Marketplace.</p>
       <ul>
-        <li>Get Started with the <a href="https://eclipse.github.io/kura/docs-develop/">Framework Functionalities</a></li>
-        <li>Get Started with <a href="https://eclipse.github.io/kura/docs-develop/java-application-development/development-environment-setup/">Java development</a></li>
+        <li>Get Started with the <a href="https://eclipse.github.io/kura/docs-release-5.2/">Framework Functionalities</a></li>
+        <li>Get Started with <a href="https://eclipse.github.io/kura/docs-release-5.2/java-application-development/development-environment-setup/">Java development</a></li>
         <li>Access the <a href="//marketplace.eclipse.org/taxonomy/term/4397%2C4396/title">Marketplace</a></li>
       </ul>
     </div>
