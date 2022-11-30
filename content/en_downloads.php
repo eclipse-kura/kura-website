@@ -17,7 +17,7 @@
   </div>
 
   <p>
-    Latest version is <strong>Eclipse Kura&trade; 5.2.0</strong>, released on September 13th, 2022 - <a href="https://github.com/eclipse/kura/blob/KURA_5.2.0_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
+    Latest version is <strong>Eclipse Kura&trade; 5.2.1</strong>, released on November 30th, 2022 - <a href="https://github.com/eclipse/kura/blob/KURA_5.2.1_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
   </p>
 
   <section>
@@ -48,9 +48,6 @@
       <p>
           Eclipse Kura is available also in a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">containerized form</a>.
       </p>
-      <div class="alert alert-warning">
-          Ubi8 based Docker image for Kura 5.2.0 is not available at the moment due to a <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1757000" target="_blank">temporary bug</a> with the image building process.
-      </div>
       <div class="alert alert-info">
           To run: <b>docker run -d -p 8443:443 -t eclipse/kura:latest</b>
       </div>
@@ -96,7 +93,7 @@
       {
         name: "Version",
         filter: true,
-        default: '5.2.0'
+        default: '5.2.1'
       },
       {
         name: "Web Ui",
