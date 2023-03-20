@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2018 Eurotech and/or its affiliates.
+ * Copyright (c) 2018, 2023 Eurotech and/or its affiliates.
  *
  * This program and the accompanying materials are made
  * available under the terms of the Eclipse Public License 2.0
@@ -74,6 +74,11 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
+            <a href="https://github.com/eclipse/kura/tree/KURA_5.3.0_M1" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 5.3.0 M1</h4>
+            <p class="media-text">Eclipse Kura 5.3.0 M1 is now available for download!</p></a>
+          </li>
+          <li>
             <a href="https://github.com/eclipse/kura/blob/KURA_5.2.1_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 5.2.1 Release</h4>
             <p class="media-text">Eclipse Kura 5.2.1 is now available for download!</p></a>
@@ -82,11 +87,6 @@ setTimeout(function () {
             <a href="https://github.com/eclipse/kura/blob/KURA_4.1.4_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 4.1.4 Release</h4>
             <p class="media-text">Eclipse Kura 4.1.4 is now available for download!</p></a>
-          </li>
-           <li>
-            <a href="https://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires" target="_blank" class="media media-link">
-            <h4 class="media-heading">IoT Meetup</h4>
-            <p class="media-text">Building IoT Mashups for Industry 4.0 with Eclipse Kura and Kura Wires</p></a>
           </li>
         </ul>
       </div>
