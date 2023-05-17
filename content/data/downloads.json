@@ -12,6 +12,16 @@
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.3.0/M1/kura_5.3.0-SNAPSHOT_generic-aarch64_installer.deb", "Generic arm64 with NetworkManager", "5.3.0-M1", "Yes", "Yes", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.3.0/M1/user_workspace_archive_5.3.0-SNAPSHOT.zip", "User Workspace", "5.3.0-M1", "Yes", "No", "Yes"],  
 
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/kura_5.2.2_raspberry-pi_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.2.2", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/kura_5.2.2_raspberry-pi-nn_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.2.2", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/kura_5.2.2_raspberry-pi-ubuntu-20_installer.deb", "Raspberry Pi 3-4 Ubuntu 20", "5.2.2", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/kura_5.2.2_raspberry-pi-ubuntu-20_installer-nn.deb", "Raspberry Pi 3-4 Ubuntu 20", "5.2.2", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/kura_5.2.2_intel-up2-ubuntu-20_installer.deb", "Intel UP2 Ubuntu 20", "5.2.2", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/kura_5.2.2_intel-up2-ubuntu-20-nn_installer.deb", "Intel UP2 Ubuntu 20", "5.2.2", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/kura_5.2.2_nvidia-jetson-nano_installer.deb", "NVIDIA Jetson Nano", "5.2.2", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/kura_5.2.2_nvidia-jetson-nano-nn_installer.deb", "NVIDIA Jetson Nano", "5.2.2", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.2/user_workspace_archive_5.2.2.zip", "User Workspace", "5.2.2", "Yes", "No", "Yes"],
+
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.1/kura_5.2.1_raspberry-pi_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.2.1", "Yes", "Yes", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.1/kura_5.2.1_raspberry-pi-nn_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.2.1", "Yes", "No", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.2.1/kura_5.2.1_raspberry-pi-ubuntu-20_installer.deb", "Raspberry Pi 3-4 Ubuntu 20", "5.2.1", "Yes", "Yes", "Yes"],
