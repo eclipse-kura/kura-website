@@ -23,11 +23,6 @@
     <a href="https://github.com/eclipse/kura/issues" target="_blank">there</a>.
   </p>
 
-  <h2 id="discussion-forum">Discussion Forum</h2>
-  <p>
-    A general discussion forum can be found <a href="http://eclipse.org/forums/eclipse.kura" target="_blank">here</a>.
-  </p>
-
   <h2 id="contributing">Contributing</h2>
   <p>
     An overview of the contribution process is <a href="https://wiki.eclipse.org/Development_Resources/Contributing_via_Git" target="_blank">here</a>. The key points are:

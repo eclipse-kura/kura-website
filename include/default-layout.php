@@ -89,11 +89,6 @@ $more_menu['Community'][] = array(
 );
 
 $more_menu['Community'][] = array(
-  'url' => 'community.php#discussion-forum',
-  'caption' => 'Discussion Forum'
-);
-
-$more_menu['Community'][] = array(
   'url' => 'community.php#contributing',
   'caption' => 'Contributing'
 );
