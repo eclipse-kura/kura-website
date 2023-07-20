@@ -90,22 +90,6 @@ setTimeout(function () {
           </li>
         </ul>
       </div>
-      <div class="col-lg-10 col-md-12 news-list-col padding-bottom-50">
-        <div class="news-list-icon text-center">
-          <i data-feather="activity"></i>
-        </div>
-        <h2 class="text-center">Twitter Feed</h2>
-        <ul class="news-list-media list-unstyled">
-          <li>
-          <?php
-          	if ($Theme->hasCookieConsent()) {
-            echo '<div class="twitter-feed"> <a class="twitter-timeline" href="https://twitter.com/eclipsekura?ref_src=twsrc%5Etfw">Tweets by eclipsekura</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>';
-			}
-			?>
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </div>
@@ -126,7 +110,7 @@ setTimeout(function () {
       <p><a class="btn btn-warning" href="https://github.com/eclipse/kura/tree/develop/kura/container">Documentation</a></p>
       <hr>
       <p>For other platforms, please refer to the Documentation Page.</p>
-      <p><a class="btn btn-warning" href="http://eclipse.github.io/kura/">Documentation</a></p>
+      <p><a class="btn btn-warning" href="https://eclipse.github.io/kura/">Documentation</a></p>
     </div>
     <div class="col-md-8 two  gs-item">
       <div class="circle">2</div>
@@ -167,6 +151,10 @@ setTimeout(function () {
       <div class="col-sm-6 step">
         <a class="step-icon" href="https://github.com/eclipse/kura/labels/help%20wanted"><i data-feather="github"></i></a>
         <p><a href="https://github.com/eclipse/kura/labels/help%20wanted" class="btn btn-info">Help Wanted Issues</a></p>
+      </div>
+      <div class="col-sm-6 step">
+        <a class="step-icon" href="https://github.com/eclipse/kura/discussions"><i data-feather="message-circle"></i></a>
+        <p><a href="https://github.com/eclipse/kura/discussions" class="btn btn-info">Discussions</a></p>
       </div>
       <div class="col-sm-6 step">
         <a class="step-icon" href="https://iot.eclipse.org/testbeds/"><i data-feather="book-open"></i></a>
