@@ -1,5 +1,17 @@
 {
   "data" : [
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_raspberry-pi-armhf_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.4.0-M1", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_raspberry-pi-armhf-nn_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.4.0-M1", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_raspberry-pi-arm64_installer.deb", "Raspberry Pi 3-4 Raspberry PI OS 64bits", "5.4.0-M1", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_intel-up2-ubuntu-20_installer.deb", "Intel UP2 Ubuntu 20", "5.4.0-M1", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_intel-up2-ubuntu-20-nn_installer.deb", "Intel UP2 Ubuntu 20", "5.4.0-M1", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_nvidia-jetson-nano_installer.deb", "NVIDIA Jetson Nano", "5.4.0-M1", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_nvidia-jetson-nano-nn_installer.deb", "NVIDIA Jetson Nano", "5.4.0-M1", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_generic-x86_64_installer.deb", "Generic x86_64 with NetworkManager", "5.4.0-M1", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_generic-arm32_installer.deb", "Generic arm32 with NetworkManager", "5.4.0-M1", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/kura_5.4.0-SNAPSHOT_generic-aarch64_installer.deb", "Generic arm64 with NetworkManager", "5.4.0-M1", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.4.0/M1/user_workspace_archive_5.4.0-SNAPSHOT.zip", "User Workspace", "5.4.0-M1", "Yes", "No", "Yes"],
+
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.3.1/kura_5.3.1_raspberry-pi-armhf_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.3.1", "Yes", "Yes", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.3.1/kura_5.3.1_raspberry-pi-armhf-nn_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS", "5.3.1", "Yes", "No", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.3.1/kura_5.3.1_raspberry-pi-arm64_installer.deb", "Raspberry Pi 3-4 Raspberry PI OS 64bits", "5.3.1", "Yes", "Yes", "Yes"],
