@@ -46,11 +46,8 @@
   <section>
       <h3>Docker</h3>
       <p>
-          Eclipse Kura is available also in a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">containerized form</a>.
+          Eclipse Kura is also available as a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">Docker container</a>. Instructions available on <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">DockerHub</a> and <a href="https://eclipse.github.io/kura/latest/getting-started/docker-quick-start/">in the docs</a>.
       </p>
-      <div class="alert alert-info">
-          To run: <b>docker run -d -p 8443:443 -t eclipse/kura:latest</b>
-      </div>
   </section>
 
   <section>
