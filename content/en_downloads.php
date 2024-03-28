@@ -17,7 +17,7 @@
   </div>
 
   <p>
-    Latest version is <strong>Eclipse Kura&trade; 5.4.1</strong>, released on March 7th, 2024 - <a href="https://github.com/eclipse/kura/blob/KURA_5.4.1_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
+    Latest version is <strong>Eclipse Kura&trade; 5.4.2</strong>, released on March 28th, 2024 - <a href="https://github.com/eclipse/kura/blob/KURA_5.4.2_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
   </p>
 
   <section>
@@ -90,7 +90,7 @@
       {
         name: "Version",
         filter: true,
-        default: '5.4.1'
+        default: '5.4.2'
       },
       {
         name: "Web Ui",
