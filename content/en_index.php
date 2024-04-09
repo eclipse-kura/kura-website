@@ -74,6 +74,11 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
+            <a href="https://www.cve.org/CVERecord?id=CVE-2024-3046" target="_blank" class="media media-link">
+            <h4 class="media-heading">CVE-2024-3046 vulnerability</h4>
+            <p class="media-text">CVE-2024-3046 has been recently discovered and resolved in Kura 5.4.2. Click here to get more information.</p></a>
+          </li>
+          <li>
             <a href="https://github.com/eclipse/kura/tree/KURA_5.4.2_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 5.4.2 Release</h4>
             <p class="media-text">Eclipse Kura 5.4.2 is now available for download!</p></a>

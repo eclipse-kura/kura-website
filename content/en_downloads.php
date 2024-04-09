@@ -29,12 +29,14 @@
       <div class="alert alert-info">
           Note: some old Kura versions do not provide an EPL compatible Web UI. EPL compatibility is reported in the dedicated column in the downloads table.
       </div>
-
       <div class="alert alert-warning">
-          Note: Eclipse Kura versions from 4.0.0 to 4.1.2, Eclipse Kura 5.0.0 use Log4J 2.8.2 that is affected by CVE-2021-44228, CVE-2021-45046 and CVE-2021-45105. 
-          Please consider using Eclipse Kura 4.1.3+ and 5.0.1+ that leverage Log4J 2.17.0.
+        Note: 
+        <ul>
+          <li>Eclipse Kura versions from 4.0.0 to 4.1.2, Eclipse Kura 5.0.0 use Log4J 2.8.2 that is affected by CVE-2021-44228, CVE-2021-45046 and CVE-2021-45105.</li>
+          <li>Eclipse Kura versions from 5.0.0 to 5.4.1 are affected by CVE-2024-3046.</li>
+        </ul>
+        Please consider using Eclipse Kura 4.1.3+ and 5.4.2+ .
       </div>
-
       <div>
         <div id="downloads-filters" class="form-inline text-right"></div>
 
