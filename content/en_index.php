@@ -112,7 +112,7 @@ setTimeout(function () {
       <p><a class="btn btn-info" href="https://eclipse.github.io/kura/docs-release-5.5/getting-started/raspberry-pi-raspberryos-quick-start/">Install Instructions</a></p>
       <hr>
       <p><b>Docker</b> run: <b>docker run -d -p 8443:443 -t eclipse/kura</b></p>
-      <p><a class="btn btn-warning" href="https://github.com/eclipse/kura/tree/develop/kura/container">Documentation</a></p>
+      <p><a class="btn btn-warning" href="https://eclipse.github.io/kura/docs-release-5.5/getting-started/docker-quick-start/">Documentation</a></p>
       <hr>
       <p>For other platforms, please refer to the Documentation Page.</p>
       <p><a class="btn btn-warning" href="https://eclipse.github.io/kura/">Documentation</a></p>
