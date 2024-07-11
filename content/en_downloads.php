@@ -44,6 +44,10 @@
           <table id="downloads-table" class="table"></table>
         </div>
       </div>
+      <div class="alert alert-info">
+          Not in the list? If you cannot find the entry for your specific device, give a try to the Generic entries. We support the major architectures, allowing you to test Eclipse Kura in your device.
+          Want to contribute a new platform or your platform to Eclipse Kura? The project is open to contributions especially related the support of new devices. Contributing is simple! Have a look at the <a href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md" target="_blank">Eclipse Kura Contributing</a> page
+      </div>
   </section>
   <section>
       <h3>Docker</h3>
