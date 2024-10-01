@@ -74,7 +74,7 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
-            <a href="https://github.com/eclipse/kura/tree/KURA_5.5.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
+            <a href="https://github.com/eclipse-kura/kura/tree/KURA_5.5.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 5.5.0 Release</h4>
             <p class="media-text">Eclipse Kura 5.5.0 is now available for download!</p></a>
           </li>
@@ -84,12 +84,12 @@ setTimeout(function () {
             <p class="media-text">CVE-2024-3046 has been recently discovered and resolved in Kura 5.4.2. Click here to get more information.</p></a>
           </li>
           <li>
-            <a href="https://github.com/eclipse/kura/tree/KURA_5.4.2_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
+            <a href="https://github.com/eclipse-kura/kura/tree/KURA_5.4.2_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 5.4.2 Release</h4>
             <p class="media-text">Eclipse Kura 5.4.2 is now available for download!</p></a>
           </li>
           <li>
-            <a href="https://github.com/eclipse/kura/blob/KURA_5.3.1_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
+            <a href="https://github.com/eclipse-kura/kura/blob/KURA_5.3.1_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 5.3.1 Release</h4>
             <p class="media-text">Eclipse Kura 5.3.1 is now available for download!</p></a>
           </li>
@@ -109,28 +109,28 @@ setTimeout(function () {
       <p><a class="btn btn-warning" href="https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.5.0/kura_5.5.0_generic-aarch64_installer.deb">Download</a></p>
       <p>To install, follow these instructions:
       </p>
-      <p><a class="btn btn-info" href="https://eclipse.github.io/kura/docs-release-5.5/getting-started/raspberry-pi-raspberryos-quick-start/">Install Instructions</a></p>
+      <p><a class="btn btn-info" href="https://eclipse-kura.github.io/kura/docs-release-5.5/getting-started/raspberry-pi-raspberryos-quick-start/">Install Instructions</a></p>
       <hr>
       <p><b>Docker</b> run: <b>docker run -d -p 8443:443 -t eclipse/kura</b></p>
-      <p><a class="btn btn-warning" href="https://eclipse.github.io/kura/docs-release-5.5/getting-started/docker-quick-start/">Documentation</a></p>
+      <p><a class="btn btn-warning" href="https://eclipse-kura.github.io/kura/docs-release-5.5/getting-started/docker-quick-start/">Documentation</a></p>
       <hr>
       <p>For other platforms, please refer to the Documentation Page.</p>
-      <p><a class="btn btn-warning" href="https://eclipse.github.io/kura/">Documentation</a></p>
+      <p><a class="btn btn-warning" href="https://eclipse-kura.github.io/kura/">Documentation</a></p>
     </div>
     <div class="col-md-8 two  gs-item">
       <div class="circle">2</div>
       <h1 class="fw-600">Connect</h1>
       <p>Use <b>Wires</b> to visually connect your sensors and PLCs using a friendly web UI for data capture, processing and publishing.
       </p>
-      <p><a class="btn btn-info" href="https://eclipse.github.io/kura/docs-release-5.3/kura-wires/introduction/">Learn More</a></p>
+      <p><a class="btn btn-info" href="https://eclipse-kura.github.io/kura/docs-release-5.5/kura-wires/introduction/">Learn More</a></p>
     </div>
     <div class="col-md-8 three gs-item">
       <div class="circle">3</div>
       <h1 class="fw-600">Extend</h1>
       <p>Develop new Components and Application, Drag-and-Drop new modules from the Eclipse IoT Marketplace.</p>
       <ul>
-        <li>Get Started with the <a href="https://eclipse.github.io/kura/docs-release-5.5/">Framework Functionalities</a></li>
-        <li>Get Started with <a href="https://eclipse.github.io/kura/docs-release-5.5/java-application-development/development-environment-setup/">Java development</a></li>
+        <li>Get Started with the <a href="https://eclipse-kura.github.io/kura/docs-release-5.5/">Framework Functionalities</a></li>
+        <li>Get Started with <a href="https://eclipse-kura.github.io/kura/docs-release-5.5/java-application-development/development-environment-setup/">Java development</a></li>
         <li>Access the <a href="//marketplace.eclipse.org/taxonomy/term/4397%2C4396/title">Marketplace</a></li>
       </ul>
     </div>
@@ -150,16 +150,16 @@ setTimeout(function () {
     </div>
     <div class="row step-by-step-timeline">
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md"><i data-feather="git-pull-request"></i></a>
-        <p><a href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md" class="btn btn-info">How to Contribute</a></p>
+        <a class="step-icon" href="https://github.com/eclipse-kura/kura/blob/develop/CONTRIBUTING.md"><i data-feather="git-pull-request"></i></a>
+        <p><a href="https://github.com/eclipse-kura/kura/blob/develop/CONTRIBUTING.md" class="btn btn-info">How to Contribute</a></p>
       </div>
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://github.com/eclipse/kura/labels/help%20wanted"><i data-feather="github"></i></a>
-        <p><a href="https://github.com/eclipse/kura/labels/help%20wanted" class="btn btn-info">Help Wanted Issues</a></p>
+        <a class="step-icon" href="https://github.com/eclipse-kura/kura/labels/help%20wanted"><i data-feather="github"></i></a>
+        <p><a href="https://github.com/eclipse-kura/kura/labels/help%20wanted" class="btn btn-info">Help Wanted Issues</a></p>
       </div>
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://github.com/eclipse/kura/discussions"><i data-feather="message-circle"></i></a>
-        <p><a href="https://github.com/eclipse/kura/discussions" class="btn btn-info">Discussions</a></p>
+        <a class="step-icon" href="https://github.com/eclipse-kura/kura/discussions"><i data-feather="message-circle"></i></a>
+        <p><a href="https://github.com/eclipse-kura/kura/discussions" class="btn btn-info">Discussions</a></p>
       </div>
       <div class="col-sm-6 step">
         <a class="step-icon" href="https://iot.eclipse.org/testbeds/"><i data-feather="book-open"></i></a>
