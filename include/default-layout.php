@@ -72,7 +72,7 @@ $Theme->setAttributes('img_logo_mobile', 'content/images/kura_logo_small.png', '
 
 $Menu = new Menu();
 $Menu->setMenuItemList(array());
-$Menu->addMenuItem("Documentation", "http://eclipse.github.io/kura/", "_self");
+$Menu->addMenuItem("Documentation", "http://eclipse-kura.github.io/kura/", "_self");
 $Menu->addMenuItem("Marketplace", "https://marketplace.eclipse.org/taxonomy/term/4397%2C4396/title", "_self");
 
 $Theme->setMenu($Menu);

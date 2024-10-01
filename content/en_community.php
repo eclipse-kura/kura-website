@@ -20,7 +20,7 @@
   <h2 id="issue-tracker">Issue Tracker</h2>
   <p>
     Issues and bugs related to Kura are tracked with Github Issues. Please enter any issues you find
-    <a href="https://github.com/eclipse/kura/issues" target="_blank">there</a>.
+    <a href="https://github.com/eclipse-kura/kura/issues" target="_blank">there</a>.
   </p>
 
   <h2 id="contributing">Contributing</h2>
