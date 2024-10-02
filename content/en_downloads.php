@@ -17,7 +17,7 @@
   </div>
 
   <p>
-    Latest version is <strong>Eclipse Kura&trade; 5.5.0</strong>, released on July 8th, 2024 - <a href="https://github.com/eclipse/kura/blob/KURA_5.5.0_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
+    Latest version is <strong>Eclipse Kura&trade; 5.5.0</strong>, released on July 8th, 2024 - <a href="https://github.com/eclipse-kura/kura/blob/KURA_5.5.0_RELEASE/kura/distrib/RELEASE_NOTES.txt">Release Notes</a>
   </p>
 
   <section>
@@ -46,13 +46,13 @@
       </div>
       <div class="alert alert-info">
           Not in the list? If you cannot find the entry for your specific device, give a try to the Generic entries. We support the major architectures, allowing you to test Eclipse Kura in your device.
-          Want to contribute a new platform or your platform to Eclipse Kura? The project is open to contributions especially related the support of new devices. Contributing is simple! Have a look at the <a href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md" target="_blank">Eclipse Kura Contributing</a> page
+          Want to contribute a new platform or your platform to Eclipse Kura? The project is open to contributions especially related the support of new devices. Contributing is simple! Have a look at the <a href="https://github.com/eclipse-kura/kura/blob/develop/CONTRIBUTING.md" target="_blank">Eclipse Kura Contributing</a> page
       </div>
   </section>
   <section>
       <h3>Docker</h3>
       <p>
-          Eclipse Kura is also available as a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">Docker container</a>. Instructions available on <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">DockerHub</a> and <a href="https://eclipse.github.io/kura/latest/getting-started/docker-quick-start/">in the docs</a>.
+          Eclipse Kura is also available as a <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">Docker container</a>. Instructions available on <a href="https://hub.docker.com/r/eclipse/kura/" target="_blank">DockerHub</a> and <a href="https://eclipse-kura.github.io/kura/latest/getting-started/docker-quick-start/">in the docs</a>.
       </p>
   </section>
 
