@@ -74,6 +74,11 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
+            <a href="https://github.com/eclipse-kura/kura/tree/KURA_5.6.0_M1" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 5.6.0 M1</h4>
+            <p class="media-text">Eclipse Kura 5.6.0 M1 is now available for download!</p></a>
+          </li>
+          <li>
             <a href="https://github.com/eclipse-kura/kura/tree/KURA_5.5.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 5.5.0 Release</h4>
             <p class="media-text">Eclipse Kura 5.5.0 is now available for download!</p></a>
@@ -87,11 +92,6 @@ setTimeout(function () {
             <a href="https://github.com/eclipse-kura/kura/tree/KURA_5.4.2_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
             <h4 class="media-heading">Kura 5.4.2 Release</h4>
             <p class="media-text">Eclipse Kura 5.4.2 is now available for download!</p></a>
-          </li>
-          <li>
-            <a href="https://github.com/eclipse-kura/kura/blob/KURA_5.3.1_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
-            <h4 class="media-heading">Kura 5.3.1 Release</h4>
-            <p class="media-text">Eclipse Kura 5.3.1 is now available for download!</p></a>
           </li>
         </ul>
       </div>
