@@ -1,0 +1,58 @@
+{{/* 
+  Copyright (c) 2023 Eclipse Foundation, Inc.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Olivier Goulet <olivier.goulet@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+*/}}
+
+{{ $twitter_url := $.Site.Params.twitter_url | default "https://twitter.com/EclipseFdn" }}
+{{ $facebook_url := $.Site.Params.facebook_url | default "https://www.facebook.com/eclipse.org" }}
+{{ $youtube_url := $.Site.Params.youtube_url | default "https://www.youtube.com/user/EclipseFdn" }}
+{{ $linkedin_url := $.Site.Params.linkedin_url | default "https://www.linkedin.com/company/eclipse-foundation" }}
+
+<div class="footer-end-social">
+    <p class="footer-end-social-text hidden-xs">Follow Us:</p>
+    <ul class="footer-end-social-links list-inline">
+        <li>
+            <a class="link-unstyled" href="{{ $twitter_url }}" title="{{ i18n "footer-sr-twitter-text" }}">
+                <span class="fa fa-stack">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    <span class="sr-only">{{ i18n "footer-sr-twitter-text" }}</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="link-unstyled" href="{{ $facebook_url }}" title="{{ i18n "footer-sr-facebook-text" }}">
+                <span class="fa fa-stack">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    <span class="sr-only">{{ i18n "footer-sr-facebook-text" }}</span>
+                </span>
+            </a>
+        </li> 
+        <li>
+            <a class="link-unstyled" href="{{ $youtube_url }}" title="{{ i18n "footer-sr-youtube-text" }}">
+                <span class="fa fa-stack">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    <span class="sr-only">{{ i18n "footer-sr-youtube-text" }}</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="link-unstyled" href="{{ $linkedin_url }}" title="{{ i18n "footer-sr-linkedin-text" }}">
+                <span class="fa fa-stack">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    <span class="sr-only">{{ i18n "footer-sr-linkedin-text" }}</span>
+                </span>
+            </a>
+        </li> 
+    </ul>
+</div>

@@ -1,0 +1,122 @@
+baseurl = "https://eclipse.dev/kura"
+DefaultContentLanguage = "en"
+title = "Eclipse Kura"
+theme = "hugo-solstice-theme"
+metaDataFormat = "yaml"
+disableKinds = []
+enableRobotsTXT = true
+pluralizeListTitles = false
+
+[Params]
+  #google_tag_manager = "GTM-5WLCZXC"
+  description = "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
+  seo_title_suffix = " | The Eclipse Foundation"
+  keywords = ["eclipse", "project", "plug-ins", "plugins", "java", "ide", "swt", "refactoring", "free java ide", "tools", "platform", "open source", "development environment", "development", "ide"]
+  news_count = 3
+  gcse = "011805775785170369411:p3ec0igo0qq"
+  gcse_result_url = "https://www.eclipse.org/home/search/"
+  header_wrapper_class = "header_wrapper_class"
+  call_for_action_text = "Download"
+  call_for_action_url = "//eclipse.org/download/"
+  call_for_action_icon = "fa-download"
+  layout_style = "astro"
+  hide_ad = false
+  featured_content_publish_target = "eclipse_org"
+  sidebar_layout = "default"
+# js = ""
+# styles = ""
+logo = "https://eclipse.dev/kura/content/images/kura_logo_400.png"
+# favicon = ""
+# share_img = ""
+# logo_width = ""
+# header_left_classes = ""
+# main_menu_wrapper_classes = ""
+  projects_working_group = "IoT"
+# show_events = true
+# table_classes = "table table-bordered"
+# hide_cfa_same_page = true
+# show_collapsible_menu = true
+
+[taxonomies]
+  tag = "tags"
+
+[params.author]
+  name = "Eclipse Foundation"
+  website = "https://www.eclipse.org"
+  email = "webdev@eclipse-foundation.org"
+  facebook = "eclipse.org"
+  twitter = "eclipsefdn"
+  youtube = "EclipseFdn"
+  googleplus = "+Eclipse"
+  linkedin = "company/eclipse-foundation/"
+
+[permalinks]
+  news = "/:sections/:year/:month/:day/:slug/"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
+#[[menu.sidebar]]
+#  name = "Documentation"
+#  url = "/home"
+#  weight = 1
+#  identifier = "home"
+
+#[[menu.sidebar]]
+#  parent ="home"
+#  name = "hugo-solstice-theme"
+#  url = "https://webdev.eclipse.org/docs/hugo/"
+#  weight = 1
+#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+
+#[[menu.sidebar]]
+#  parent ="home"
+#  name = "Solstice"
+#  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
+#  weight = 2
+#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+
+#[[menu.sidebar]]
+#  parent ="home"
+#  name = "Hugo"
+#  url = "https://gohugo.io/documentation/"
+#  weight = 3
+#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+
+# Uncomment [[menu.main]] to hide the default EF menu
+# or to define your own menu links.
+
+[[menu.main]]
+  name = "Documentation"
+  url = "http://eclipse-kura.github.io/kura/"
+  weight = 1
+
+[[menu.main]]
+  name = "Marketplace"
+  url = "https://marketplace.eclipse.org/taxonomy/term/4397%2C4396/title"
+  weight = 2
+
+[[menu.main]]
+  name = "Community"
+  identifier = "community"
+
+[[menu.main]]
+  name = "Mailing List"
+  parent ="community"
+  url = "https://dev.eclipse.org/mailman/listinfo/kura-dev"
+
+[[menu.main]]
+  name = "Issue Tracker"
+  parent ="community"
+  url = "https://github.com/eclipse-kura/kura/issues"
+
+[[menu.main]]
+  name = "Contributing"
+  parent ="community"
+  url = "https://github.com/eclipse-kura/kura?tab=readme-ov-file#contributing"
+
+[[menu.main]]
+  name = "Benefactors"
+  parent ="community"
+  url = "https://github.com/eclipse-kura/kura?tab=readme-ov-file#acknowledgments"

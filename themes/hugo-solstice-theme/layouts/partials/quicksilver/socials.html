@@ -1,0 +1,29 @@
+{{/* 
+  Copyright (c) 2020, 2022 Eclipse Foundation, Inc.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Martin Lowe <martin.lowe@eclipse-foundation.org>
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+*/}}
+
+<div class="col-md-8 social-media">
+    <ul class="list-inline">
+      <li><a class="social-media-link fa-stack fa-lg" href="{{ $.Site.Params.twitter_url | default "https://twitter.com/EclipseFdn" }}"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
+          class="fa fa-twitter fa-stack-1x"></i> <span class="sr-only">{{ i18n "footer-sr-twitter-text" }}</span>
+      </a></li>
+      <li><a class="social-media-link fa-stack fa-lg" href="{{ $.Site.Params.facebook_url | default "https://www.facebook.com/eclipse.org" }}"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
+          class="fa fa-facebook fa-stack-1x"></i> <span class="sr-only">{{ i18n "footer-sr-facebook-text" }}</span>
+      </a></li>
+      <li><a class="social-media-link fa-stack fa-lg" href="{{ $.Site.Params.youtube_url | default "https://www.youtube.com/user/EclipseFdn" }}"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
+          class="fa fa-youtube fa-stack-1x"></i> <span class="sr-only">{{ i18n "footer-sr-youtube-text" }}</span>
+      </a></li>
+      <li><a class="social-media-link fa-stack fa-lg" href="{{ $.Site.Params.linkedin_url | default "https://www.linkedin.com/company/eclipse-foundation" }}" title="{{ i18n "footer-sr-linkedin-account" }}">
+          <i class="fa fa-circle-thin fa-stack-2x"></i> <i class="fa fa-linkedin fa-stack-1x"></i> <span class="sr-only">{{ i18n "footer-sr-linkedin-text" }}</span>
+      </a></li>
+    </ul>
+  </div>

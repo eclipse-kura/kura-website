@@ -1,0 +1,57 @@
+<!-- 
+  Copyright (c) 2020 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Martin Lowe <martin.lowe@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+-->
+{{ $lang := .Page.Lang}}
+{{ $year := .Get "year" }}
+{{ if $year }}
+  {{ .Scratch.Set "base" (index (index .Site.Data $lang) $year) }}
+{{ else }}
+  {{ .Scratch.Set "base" (index .Site.Data $lang) }}
+{{ end }}
+{{ $base := .Scratch.Get "base" }}
+{{ $event := .Get "event" | default "default" }}
+{{ $source := .Get "source" | default "user" }}
+{{ $imageRoot := .Get "imgRoot" | default "/images/committee/" }}
+<div class="eclipsefdn-user-bios">
+  <!-- Committee member -->
+  {{ range (index (index $base $event) $source).items }}
+  {{ $anchor := urlize .anchor }}
+  {{ if not $anchor }}
+    {{ $anchor = urlize .name }}
+  {{ end }}
+  <div class="row margin-top-30 margin-bottom-30" id="{{ $anchor }}">
+    <div class="eclipsefdn-user-bios-picture col-xs-24 col-sm-6">
+      {{ if .img }}
+      <img class="img-responsive" src="{{ $imageRoot }}{{ .img }}"
+        title="{{ .name }}" />
+      {{ else }}
+      <div class="icon-backdrop">
+        <div class="ratio"></div>
+        <div class="icon-container"><i class="fa fa-user"></i></div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="eclipsefdn-user-bios-info col-xs-24 col-sm-18">
+      <h3>{{ .name }}</h3>
+      {{ .bio | safeHTML }}
+      {{- if .twitter_handle }}
+      <p>
+        <a class="twitter-follow-button btn btn-info btn-sm"
+          href="https://twitter.com/{{ .twitter_handle }}" target="_blank">
+          <i class="fa fa-twitter"></i>&nbsp;{{ i18n "committee-twitter-follow-text" . }}
+        </a>
+      </p>
+      {{ end -}}
+    </div>
+  </div>
+  {{ end }}
+</div>
