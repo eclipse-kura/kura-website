@@ -1,6 +1,22 @@
 {
   "data" : [
 
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-aarch64_installer.deb", "Raspberry Pi 3-4 Raspberry PI OS 64 bits", "5.6.0", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-aarch64-nn_installer.deb", "Raspberry Pi 3-4 Raspberry PI OS 64 bits", "5.6.0", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-arm32_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS 32 bits", "5.6.0", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-arm32-nn_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS 32 bits", "5.6.0", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_intel-up2-ubuntu-20_installer.deb", "Intel UP2 Ubuntu 20", "5.6.0", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_intel-up2-ubuntu-20-nn_installer.deb", "Intel UP2 Ubuntu 20", "5.6.0", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_nvidia-jetson-nano_installer.deb", "NVIDIA Jetson Nano", "5.6.0", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_nvidia-jetson-nano-nn_installer.deb", "NVIDIA Jetson Nano", "5.6.0", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-x86_64_installer.deb", "Generic x86_64 with NetworkManager", "5.6.0", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-x86_64-nn_installer.deb", "Generic x86_64", "5.6.0", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-arm32_installer.deb", "Generic arm32 with NetworkManager", "5.6.0", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-arm32-nn_installer.deb", "Generic arm32", "5.6.0", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-aarch64_installer.deb", "Generic arm64 with NetworkManager", "5.6.0", "Yes", "Yes", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-aarch64-nn_installer.deb", "Generic arm64", "5.6.0", "Yes", "No", "Yes"],
+      [ "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/user_workspace_archive_5.6.0.zip", "User Workspace", "5.6.0", "Yes", "No", "Yes"],
+
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.6.0/M1/kura_5.6.0-SNAPSHOT_generic-aarch64_installer.deb", "Raspberry Pi 3-4 Raspberry PI OS 64 bits", "5.6.0-M1", "Yes", "Yes", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.6.0/M1/kura_5.6.0-SNAPSHOT_generic-aarch64-nn_installer.deb", "Raspberry Pi 3-4 Raspberry PI OS 64 bits", "5.5.0", "Yes", "No", "Yes"],
       [ "https://www.eclipse.org/downloads/download.php?file=/kura/milestones/5.6.0/M1/kura_5.6.0-SNAPSHOT_generic-arm32_installer.deb", "Raspberry Pi 2-3-4 Raspberry PI OS 32 bits", "5.6.0-M1", "Yes", "Yes", "Yes"],
