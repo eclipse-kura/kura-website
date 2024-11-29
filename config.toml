@@ -57,32 +57,32 @@ logo = "https://eclipse.dev/kura/content/images/kura_logo_400.png"
   plainIDAnchors = true
   hrefTargetBlank = true
 
-#[[menu.sidebar]]
-#  name = "Documentation"
-#  url = "/home"
-#  weight = 1
-#  identifier = "home"
+[[menu.sidebar]]
+  name = "Resources"
+  url = "/home"
+  weight = 1
+  identifier = "home"
 
-#[[menu.sidebar]]
-#  parent ="home"
-#  name = "hugo-solstice-theme"
-#  url = "https://webdev.eclipse.org/docs/hugo/"
-#  weight = 1
-#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+[[menu.sidebar]]
+  parent ="home"
+  name = "Documentation"
+  url = "https://eclipse-kura.github.io/kura"
+  weight = 1
+  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
-#[[menu.sidebar]]
-#  parent ="home"
-#  name = "Solstice"
-#  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
-#  weight = 2
-#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+[[menu.sidebar]]
+  parent ="home"
+  name = "GitHub repository"
+  url = "https://github.com/eclipse-kura/kura"
+  weight = 2
+  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
-#[[menu.sidebar]]
-#  parent ="home"
-#  name = "Hugo"
-#  url = "https://gohugo.io/documentation/"
-#  weight = 3
-#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+[[menu.sidebar]]
+  parent ="home"
+  name = "Downloads"
+  url = "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-aarch64_installer.deb"
+  weight = 3
+  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
 # Uncomment [[menu.main]] to hide the default EF menu
 # or to define your own menu links.
