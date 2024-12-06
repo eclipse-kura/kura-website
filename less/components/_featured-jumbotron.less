@@ -1,0 +1,26 @@
+.featured-jumbotron {
+  background-image: url('../images/jumbotron-bg-default.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  & &-headline {
+    font-size: @font-size-3xl;
+  }
+
+  & &-subtitle {
+    font-size: @font-size-2xl;
+    margin-bottom: 6rem;
+  }
+
+  & > .container {
+    filter: drop-shadow(0 0 12px #000000aa) drop-shadow(0 0 12px #000000aa);
+  }
+
+  & &-headline,
+  & &-subtitle {
+    font-weight: @headings-font-weight;
+    text-shadow: unset;
+  }
+}
+

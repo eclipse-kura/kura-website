@@ -1,0 +1,9 @@
+/node_modules/
+/static/public
+/public/
+/layouts/robots.txt
+.idea/**
+**/.DS_Store
+/.project
+/data/eclipsefdn_projects.yaml
+.hugo_build.lock

@@ -1,41 +1,52 @@
-baseurl = "https://eclipse.dev/kura"
+baseurl = "https://eclipse.dev"
 DefaultContentLanguage = "en"
 title = "Eclipse Kura"
-theme = "hugo-solstice-theme"
+theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
-disableKinds = []
+disableKinds = ["taxonomy", "term"]
+themesDir = "node_modules/"
 enableRobotsTXT = true
 pluralizeListTitles = false
+disablePathToLower = true
 
 [Params]
   #google_tag_manager = "GTM-5WLCZXC"
-  description = "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
+  description = "Eclipse Kura™ is a versatile framework to supercharge your edge devices, streamlining the process of configuring your gateway, connecting sensors, and IoT devices to seamlessly collect, process, and send data to the cloud."
   seo_title_suffix = " | The Eclipse Foundation"
-  keywords = ["eclipse", "project", "plug-ins", "plugins", "java", "ide", "swt", "refactoring", "free java ide", "tools", "platform", "open source", "development environment", "development", "ide"]
+  keywords = [
+    "Kura", "Gateway", "java",
+    "Internet-of-things", "Open Source", "IoT", "Permissive License",
+    "Gateway Software Solutions", "Gateway Systems Development", "IoT Framework", "Industry 4.0",
+    "Edge Development", "Edge AI"
+  ]
   news_count = 3
+  featured_content_publish_target = "eclipse_org"
+  styles = "public/css/styles.css"
   gcse = "011805775785170369411:p3ec0igo0qq"
-  gcse_result_url = "https://www.eclipse.org/home/search/"
-  header_wrapper_class = "header_wrapper_class"
+  gcse_result_url = "/home/search/"
+  # eclipse_search_icon = "<i data-feather=\"search\" stroke-width=\"1\"></i>"
+  js = "public/js/main.js?v1.0"
+  header_wrapper_class = "header-wrapper"
   call_for_action_text = "Download"
-  call_for_action_url = "//eclipse.org/download/"
-  call_for_action_icon = "fa-download"
+  call_for_action_url = "/downloads/"
+  share_img = "/images/social-media.jpg"
+  favicon = "/favicon.ico"
+  logo = "/images/kura.png"
+  logo_width = "160"
   layout_style = "astro"
   hide_ad = false
-  featured_content_publish_target = "eclipse_org"
+  hide_call_for_action = true
+  jumbotron_class = "col-xs-24"
+
+#  logo_width = ""
+#  header_left_classes = ""
+#  main_menu_wrapper_classes = "col-sm-17 margin-top-25"
+#  projects_working_group = ""
+#  show_events = true
+#  table_classes = "table table-bordered"
+#  hide_cfa_same_page = true
+#  show_collapsible_menu = true
   sidebar_layout = "default"
-# js = ""
-# styles = ""
-logo = "https://eclipse.dev/kura/content/images/kura_logo_400.png"
-# favicon = ""
-# share_img = ""
-# logo_width = ""
-# header_left_classes = ""
-# main_menu_wrapper_classes = ""
-  projects_working_group = "IoT"
-# show_events = true
-# table_classes = "table table-bordered"
-# hide_cfa_same_page = true
-# show_collapsible_menu = true
 
 [taxonomies]
   tag = "tags"
@@ -56,36 +67,6 @@ logo = "https://eclipse.dev/kura/content/images/kura_logo_400.png"
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
-
-[[menu.sidebar]]
-  name = "Resources"
-  url = "/home"
-  weight = 1
-  identifier = "home"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "Documentation"
-  url = "https://eclipse-kura.github.io/kura"
-  weight = 1
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "GitHub repository"
-  url = "https://github.com/eclipse-kura/kura"
-  weight = 2
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "Downloads"
-  url = "https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-aarch64_installer.deb"
-  weight = 3
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-# Uncomment [[menu.main]] to hide the default EF menu
-# or to define your own menu links.
 
 [[menu.main]]
   name = "Documentation"
@@ -120,3 +101,4 @@ logo = "https://eclipse.dev/kura/content/images/kura_logo_400.png"
   name = "Benefactors"
   parent ="community"
   url = "https://github.com/eclipse-kura/kura?tab=readme-ov-file#acknowledgments"
+

@@ -1,14 +1,14 @@
-# Notices for hugo-eclipsefdn-website-boilerplate
+# Notices for tEclipse Kura website
 
 This content is produced and maintained by the Eclipse Foundation.
 
-* Project home: https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
+* Project home: https://github.com/eclipse-kura/kura-website
 
 ## Trademarks
 
-* Jakarta and Jakarta EE are Trademarks of the Eclipse Foundation, Inc.
-* Eclipse® is a Trademark of the Eclipse Foundation, Inc.
-* Eclipse Foundation is a Trademark of the Eclipse Foundation, Inc.
+* Eclipse® is a Trademark of EEclipse Foundation, Inc.
+* Eclipse Foundation is a Trademark of Eclipse Foundation, Inc.
+* Eclipse Kura and their logos are Trademarks of Eclipse Foundation, Inc.
 
 ## Copyright
 
@@ -28,7 +28,7 @@ SPDX-License-Identifier: EPL-2.0
 
 The project maintains the following source code repositories:
 
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
+* https://github.com/eclipse-kura/kura-website
 
 ## Third-party Content
 

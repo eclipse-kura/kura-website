@@ -1,5 +1,0 @@
-{{if and (.Get "template-id") (.Get "path")}}
-<script id="{{- .Get "template-id" -}}" type="x-tmpl-mustache">
-    {{ readFile (.Get "path") | safeHTML }}
-</script>
-{{ end }}

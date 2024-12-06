@@ -1,0 +1,132 @@
+/*!
+ * Copyright (c) 2023 Eclipse Foundation, Inc.
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ *
+ * Contributors:
+ *   Olivier Goulet <olivier.goulet@eclipse-foundation.org>
+ *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
+ *
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+//== Resources Section
+@resources-gap: 3rem;
+
+.resource-section {
+  padding: 1rem 1rem 6rem 1rem;
+  border-radius: 1rem;
+
+  h3,
+  .h3 {
+    margin: 0 0 20px;
+    color: @black;
+    font-size: @font-size-lg;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+
+  .resources {
+    display: flex;
+    flex-direction: column;
+    gap: @resources-gap;
+    border-radius: 1rem;
+
+    a {
+      color: @brand-primary;
+    }
+
+    .resources-item {
+      border-radius: 1rem;
+      padding: 2rem;
+
+      a {
+        &,
+        &:link,
+        &:visited,
+        &:hover,
+        &:active {
+          color: @brand-secondary;
+        }
+
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+
+    &.resources-heading {
+      .resources-item {
+        background-color: #000;
+        border-radius: 1rem 1rem 0 0;
+        display: none;
+
+        span.h3 {
+          color: #fff;
+          margin-bottom: 55px;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .other-resources-links {
+    padding: 0 2rem;
+    list-style: none;
+
+    li {
+      padding: 0;
+      margin-bottom: 2rem;
+
+      a {
+        text-transform: uppercase;
+      }
+    }
+
+    li>span {
+      display: none;
+    }
+  }
+
+  @media (min-width: @screen-md-min) {
+    min-height: 30rem;
+
+    .resources {
+      flex-direction: row;
+      justify-content: center;
+      max-width: 90rem;
+      margin: 0 auto;
+      margin-top: -6.22rem;
+      text-align: center;
+
+      &.resources-heading {
+        .resources-item {
+          display: block;
+        }
+      }
+
+      .resources-item {
+        border-radius: 0 0 1rem 1rem;
+      }
+
+      &>* {
+        flex-basis: 100%;
+      }
+    }
+
+    .other-resources-links {
+      display: flex;
+      justify-content: center;
+
+      li>span {
+        display: inline-block;
+        margin: 0 1rem;
+      }
+
+    }
+  }
+
+}

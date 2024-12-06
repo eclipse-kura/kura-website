@@ -1,22 +1,16 @@
-# Contributing to hugo-eclipsefdn-website-boilerplate
-
+# Contributing to Eclipse Kura website
 
 Thanks for your interest in this project.
 
 ## Project description
 
-hugo-eclipsefdn-website-boilerplate
- is a project to regroup assets for the Eclipse Foundation look and feel. 
-
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
-
+* https://github.com/eclipse-kura/kura
 
 ## Developer resources
 
 The project maintains the following source code repositories
 
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
-
+* https://github.com/eclipse-kura/kura
 
 ## Eclipse Contributor Agreement
 
@@ -36,4 +30,4 @@ https://www.eclipse.org/projects/handbook/#resources-commit
 
 ## Contact
 
-Contact the Eclipse Foundation Webdev team via webdev@eclipse-foundation.org.
+Contact the Eclipse Kura Team via https://github.com/eclipse-kura/kura/discussions.

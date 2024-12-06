@@ -1,0 +1,53 @@
+/*!
+ * Copyright (c) 2023 Eclipse Foundation, Inc.
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ *
+ * Contributors:
+ *   Olivier Goulet <olivier.goulet@eclipse-foundation.org>
+ *
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+//@todo: Fix in EFSA
+h2,.h2 { font-weight: @headings-font-weight; }
+
+main {
+  h2,
+  .h2 {
+    margin-bottom: 3rem;
+  }
+}
+
+.dark {
+  color: @white;
+
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    color: @white;
+  }
+
+  a {
+    &,
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+      color: @brand-primary;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    &:hover {
+      color: @white;
+    }
+  }
+}
+
+.featured-section {
+  font-size: @font-size-lg;
+}

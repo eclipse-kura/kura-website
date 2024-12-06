@@ -1,0 +1,33 @@
+{{ $data_source := .Site.Data.home.kura_values }}
+
+<section id="eclipse-kura-values" class="row collaborations-collaborating">
+    <div class="collaborations-col">
+        <div class="shadow-xl">
+            <div class="title-wrapper">
+              <h2 class="margin-0">Eclipse Kura: </br> Key Features</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="collaborations-col">
+        <div class="row collaborations-col-row">
+            {{ range $index, $item := $data_source }}
+                {{ if eq (mod $index 2) 0 }}
+                    <div class="clearfix"></div>
+                {{ end }}
+                <div class="col-md-12 collaborations-collaborating-item-col">
+                    <div class="collaborations-collaborating-item">
+                        <div class="item-icon-wrapper">
+                            <img class="item-icon-bg" src="/images/icons/icon-bg.png" alt="" />
+                            <img class="item-icon" src="/images/icons/{{ $item.icon }}" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-content-title">{{ $item.title }}</h3>
+                            <p>{{ $item.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

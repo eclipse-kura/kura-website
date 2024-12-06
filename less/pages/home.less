@@ -1,0 +1,176 @@
+/*!
+ * Copyright (c) 2023 Eclipse Foundation, Inc.
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ *
+ * Contributors:
+ *   Olivier Goulet <olivier.goulet@eclipse-foundation.org>
+ *
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+@import (reference) '../styles.less';
+
+h1,
+.h1 {
+  color: @brand-primary;
+}
+
+h2,
+.h2 {
+  text-align: center;
+}
+
+.featured-jumbotron {
+  padding: 12rem 0;
+  background-image: url('../images/jumbotron-bg-home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  .btn-group-pill-collapse {
+
+    // Make the last button in the list primary.
+    li:last-child .btn-pill {
+      .btn-primary;
+    }
+
+    // Make the other buttons neutral.
+    li .btn-pill {
+      .btn-neutral;
+    }
+  }
+
+  .list-inline {
+    // @todo: Add ability to override jumbotron links class in EFHST
+    // then remove this and use btn-group-pill-collapse
+    .btn-group-pill-collapse;
+
+    li:first-child .btn-pill {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    li:last-child .btn-pill {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    li:not(:first-child):not(:last-child) .btn-pill {
+      border-radius: 0;
+    }
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  .featured-jumbotron {
+    padding: 24rem 0;
+    text-align: left;
+
+    &>.container {
+      filter: unset;
+    }
+  }
+}
+
+// Collaborating section
+.collaborations-collaborating {
+
+    @media (min-width: @screen-md-min) {
+        padding-bottom: 6em;
+    }
+}
+
+.collaborations-col-row {
+    @media (min-width: @screen-md-min) {
+        padding: 0 3em;
+    }
+
+    @media (min-width: @screen-lg-min) {
+        padding: 0 6em;
+    }
+}
+
+.collaborations-col {
+    padding-top: @collaborations-padding-y;
+    padding-bottom: @collaborations-padding-y;
+}
+
+.collaborations-collaborating-bg {
+    padding-right: 3em;
+    background-image: url(../images/jumbotron-bg-default.jpg);
+    background-size: cover;
+    min-height: 5em;
+
+    @media (min-width: @screen-sm-min) {
+        min-height: 20em;
+    }
+
+    @media (min-width: @screen-md-min) {
+        min-height: 50em;
+    }
+
+    .title-wrapper {
+        margin-left: auto;
+        max-width: none;
+    }
+
+    h2 {
+        color: @white;
+        text-align: center;
+        font-weight: 600;
+
+        @media (min-width: @screen-md-min) {
+        text-align: right;
+        }
+    }
+
+    .cta-wrapper {
+        text-align: center;
+
+        @media (min-width: @screen-md-min) {
+        text-align: right;      
+        }
+    }
+}
+
+.collaborations-collaborating-item {
+    display: flex;
+    min-height: 11em;
+
+    .item-icon-wrapper {
+        position: relative;
+        flex-shrink: 0;
+        width: 5em;
+        margin: @collaborations-icon-wrapper-margin-top 2em 0 0;
+    }
+
+    .item-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .item-icon-bg {
+        width: 100%;
+    }
+
+    .item-content {
+        flex-grow: 1;
+        color: @collaborating-item-color;
+    }
+
+    .item-content-title {
+        margin-top: 0.5em;
+        font-size: 2rem;
+        font-weight: 400;
+        color: @black;
+    }
+}
+  

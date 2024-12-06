@@ -1,0 +1,42 @@
+{{/*
+  Copyright (c) 2024 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+*/}}
+
+{{ $main_menu := .Scratch.Get "main_menu" }}
+{{ $current_page := . }}
+
+<nav class="header-navbar-nav">
+    <ul class="header-navbar-nav-links">
+        {{ range (index .Site.Menus $main_menu) }}
+            {{ $menu_id := .Identifier | default (lower .Name) }}
+            {{ $target_menu := printf "%s-menu" $menu_id }}
+            {{ $active_class := "" }}
+            {{ if $current_page.IsMenuCurrent $main_menu . }}
+                {{ $active_class = "active" }}
+            {{ end }}
+            {{ if .HasChildren }}
+            <li class="navbar-nav-links-item {{ $active_class }}">
+                <button
+                    class="nav-link-js btn-link link-unstyled"
+                    type="button"
+                    aria-expanded="true"
+                    data-menu-target="{{ $target_menu }}"
+                >
+                    {{ .Name }}
+                </button>
+            </li>
+            {{ else }}
+                <li><a class="link-unstyled" href="{{.URL}}">{{ .Pre }}{{ .Name }}</a></li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</nav>
