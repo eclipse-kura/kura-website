@@ -69,36 +69,21 @@ disablePathToLower = true
   hrefTargetBlank = true
 
 [[menu.main]]
-  name = "Documentation"
-  url = "http://eclipse-kura.github.io/kura/"
+  name = "Downloads"
+  url = "https://github.com/eclipse-kura/kura/releases"
   weight = 1
 
 [[menu.main]]
-  name = "Marketplace"
-  url = "https://marketplace.eclipse.org/taxonomy/term/4397%2C4396/title"
+  name = "Documentation"
+  url = "http://eclipse-kura.github.io/kura/"
   weight = 2
 
 [[menu.main]]
   name = "Community"
-  identifier = "community"
+  url = "https://github.com/eclipse-kura/kura/discussions"
+  weight = 3
 
 [[menu.main]]
-  name = "Mailing List"
-  parent ="community"
-  url = "https://dev.eclipse.org/mailman/listinfo/kura-dev"
-
-[[menu.main]]
-  name = "Issue Tracker"
-  parent ="community"
-  url = "https://github.com/eclipse-kura/kura/issues"
-
-[[menu.main]]
-  name = "Contributing"
-  parent ="community"
-  url = "https://github.com/eclipse-kura/kura?tab=readme-ov-file#contributing"
-
-[[menu.main]]
-  name = "Benefactors"
-  parent ="community"
-  url = "https://github.com/eclipse-kura/kura?tab=readme-ov-file#acknowledgments"
-
+  name = "Marketplace"
+  url = "https://marketplace.eclipse.org/taxonomy/term/4397%2C4396/title"
+  weight = 4

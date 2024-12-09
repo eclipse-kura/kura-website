@@ -41,3 +41,5 @@ Whether you’re designing a smart home system or managing industrial machinery,
 {{</ grid/div >}}
 
 {{< pages/home/resources >}}
+
+{{< pages/home/adopters >}}
