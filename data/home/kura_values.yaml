@@ -1,23 +1,23 @@
 - title: Modular and Extensible Architecture
   description: |
     Eclipse Kura is built on the OSGi framework, enabling a highly modular and dynamic system. Developers can easily extend its capabilities by adding or replacing components without disrupting the system.
-  icon: vendor.png
+  icon: extensible.png
 - title: Edge Computing
   description: Eclipse Kura brings intelligence to the edge by enabling local data processing, analytics, and decision-making. This reduces latency, minimizes bandwidth usage, and enhances reliability for IoT systems.
-  icon: ecosystem.png
+  icon: edge-computing.png
 - title: Device Management
   description: |
     The platform offers comprehensive tools for managing IoT devices, including configuration, monitoring, and firmware updates. It also provides a web-based user interface for easier administration.
-  icon: collaboration.png
+  icon: device_management.png
 - title: Protocol Support
   description: |
     Eclipse Kura supports a wide range of industrial communication protocols such as MQTT, Modbus, OPC-UA, and more. This makes it ideal for integrating heterogeneous IoT devices and systems.
-  icon: specification.png
+  icon: field_protocols.png
 - title: Cloud Integration
   description: |
     With built-in support for popular cloud services, Kura simplifies data collection and analysis by seamlessly bridging edge devices with IoT cloud platforms.
-  icon: compatibility.png
+  icon: cloud_int.png
 - title: Cross-Platform Compatibility
   description: |
     Eclipse Kura runs on multiple hardware platforms, including Raspberry Pi, Intel-based gateways, and other ARM-based devices, making it a versatile choice for diverse IoT projects.
-  icon: compatibility.png
+  icon: cp-compatibility.png

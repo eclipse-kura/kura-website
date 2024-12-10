@@ -38,8 +38,27 @@ Eclipse Kura stands out as a comprehensive and community-driven solution for IoT
 
 Whether you’re designing a smart home system or managing industrial machinery, Eclipse Kura provides the tools and flexibility needed to bring your IoT vision to life.
 
+## Supported Platforms
+
+Eclipse Kura is available for download as Debian (DEB) Linux packages for ARM 32-bit, ARM 64-bit, and x86_64 architectures.
+By default, Eclipse Kura is equipped with networking and firewall capabilities enabled. However, there are also distributions known as “No-Network” (NN) that omit the networking and firewall stacks.
+
+Currently tested and supported platforms:
+
+| Platform             | Architecture | Installer                                    |   |   |
+|----------------------|--------------|----------------------------------------------|---|---|
+| Raspberry Pi 2 and 3 | ARM 32       | kura_x.y.z_generic-arm32_installer.deb       |   |   |
+| Raspberry Pi 4 and 5 | ARM 64       | kura_x.y.z_generic-aarch64_installer.deb     |   |   |
+| Intel Up Squared     | x86_64       | kura_x.y.z_intel-up2-ubuntu-20_installer.deb |   |   |
+| Nvidia Jetson Nano   | ARM 64       | kura_x.y.z_nvidia-jetson-nano_installer.deb  |   |   |
+
+Other platforms may be supported leveraging the proper generic installers for the target architecture. The installers are available in the [Downloads page](https://github.com/eclipse-kura/kura/releases).
+
+Additionally, Eclipse Kura is available as a Docker container (x86_64 only) and can be distributed via [Docker Hub](https://hub.docker.com/r/eclipse/kura/).
+
+
 {{</ grid/div >}}
 
 {{< pages/home/resources >}}
 
-{{< pages/home/adopters >}}
+<!-- {{< pages/home/adopters >}} -->
