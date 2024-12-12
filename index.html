@@ -1,0 +1,935 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Eclipse Kura | The Eclipse Foundation</title>
+<meta property="og:title" content="Eclipse Kura | The Eclipse Foundation" />
+<meta name="twitter:title" content="Eclipse Kura | The Eclipse Foundation" />
+
+<meta name="description" content="Eclipse Kura™ is a versatile framework to supercharge your edge devices, streamlining the process of configuring your gateway, connecting sensors, and IoT …">
+<meta property="og:description" content="Eclipse Kura™ is a versatile framework to supercharge your edge devices, streamlining the process of configuring your gateway, connecting sensors, and IoT …">
+<meta name="twitter:description" content="Eclipse Kura™ is a versatile framework to supercharge your edge devices, streamlining the process of configuring your gateway, connecting sensors, and IoT …">
+<link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+<meta property="og:image" content="https://eclipse.dev/images/social-media.jpg" />
+<meta name="twitter:image" content="https://eclipse.dev/images/social-media.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="https://eclipse.dev/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Eclipse Kura" />
+<meta name="keywords" content="Kura, Gateway, java, Internet-of-things, Open Source, IoT, Permissive License, Gateway Software Solutions, Gateway Systems Development, IoT Framework, Industry 4.0, Edge Development, Edge AI">
+
+
+<meta name="generator" content="Hugo 0.110.0">
+
+<link rel="canonical" href="https://eclipse.dev/" />
+
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="">
+
+
+<link rel="stylesheet" href="/public/css/styles.css?v=1734021351">
+<link rel="stylesheet" href="/public/css/home.css?v=1734021351">
+
+<script>
+	
+		var tableClasses = "table";
+	
+</script>
+
+  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" type="text/css"/>
+
+  
+</head>
+<body>
+  
+
+
+
+
+
+
+
+
+<a class="sr-only" href="#content">Skip to main content</a>
+<header class="header-wrapper header-wrapper" id="header">
+  
+
+
+
+
+
+<div class="header-toolbar">
+    <div class="container">
+        <div class="header-toolbar-row">
+            <div class="toolbar-btn toolbar-search-btn dropdown">
+                <button 
+                    class="dropdown-toggle" 
+                    id="toolbar-search" 
+                    type="button" 
+                    data-toggle="dropdown"
+                    tabindex="0"
+                    aria-label="Search"
+                >
+                    <i class="fa fa-search fa-lg" aria-role="none"></i>
+                </button>
+                <div 
+                    class="toolbar-search-bar-wrapper dropdown-menu dropdown-menu-right"
+                    aria-labelledby="toolbar-search"
+                >
+                      <form action="https://www.eclipse.org/home/search" method="get">
+                    <div class="search-bar">
+                        <input class="search-bar-input" name="q" placeholder="Search" />
+                        <button>
+                            <i class="fa fa-search" type="submit"></i>
+                        </button>
+                    </div>
+                      </form>
+                </div>
+            </div>
+            <div class="toolbar-btn toolbar-user-menu-btn dropdown">
+                <button 
+                    class="dropdown-toggle" 
+                    id="toolbar-user-menu" 
+                    type="button" 
+                    data-toggle="dropdown"
+                    tabindex="0"
+                    aria-label="User Menu"
+                >
+                    <i class="fa fa-user fa-lg"></i>
+                </button>
+                <ul class="toolbar-user-menu dropdown-menu dropdown-menu-right text-center"
+                    aria-labelledby="toolbar-user-menu">
+                    <li>
+                        <a href="https://accounts.eclipse.org/user">
+                            <i class="fa fa-user"></i>
+                            View My Account
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://accounts.eclipse.org/user/edit">
+                            <i class="fa fa-edit"></i>
+                            Edit My Account
+                        </a>
+                    </li>
+                    <li>
+                        <a class="toolbar-manage-cookies">
+                            <i class="fa fa-wrench"></i>
+                            Manage Cookies
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="header-navbar-wrapper">
+    <div class="container">
+        <div class="header-navbar">
+            <div class="header-navbar-brand">
+                <a class="logo-wrapper" href="/" title="Eclipse Kura">
+                    <img src="/images/kura.png" alt="" width="160" />
+                </a>
+            </div>
+            
+
+
+  
+
+
+
+
+
+
+
+
+
+<nav class="header-navbar-nav">
+    <ul class="header-navbar-nav-links">
+        
+            
+            
+            
+            
+            
+                <li><a class="link-unstyled" href="https://github.com/eclipse-kura/kura/releases">Downloads</a></li>
+            
+        
+            
+            
+            
+            
+            
+                <li><a class="link-unstyled" href="http://eclipse-kura.github.io/kura/">Documentation</a></li>
+            
+        
+            
+            
+            
+            
+            
+                <li><a class="link-unstyled" href="https://github.com/eclipse-kura/kura/discussions">Community</a></li>
+            
+        
+            
+            
+            
+            
+            
+                <li><a class="link-unstyled" href="https://marketplace.eclipse.org/taxonomy/term/4397%2C4396/title">Marketplace</a></li>
+            
+        
+    </ul>
+</nav>
+
+
+            <div class="header-navbar-end">
+                
+                <button class="mobile-menu-btn" aria-label="Toggle mobile navigation menu" aria-expanded="false">
+                    <i class="fa fa-bars fa-xl"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+
+
+
+
+
+    
+
+
+
+
+<nav class="mobile-menu hidden" aria-expanded="false">
+    <ul>
+        
+            
+            
+
+            <li class="mobile-menu-dropdown">
+              <a class="mobile-menu-item mobile-menu-dropdown-toggle" href="https://github.com/eclipse-kura/kura/releases">
+                <span>Downloads</span>
+                </a>
+            </li>
+        
+            
+            
+
+            <li class="mobile-menu-dropdown">
+              <a class="mobile-menu-item mobile-menu-dropdown-toggle" href="http://eclipse-kura.github.io/kura/">
+                <span>Documentation</span>
+                </a>
+            </li>
+        
+            
+            
+
+            <li class="mobile-menu-dropdown">
+              <a class="mobile-menu-item mobile-menu-dropdown-toggle" href="https://github.com/eclipse-kura/kura/discussions">
+                <span>Community</span>
+                </a>
+            </li>
+        
+            
+            
+
+            <li class="mobile-menu-dropdown">
+              <a class="mobile-menu-item mobile-menu-dropdown-toggle" href="https://marketplace.eclipse.org/taxonomy/term/4397%2C4396/title">
+                <span>Marketplace</span>
+                </a>
+            </li>
+        
+    </ul>
+</nav>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="eclipsefdn-mega-menu">
+    
+        
+        
+
+        <div class="mega-menu-submenu container hidden" data-menu-id="downloads-menu">
+            <div class="mega-menu-submenu-featured-story">
+
+              
+
+              
+
+            </div>
+            <div class="mega-menu-submenu-links-section">
+                
+            </div>
+            <div class="mega-menu-submenu-ad-wrapper">
+              
+                <div
+                  class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
+                  data-ad-format="ads_square"
+                  data-ad-publish-to="eclipse_org_home"
+                >
+                </div>
+              
+            </div>
+        </div>
+    
+        
+        
+
+        <div class="mega-menu-submenu container hidden" data-menu-id="documentation-menu">
+            <div class="mega-menu-submenu-featured-story">
+
+              
+
+              
+
+            </div>
+            <div class="mega-menu-submenu-links-section">
+                
+            </div>
+            <div class="mega-menu-submenu-ad-wrapper">
+              
+                <div
+                  class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
+                  data-ad-format="ads_square"
+                  data-ad-publish-to="eclipse_org_home"
+                >
+                </div>
+              
+            </div>
+        </div>
+    
+        
+        
+
+        <div class="mega-menu-submenu container hidden" data-menu-id="community-menu">
+            <div class="mega-menu-submenu-featured-story">
+
+              
+
+              
+
+            </div>
+            <div class="mega-menu-submenu-links-section">
+                
+            </div>
+            <div class="mega-menu-submenu-ad-wrapper">
+              
+                <div
+                  class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
+                  data-ad-format="ads_square"
+                  data-ad-publish-to="eclipse_org_home"
+                >
+                </div>
+              
+            </div>
+        </div>
+    
+        
+        
+
+        <div class="mega-menu-submenu container hidden" data-menu-id="marketplace-menu">
+            <div class="mega-menu-submenu-featured-story">
+
+              
+
+              
+
+            </div>
+            <div class="mega-menu-submenu-links-section">
+                
+            </div>
+            <div class="mega-menu-submenu-ad-wrapper">
+              
+                <div
+                  class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
+                  data-ad-format="ads_square"
+                  data-ad-publish-to="eclipse_org_home"
+                >
+                </div>
+              
+            </div>
+        </div>
+    
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <div class="jumbotron featured-jumbotron featured-jumbotron-dark featured-jumbotron-astro margin-bottom-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-24">
+            
+            
+
+            
+
+           
+
+            
+            <div class="featured-jumbotron-end">
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</header>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<main>
+  <div class="container padding-bottom-30">
+    
+    
+    
+
+    
+
+
+
+  
+  
+<div class="featured-section padding-y-60">
+ 
+   <h2 id="the-extensible-open-source-javaosgi-iot-edge-framework">The extensible open source Java/OSGi IoT Edge Framework</h2>
+<p>Eclipse Kura is an open-source IoT (Internet of Things) edge framework designed to simplify the development, deployment, and management of IoT applications. As a part of the Eclipse IoT Working Group, Eclipse Kura provides a robust and flexible environment for building IoT solutions that require edge computing capabilities, device management, and seamless multi-cloud integration.</p>
+<p>Use Cases:</p>
+<ul>
+<li><strong>Industrial Automation</strong>: Monitoring and controlling industrial equipment with edge intelligence.</li>
+<li><strong>Smart Cities</strong>: Managing traffic, lighting, and environmental data with localized processing.</li>
+<li><strong>Healthcare IoT</strong>: Enabling secure and real-time data processing for medical devices.</li>
+<li><strong>Agriculture</strong>: Collecting and analyzing data from sensors to optimize farming operations.</li>
+</ul>
+
+ 
+</div>
+
+
+<section id="eclipse-kura-values" class="row collaborations-collaborating">
+    <div class="collaborations-col">
+        <div class="shadow-xl">
+            <div class="title-wrapper">
+              <h2 class="margin-0">Framework's Key Features</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="collaborations-col">
+        <div class="row collaborations-col-row">
+            
+                
+                    <div class="clearfix"></div>
+                
+                <div class="col-md-12 collaborations-collaborating-item-col">
+                    <div class="collaborations-collaborating-item">
+                        <div class="item-icon-wrapper">
+                            
+                            <img class="item-icon" src="/images/icons/extensible.png" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-content-title">Modular and Extensible Architecture</h3>
+                            <p>Eclipse Kura is built on the OSGi framework, enabling a highly modular and dynamic system. Developers can easily extend its capabilities by adding or replacing components without disrupting the system.
+</p>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                <div class="col-md-12 collaborations-collaborating-item-col">
+                    <div class="collaborations-collaborating-item">
+                        <div class="item-icon-wrapper">
+                            
+                            <img class="item-icon" src="/images/icons/edge-computing.png" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-content-title">Edge Computing</h3>
+                            <p>Eclipse Kura brings intelligence to the edge by enabling local data processing, analytics, and decision-making. This reduces latency, minimizes bandwidth usage, and enhances reliability for IoT systems.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                    <div class="clearfix"></div>
+                
+                <div class="col-md-12 collaborations-collaborating-item-col">
+                    <div class="collaborations-collaborating-item">
+                        <div class="item-icon-wrapper">
+                            
+                            <img class="item-icon" src="/images/icons/device_management.png" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-content-title">Device Management</h3>
+                            <p>The platform offers comprehensive tools for managing IoT devices, including configuration, monitoring, and firmware updates. It also provides a web-based user interface for easier administration.
+</p>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                <div class="col-md-12 collaborations-collaborating-item-col">
+                    <div class="collaborations-collaborating-item">
+                        <div class="item-icon-wrapper">
+                            
+                            <img class="item-icon" src="/images/icons/field_protocols.png" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-content-title">Protocol Support</h3>
+                            <p>Eclipse Kura supports a wide range of industrial communication protocols such as MQTT, Modbus, OPC-UA, and more. This makes it ideal for integrating heterogeneous IoT devices and systems.
+</p>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                    <div class="clearfix"></div>
+                
+                <div class="col-md-12 collaborations-collaborating-item-col">
+                    <div class="collaborations-collaborating-item">
+                        <div class="item-icon-wrapper">
+                            
+                            <img class="item-icon" src="/images/icons/cloud_int.png" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-content-title">Cloud Integration</h3>
+                            <p>With built-in support for popular cloud services, Kura simplifies data collection and analysis by seamlessly bridging edge devices with IoT cloud platforms.
+</p>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                <div class="col-md-12 collaborations-collaborating-item-col">
+                    <div class="collaborations-collaborating-item">
+                        <div class="item-icon-wrapper">
+                            
+                            <img class="item-icon" src="/images/icons/cp-compatibility.png" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-content-title">Cross-Platform Compatibility</h3>
+                            <p>Eclipse Kura runs on multiple hardware platforms, including Raspberry Pi, Intel-based gateways, and other ARM-based devices, making it a versatile choice for diverse IoT projects.
+</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<div class="featured-section padding-y-60">
+ 
+   <h2 id="why-you-should-choose-eclipse-kura">Why you should choose Eclipse Kura?</h2>
+<p>Eclipse Kura stands out as a comprehensive and community-driven solution for IoT edge computing. Its modularity, ease of use, and active developer community make it an excellent choice for enterprises and developers seeking to build scalable and reliable IoT systems.</p>
+<p>Whether you’re designing a smart home system or managing industrial machinery, Eclipse Kura provides the tools and flexibility needed to bring your IoT vision to life.</p>
+<h2 id="supported-platforms">Supported Platforms</h2>
+<p>Eclipse Kura is available for download as Debian (DEB) Linux packages for ARM 32-bit, ARM 64-bit, and x86_64 architectures.
+By default, Eclipse Kura is equipped with networking and firewall capabilities enabled. However, there are also distributions known as “No-Network” (NN) that omit the networking and firewall stacks.</p>
+<p>Currently tested and supported platforms:</p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Architecture</th>
+<th>Installer</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raspberry Pi 2 and 3</td>
+<td>ARM 32</td>
+<td>kura_x.y.z_generic-arm32_installer.deb</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Raspberry Pi 4 and 5</td>
+<td>ARM 64</td>
+<td>kura_x.y.z_generic-aarch64_installer.deb</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Intel Up Squared</td>
+<td>x86_64</td>
+<td>kura_x.y.z_intel-up2-ubuntu-20_installer.deb</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Nvidia Jetson Nano</td>
+<td>ARM 64</td>
+<td>kura_x.y.z_nvidia-jetson-nano_installer.deb</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Other platforms may be supported leveraging the proper generic installers for the target architecture. The installers are available in the <a href="https://github.com/eclipse-kura/kura/releases">Downloads page</a>.</p>
+<p>Additionally, Eclipse Kura is available as a Docker container (x86_64 only) and can be distributed via <a href="https://hub.docker.com/r/eclipse/kura/">Docker Hub</a>.</p>
+
+ 
+</div>
+
+
+<div class="resource-section featured-section bg-secondary margin-y-60 dark">
+    <div class="resources resources-heading">
+      <div class="resources-item">
+        <span class="h3">Native Install</span>
+      </div>
+      <div class="resources-item">
+        <span class="h3">Docker</span>
+      </div>
+      <div class="resources-item">
+        <span  class="h3">Connect</span>
+      </div>
+      <div class="resources-item">
+        <span class="h3">Extend</span>
+      </div>
+    </div>
+    <div class="resources">
+      <div class="resources-item bg-primary">
+        <h3 class="visible-xs visible-sm">Native Install</h3>
+        <p>
+          <a href="https://www.eclipse.org/downloads/download.php?file=/kura/releases/5.6.0/kura_5.6.0_generic-aarch64_installer.deb">Download Kura</a>
+          for your Raspberry Pi 3/4/5 Raspberry Pi OS (64 bit)
+        </p>
+        <p>
+            To install, follow the <a href="https://eclipse-kura.github.io/kura/docs-release-5.6/getting-started/raspberry-pi-raspberryos-quick-start/">Install instructions</a>
+        </p>
+      </div>
+      <div class="resources-item bg-primary">
+        <h3 class="visible-xs visible-sm">Docker</h3>
+        <p>
+            Docker run: <b>docker run -d -p 8443:443 -t eclipse/kura</b>
+        </p>
+        <p>
+            Follow the <a href="https://eclipse-kura.github.io/kura/docs-release-5.6/getting-started/docker-quick-start/">documentation</a> for more info
+        </p>
+      </div>
+      <div class="resources-item bg-primary">
+        <h3 class="visible-xs visible-sm">Connect</h3>
+        <p>
+            Use <a href="https://eclipse-kura.github.io/kura/docs-release-5.6/kura-wires/introduction/">Kura Wires</a> to visually connect your sensors and PLCs using a friendly web UI for data capture, processing and publishing. 
+        </p>
+      </div>
+      <div class="resources-item bg-primary">
+        <h3 class="visible-xs visible-sm">Extend</h3>
+        <p>
+            Develop new Components and Application, Drag-and-Drop new modules from the <a href="https://marketplace.eclipse.org/taxonomy/term/4397%2C4396/title">Eclipse IoT Marketplace</a>
+        </p>
+      </div>
+    </div>
+    <h2 class="margin-top-60">Other Resources</h2>
+    <ul class="other-resources-links text-center">
+      <li>
+        <a href="https://github.com/eclipse-kura/kura/releases">Releases</a>
+        <span aria-hidden="true">|</span>
+      </li>
+      <li>
+        <a href="https://github.com/eclipse-kura/kura/blob/develop/CONTRIBUTING.md">How to Contribute</a>
+        <span aria-hidden="true">|</span>
+      </li>
+      <li>
+        <a
+          href="https://accounts.eclipse.org/mailing-list/kura-dev">Mailing List</a>
+        <span aria-hidden="true">|</span>
+      </li>
+      <li>
+        <a
+          href="https://github.com/eclipse-kura/kura?tab=readme-ov-file#acknowledgments">Benefactors</a>
+        <span aria-hidden="true">|</span>
+      </li>
+      <li>
+        <a href="https://github.com/eclipse-kura/kura/discussions">Discussions</a>
+      </li>
+    </ul>
+  </div>
+<!-- raw HTML omitted -->
+
+
+  
+
+    
+  </div>
+</main>
+  
+  
+  <div class="eclipsefdn-featured-footer featured-footer" id="featured-footer" data-publish-target="eclipse_org">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-24 featured-container">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+<p id="back-to-top">
+  <a class="visible-xs" href="#">Back to the top</a>
+</p>
+<footer id="footer">
+  <div class="container">
+    <div class="footer-sections row equal-height-md font-bold">
+      
+      
+
+
+
+
+  
+  <section id="footer-eclipse-foundation" class="footer-section col-md-5 col-sm-8">
+    <div class="menu-heading">Eclipse Foundation</div>
+    <ul class="nav">
+      <li><a href="https://www.eclipse.org/org/">About</a></li>
+      <li><a href="https://projects.eclipse.org/">Projects</a></li>
+      <li><a href="https://www.eclipse.org/collaborations/">Collaborations</a></li>
+      <li><a href="https://www.eclipse.org/membership/">Membership</a></li>
+      <li><a href="https://www.eclipse.org/sponsor/">Sponsor</a></li>
+    </ul>
+  </section>
+
+
+
+
+
+  
+  <section id="footer-legal" class="footer-section col-md-5 col-sm-8">
+    <div class="menu-heading">Legal</div>
+    <ul class="nav">
+      <li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+      <li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+      <li><a href="https://www.eclipse.org/legal/compliance/">Compliance</a></li>
+      <li><a href="https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php">Code of Conduct</a></li>
+      <li><a href="https://www.eclipse.org/legal/">Legal Resources</a></li>
+      <li><a class="toolbar-manage-cookies" href="#" onclick="event.preventDefault()">Manage Cookies</a></li>
+    </ul>
+  </section>
+
+
+
+
+
+
+  
+  <section id="footer-more" class="footer-section col-md-5 col-sm-8">
+    <div class="menu-heading">More</div>
+    <ul class="nav">
+      <li><a href="https://www.eclipse.org/security/">Report a Vulnerability</a></li>
+      <li><a href="https://status.eclipse.org/">Service Status</a></li>
+      <li><a href="https://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li>
+      <li><a href="https://www.eclipse.org/projects/support/">Support</a></li>
+    </ul>
+  </section>
+
+
+
+
+      
+
+
+  <div id="footer-end" class="footer-section col-md-8 col-md-offset-1 col-sm-24">
+    <div class="footer-end-social-container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="footer-end-social">
+    <p class="footer-end-social-text">Follow Us:</p>
+    <ul class="footer-end-social-links list-inline">
+        <li>
+            <a class="link-unstyled" href="https://twitter.com/EclipseFdn" title="Twitter account">
+                <span class="fa fa-stack">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter account</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="link-unstyled" href="https://www.facebook.com/eclipse.org" title="Facebook account">
+                <span class="fa fa-stack">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook account</span>
+                </span>
+            </a>
+        </li> 
+        <li>
+            <a class="link-unstyled" href="https://www.youtube.com/user/EclipseFdn" title="Youtube account">
+                <span class="fa fa-stack">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    <span class="sr-only">Youtube account</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="link-unstyled" href="https://www.linkedin.com/company/eclipse-foundation" title="Linkedin account">
+                <span class="fa fa-stack">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    <span class="sr-only">Linkedin account</span>
+                </span>
+            </a>
+        </li> 
+    </ul>
+</div>
+
+
+    </div>
+    <div class="footer-end-newsletter">
+      <form id="mc-embedded-subscribe-form" action="https://eclipsecon.us6.list-manage.com/subscribe/post" method="post" novalidate target="_blank">
+        <label class="footer-end-newsletter-label" for="email">Subscribe to our Newsletter</label>
+        <div class="footer-end-newsletter-input-wrapper">
+          <input class="footer-end-newsletter-input" type="email" id="email" name="EMAIL" autocomplete="email" placeholder="Enter your email address" />
+          <div>
+            <i class="fa fa-solid fa-envelope fa-lg" aria-hidden="true"></i>
+          </div>
+        </div>
+        <input type="hidden" name="u" value="eaf9e1f06f194eadc66788a85" />
+        <input type="hidden" name="id" value="46e57eacf1" />
+        <input id="mc-embedded-subscribe" type="submit" name="subscribe" hidden />
+      </form>
+    </div>
+  </div>
+
+
+    </div>
+    
+
+
+
+<div class="col-sm-24 margin-top-20">
+  <div class="row">
+    <div id="copyright" class="col-md-16">
+      <p id="copyright-text">Copyright &copy; Eclipse Foundation AISBL. All Rights Reserved.</p>
+    </div>
+    
+  </div>
+</div>
+
+    <a href="#" class="scrollup">Back to the top</a>
+  </div>
+</footer>
+
+
+  
+  <div id="footer-js">
+  
+  <script src="/public/js/main.js?v1.0?v=1734021351"></script>
+  
+
+  
+  
+
+  
+  <script>
+  (function($, document) {
+    
+    
+  })(jQuery, document);
+  </script>
+
+  
+</div>
+
+</body>
+</html>
+
