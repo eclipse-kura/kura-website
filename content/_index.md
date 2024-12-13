@@ -9,7 +9,7 @@ jumbotron_btn_class: btn btn-pill
 hide_page_title: true
 hide_breadcrumb: true
 hide_sidebar: true
-page_css_file: /public/css/home.css
+page_css_file: public/css/home.css
 layout: single
 ---
 
