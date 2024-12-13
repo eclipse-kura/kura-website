@@ -2,12 +2,23 @@
 
 The [Eclipse Kura](https://eclipse.dev/kura/) website is generated with [Hugo](https://gohugo.io/documentation/).
 
+## Requirements
+
+- [Hugo](https://gohugo.io/getting-started/installing/)
+- [Yarn](https://yarnpkg.com/getting-started/install)
+
+> [!NOTE]
+> The Hugo solstice template **requires** Hugo version 0.110
+
 ## Getting started
 
 Install dependencies, build assets and start a webserver:
 
 ```bash
 yarn
+```
+
+```bash
 hugo server
 ```
 
