@@ -1,0 +1,42 @@
+name: Deploy site
+on:
+  push:
+    branches:
+      - 'hugo_migration'
+
+jobs:
+  deploy-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Setup Yarn
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.110.0'
+
+      - name: Run yarn
+        run: yarn
+
+      - name: Build site
+        run: hugo
+
+      - name: Push public folder to master branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: master
+          commit_message: 'Deploy ${{ github.event.head_commit.message }}'
