@@ -1,4 +1,4 @@
-baseurl = "https://eclipse.dev"
+baseurl = "https://eclipse.dev/kura"
 DefaultContentLanguage = "en"
 title = "Eclipse Kura"
 theme = "eclipsefdn-hugo-solstice-theme"
