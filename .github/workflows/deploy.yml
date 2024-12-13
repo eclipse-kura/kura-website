@@ -1,8 +1,12 @@
 name: Deploy site
+
 on:
   push:
     branches:
       - 'hugo_migration'
+
+permissions:
+  contents: write
 
 jobs:
   deploy-docs:
