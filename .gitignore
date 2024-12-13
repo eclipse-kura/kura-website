@@ -1,6 +1,6 @@
 /node_modules/
 /static/public
-/public/
+public/
 /layouts/robots.txt
 .idea/**
 **/.DS_Store
