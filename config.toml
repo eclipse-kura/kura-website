@@ -10,7 +10,7 @@ pluralizeListTitles = false
 disablePathToLower = true
 
 [Params]
-  #google_tag_manager = "GTM-5WLCZXC"
+  google_tag_manager = "G-19CLD2VG41"
   description = "Eclipse Kura™ is a versatile framework to supercharge your edge devices, streamlining the process of configuring your gateway, connecting sensors, and IoT devices to seamlessly collect, process, and send data to the cloud."
   seo_title_suffix = " | The Eclipse Foundation"
   keywords = [
