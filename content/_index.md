@@ -12,6 +12,7 @@ hide_sidebar: true
 page_css_file: public/css/home.css
 layout: single
 ---
+{{< ganalytics >}}
 
 {{< grid/div class="featured-section padding-y-60" isMarkdown="true" >}}
 
