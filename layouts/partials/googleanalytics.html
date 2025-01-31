@@ -5,14 +5,15 @@
     {{- else }}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
       <script>
-        function gasetup() {
+        var gasetup;
+        (gasetup = function() {
             if (document.cookie.valueOf('eclipse_cookieconsent_status').search("allow") > -1 ) {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '{{ . }}');
             }
-        }
+        })();
 
         // Listen for changes to the cookie consent status
         // and re-run the GA setup if the user has accepted cookies
@@ -22,8 +23,6 @@
             gasetup();
           }
         });
-
-        gasetup();
 
       </script>
     {{- end }}
