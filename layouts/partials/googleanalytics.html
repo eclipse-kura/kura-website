@@ -5,12 +5,25 @@
     {{- else }}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
       <script>
-        if (document.cookie.valueOf('eclipse_cookieconsent_status').search("allow") > -1) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '{{ . }}');
-        }
+        var gasetup;
+        (gasetup = function() {
+            if (document.cookie.valueOf('eclipse_cookieconsent_status').search("allow") > -1 ) {
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '{{ . }}');
+            }
+        })();
+
+        // Listen for changes to the cookie consent status
+        // and re-run the GA setup if the user has accepted cookies
+        // This is necessary otherwise we'll lose the first page view
+        cookieStore.addEventListener('change', ({changed, deleted}) => {
+          if (changed.find(({name}) => name === 'eclipse_cookieconsent_status')) {
+            gasetup();
+          }
+        });
+
       </script>
     {{- end }}
   {{- end }}
