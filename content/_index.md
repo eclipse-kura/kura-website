@@ -55,7 +55,7 @@ Currently tested and supported platforms:
 
 Other platforms may be supported leveraging the proper generic installers for the target architecture. The installers are available in the [Downloads page](https://github.com/eclipse-kura/kura/releases).
 
-Additionally, Eclipse Kura is available as a Docker container (x86_64 only) and can be distributed via [Docker Hub](https://hub.docker.com/r/eclipse/kura/).
+Additionally, Eclipse Kura is available as a Docker container (x86_64 only) and can be distributed via [Docker Hub](https://hub.docker.com/r/eclipsekura/kura/).
 
 {{</ grid/div >}}
 
