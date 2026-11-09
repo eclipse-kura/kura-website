@@ -73,7 +73,7 @@ disablePathToLower = true
 
 [[menu.main]]
   name = "Documentation"
-  url = "http://eclipse-kura.github.io/kura/"
+  url = "https://eclipse-kura.github.io/kura/"
   weight = 2
 
 [[menu.main]]
